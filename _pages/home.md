@@ -4,7 +4,7 @@ title: Home
 permalink: /
 nav: false
 nav_order: 1
-
+hero: hero-1
 social: true # includes social icons at the bottom of the page
 ---
 

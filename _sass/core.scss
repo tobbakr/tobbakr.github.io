@@ -1,8 +1,53 @@
-.section-hero {
-    background-color: red;
+section.section-hero {
+
 }
 
-.div-hero {
-    background-color: green;
-    min-height: 600px;
+div.div-hero {
+    background-position: 100% 100%;
+    background-size: cover;
+    min-height: 400px;
+}
+
+div.hero-1 {
+    background-image: url(/assets/img/hero-1.webp);
+}
+
+div.hero-2 {
+    background-image: url(/assets/img/hero-2.webp);
+}
+
+div.hero-3 {
+    background-image: url(/assets/img/hero-3.webp);
+}
+
+div.hero-4 {
+    background-image: url(/assets/img/hero-4.webp);
+}
+
+div.tile {
+    margin: auto;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.2);
+}
+
+div.rounded {
+    border-radius: 8px;
+}
+
+div.spaced {
+    padding: 10px;
+}
+
+div.contact-us {
+    text-align: right;
+    padding-top: 10px;
+}
+
+div.contact-us svg {
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+}
+
+a.contact-box {
+    padding-left: 10px;
 }
