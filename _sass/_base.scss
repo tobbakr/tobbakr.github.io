@@ -439,10 +439,19 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  //border-top: 1px solid var(--global-divider-color);
+  background: url(/assets/img/bg-footer.webp);
+  background-position: 100% 100%;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
   font-size: 0.9rem;
+  min-height: 300px;
+}
+
+footer.sticky-bottom div {
+  color:white;
 }
 
 // CV
