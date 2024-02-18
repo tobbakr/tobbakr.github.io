@@ -289,6 +289,12 @@ blockquote {
     }
   }
 
+  .navbar-brand.title {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: $green-color;
+  }
+
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;

@@ -1,26 +1,84 @@
-section.section-hero {
 
+html * {   
+    color: #333;
+    font-family: "Montserrat" !important; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    font-size: 1em; 
+    line-height: 1.66667;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
 }
 
-div.div-hero {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+.text-white {
+    color: $white-color;
+}
+
+.div-hero {
     background-position: 100% 100%;
     background-size: cover;
-    min-height: 400px;
+    min-height: 500px;
 }
 
-div.hero-1 {
+.div-hero-text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+h1.hero {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+span.sub-hero {
+    color: white;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.hero-1 {
     background-image: url(/assets/img/hero-1.webp);
 }
 
-div.hero-2 {
+.hero-2 {
     background-image: url(/assets/img/hero-2.webp);
 }
 
-div.hero-3 {
+.hero-3 {
     background-image: url(/assets/img/hero-3.webp);
 }
 
-div.hero-4 {
+.hero-4 {
     background-image: url(/assets/img/hero-4.webp);
 }
 
@@ -63,7 +121,29 @@ a.contact-box {
     padding-left: 10px;
 }
 
+a.link-white {
+    color: $white-color;
+}
+
+a.link-white:hover, a.link-white:visited {
+    color: $white-color;
+}
+
 
 div.margin-block {
     margin: 40px 0;
+}
+
+.dienst-sub {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#section-home-diensten {
+    color: white;
+    background-color: $green-color;
+}
+
+.btn-green {
+    background-color: $green-color;
 }

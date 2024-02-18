@@ -6,6 +6,4 @@ description: Uw schrijnwerker, ons werk. Een kleine greep uit onze recente reali
 nav: true
 nav_order: 3
 hero: hero-3
-
-social: true # includes social icons at the bottom of the page
 ---
