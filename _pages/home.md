@@ -1,6 +1,6 @@
 ---
 layout: single-page
-title: Traditionele vakmanschap met hedendaagse precisie. 
+title: Traditioneel vakmanschap met hedendaagse precisie. 
 subtitle: Uw vakman. Uw schrijnwerker.
 permalink: /
 nav: false
