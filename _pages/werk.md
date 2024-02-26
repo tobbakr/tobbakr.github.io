@@ -10,7 +10,7 @@ hero: hero-2
 social: true # includes social icons at the bottom of the page
 ---
 
-{% assign werk_sorted = site.werk | sort: "importance" %}
+{% assign werk_sorted = site.werk | sort: "date" | reverse %}
 
 <section id="section-home-overons">
   <div class="container mt-5">
@@ -22,12 +22,11 @@ social: true # includes social icons at the bottom of the page
     <div class="row">
       {% for werk in werk_sorted %}
         <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
-          <div class="card">
+          <div class="card rounded-lg shadow-sm">
             <img class="card-img-top" src="../{{werk.img}}" alt="{{werk.title}}">
             <div class="card-body">
-              <h5 class="card-title">{{werk.title}}</h5>
+              <a href="{{werk.url}}" class="card-link"><h5 class="card-title">{{werk.title}}</h5></a>
               <p class="card-text">{{werk.description}}</p>
-              <a href="{{werk.url}}" class="card-link">Ontdek meer</a>
             </div>
           </div>
         </div>
