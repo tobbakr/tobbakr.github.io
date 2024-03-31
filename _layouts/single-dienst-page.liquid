@@ -1,0 +1,28 @@
+---
+layout: single-page
+---
+
+{{content}}
+
+{% assign diensten_sorted = site.diensten | where_exp: "item", "item.url != page.url" | sort: "importance" %}
+
+<section>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <h2>{{page.title}}</h2>
+        <p>{{page.description_long}}</p>
+        </div>
+        <div class="col-sm-12 col-md-4 list-diensten">
+            <h3>Andere diensten</h3>
+            <ul>
+            {% for dienst in diensten_sorted %}
+                <li><a href="{{dienst.url}}">{{dienst.title}}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+      </div>
+  </div>
+</section>
+
+{% include latest_werk.liquid limit_items="20"%}
