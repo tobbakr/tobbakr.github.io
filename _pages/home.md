@@ -24,7 +24,7 @@ social: true
           <h3 class="text-white">{{dienst.title}}</h3>
           <div class="dienst-sub text-white">{{dienst.subtitle}}</div>
           <p class="text-white">{{dienst.description}}</p>
-          <a href="{{dienst.url}}" class="link-white" alt="Ontdek meer over {{dienst.title}}">Ontdek meer over {{dienst.title}}</a>
+          <a href="{{dienst.url}}" class="btn btn-outline-light btn-sm" role="button" aria-pressed="true" alt="Ontdek meer over {{dienst.title}}">Lees verder...</a>
         </div>
       {% endfor %}
     </div>

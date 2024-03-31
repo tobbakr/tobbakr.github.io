@@ -6,7 +6,8 @@ description: a project with a background image
 img: assets/img/1.jpg
 date: 26-01-2022
 location: Leuven
-tags: Buitenschrijnwerkerij
+categories:
+    - buitenschrijnwerkerij
 
 ---
 

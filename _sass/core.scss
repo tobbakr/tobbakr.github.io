@@ -147,3 +147,11 @@ div.margin-block {
 .btn-green {
     background-color: $green-color;
 }
+
+.list-diensten ul li a {
+    border-bottom:1px solid black;
+}
+
+.list-diensten ul li.last a {
+    border-bottom: none;
+}

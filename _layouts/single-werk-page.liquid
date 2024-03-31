@@ -2,6 +2,21 @@
 layout: single-page
 ---
 
-{{content}}
 
-{% include latest_werk.liquid %}
+<section>
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <h3>{{page.title}}</h3>
+            <p>{{content}}</p>
+            <p>{{page.location}}</p>
+        </div>        
+        <div class="col-sm-12 col-md-8">
+            {% include figure.liquid path=page.img sizes="(min-width: 440px) 156px" alt=page.title %}
+        </div>
+      </div>
+  </div>
+</section>
+
+
+{% include latest_werk.liquid limit_items="4"%}

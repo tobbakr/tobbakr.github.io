@@ -1,8 +1,8 @@
 ---
 layout: single-page
 permalink: /werk/
-title: Ons werk
-description: Uw schrijnwerker, ons werk. Een kleine greep uit onze recente realisaties. Meer info. Neem zeker contact op
+title: Werk
+description: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
 nav: true
 nav_order: 2
 hero: hero-2
