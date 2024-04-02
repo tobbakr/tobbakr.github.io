@@ -20,7 +20,7 @@ social: true
     </div>
     <div class="row">
       {% for dienst in diensten_sorted %}
-        <div class="col-xs-12 col-md-6 col-lg-4">
+        <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
           <h3 class="text-white">{{dienst.title}}</h3>
           <div class="dienst-sub text-white">{{dienst.subtitle}}</div>
           <p class="text-white">{{dienst.description}}</p>
