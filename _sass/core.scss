@@ -148,7 +148,12 @@ div.margin-block {
     background-color: $green-color;
 }
 
+.list-diensten ul li {
+    padding: 0.5em 0em;
+}
+
 .list-diensten ul li a {
+    padding-bottom: 0.5em;
     border-bottom:1px solid black;
 }
 

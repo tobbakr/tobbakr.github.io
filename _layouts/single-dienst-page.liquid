@@ -13,9 +13,9 @@ layout: single-page
         <h2>{{page.title}}</h2>
         <p>{{page.description_long}}</p>
         </div>
-        <div class="col-sm-12 col-md-4 list-diensten">
+        <div class="col-sm-12 col-md-4 list-diensten ">
             <h3>Andere diensten</h3>
-            <ul>
+            <ul class="list-unstyled">
             {% for dienst in diensten_sorted %}
                 <li><a href="{{dienst.url}}">{{dienst.title}}</a></li>
             {% endfor %}
@@ -25,4 +25,4 @@ layout: single-page
   </div>
 </section>
 
-{% include latest_werk.liquid limit_items="20"%}
+{% include latest_werk.liquid limit_items="4"%}

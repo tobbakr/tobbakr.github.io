@@ -9,7 +9,10 @@ layout: single-page
         <div class="col-sm-12 col-md-4">
             <h3>{{page.title}}</h3>
             <p>{{content}}</p>
-            <p>{{page.location}}</p>
+            <div><span class="badge badge-pill badge-success">{{page.location}}</span></div>
+            {% for cat in page.categories %}
+                <div><span class="badge badge-pill badge-info">{{cat}}</span></div>
+            {% endfor %}
         </div>        
         <div class="col-sm-12 col-md-8">
             {% include figure.liquid path=page.img sizes="(min-width: 440px) 156px" alt=page.title %}

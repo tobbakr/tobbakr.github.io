@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
       {% for werk in werk_sorted %}
         <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
           <div class="card rounded-lg shadow-sm">
-            <img class="card-img-top" src="../{{werk.img}}" alt="{{werk.title}}">
+            <img class="card-img-top" src="../{{werk.img_thumb}}" alt="{{werk.title}}">
             <div class="card-body">
               <a href="{{werk.url}}" class="card-link"><h5 class="card-title">{{werk.title}}</h5></a>
               <p class="card-text">{{werk.description}}</p>
