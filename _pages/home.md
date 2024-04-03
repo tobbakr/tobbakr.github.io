@@ -1,5 +1,6 @@
 ---
 layout: single-page
+image: assets/img/social_schrijnwerkerijtobback.png
 title: Traditioneel vakmanschap met hedendaagse precisie. 
 subtitle: Uw vakman. Uw schrijnwerker.
 permalink: /

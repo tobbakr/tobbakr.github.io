@@ -3,6 +3,7 @@ layout: single-werk-page
 
 title: Dubbele voordeur
 description: Unieke houten dubbele voordeuren, op maat met elegante, gebogen ramen. Combineert veiligheid met natuurlijke lichtinval.
+image: assets/img/project_4_deur.webp
 img: assets/img/project_4_deur.webp
 img_thumb: assets/img/project_4_deur_thumb.webp
 date: 15-06-2023

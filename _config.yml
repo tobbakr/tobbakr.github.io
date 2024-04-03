@@ -12,8 +12,9 @@ description: Uw schrijnwerkerij uit de regio Boortmeerbeek, Kampenhout, Haacht, 
 footer_text: Schrijnwerkerij Tobback
 keywords: schrijnwerker, schrijnwerkerij, houtbewerking, houtbewerker, maatwerk, hout, pvc, ramen, deuren, trappen, aannemer, boortmeerbeek, kampenhout, haacht, leuven, mechelen
 lang: nl
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
+locale: nl_BE
+icon: /assets/img/favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+logo: /assets/img/icon.svg
 url: https://schrijnwerkerijtobback.be # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -221,6 +222,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-seo-tag
 
 # Sitemap settings
 defaults:

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1920px" viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Extra Large Copy 11@1x</title>
+    <g id="Extra-Large-Copy-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M960.5,116 C1076.78078,116 1213.73699,245.028509 1323.67259,407.195026 C1438.42745,576.470456 1524.5,789.901403 1524.5,971.714286 C1524.5,1116.85356 1467.16248,1217.19775 1382.82334,1283.99403 C1263.73385,1378.31246 1094.95769,1408 960.5,1408 C825.979616,1408 656.813961,1378.2839 537.435175,1283.89008 C452.967939,1217.10112 395.5,1116.79289 395.5,971.714286 C395.5,698.165023 654.062417,263.376057 809.697954,162.850646 C856.04024,132.918039 906.932663,116 960.5,116 Z" id="Oval" stroke="#1F7431" stroke-width="100"></path>
+        <line x1="960.5" y1="960.5" x2="960.5" y2="1793.5" id="Line" stroke="#1F7431" stroke-width="100" stroke-linecap="square"></line>
+        <line x1="757" y1="1794" x2="1162.5" y2="1793.5" id="Line-Copy" stroke="#1F7431" stroke-width="100" stroke-linecap="square"></line>
+    </g>
+</svg>

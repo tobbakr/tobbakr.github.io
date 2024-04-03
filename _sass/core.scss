@@ -1,7 +1,7 @@
 
 html * {   
     color: #333;
-    font-family: "Montserrat" !important; 
+    font-family: "Montserrat"; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
@@ -42,6 +42,16 @@ h3 {
     color: $white-color;
 }
 
+.fa-white {
+    color: $white-color;
+  }
+
+.fa-green {
+   color: #1F7431;
+}
+.werk-meta {
+    font-size: small;
+}
 .div-hero {
     background-position: 100% 100%;
     background-size: cover;

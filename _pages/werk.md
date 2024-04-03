@@ -1,8 +1,10 @@
 ---
 layout: single-page
+image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /werk/
 title: Werk
 description: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
+
 nav: true
 nav_order: 2
 hero: hero-2
@@ -25,7 +27,8 @@ social: true # includes social icons at the bottom of the page
           <div class="card rounded-lg shadow-sm">
             <img class="card-img-top" src="../{{werk.img_thumb}}" alt="{{werk.title}}">
             <div class="card-body">
-              <a href="{{werk.url}}" class="card-link"><h5 class="card-title">{{werk.title}}</h5></a>
+              <a href="{{werk.url}}" class="card-link"><h3 class="card-title">{{werk.title}}</h3></a>
+              <div><i class="fa-solid fa-location-dot"></i><span class="werk-meta"> {{werk.location}}</span></div>
               <p class="card-text">{{werk.description}}</p>
               <div class="fs-4 mb-3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
