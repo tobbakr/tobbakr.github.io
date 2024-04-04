@@ -1,8 +1,10 @@
 ---
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
-title: Traditioneel vakmanschap met hedendaagse precisie. 
-subtitle: Uw vakman. Uw schrijnwerker.
+title: Schrijnwerkerij Tobback
+description: Traditioneel vakmanschap met hedendaagse precisie. Uw houtbewerker. Uw vakman.
+header: Schrijnwerkerij Tobback
+subheader: Traditioneel vakmanschap met hedendaagse precisie.
 permalink: /
 nav: false
 nav_order: 1

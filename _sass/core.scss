@@ -67,7 +67,7 @@ h3 {
 h1.hero {
     color: white;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 span.sub-hero {
@@ -90,6 +90,29 @@ span.sub-hero {
 
 .hero-4 {
     background-image: url(/assets/img/hero-4.webp);
+}
+
+.card-title {
+    font-size: 1.1em;
+}
+
+.watermarked {
+    position: relative;
+}
+
+.watermarked:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("/assets/img/icon_white.svg");
+    background-size: 40px 40px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
 }
 
 div.stretch {

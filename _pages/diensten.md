@@ -4,6 +4,8 @@ image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /diensten/
 title: Diensten
 description: Wat we doen? Maak kennis met onze verschillende diensten.
+header: Onze diensten
+subheader: Maak kennis met onze verschillende diensten.
 nav: true
 nav_order: 3
 hero: hero-3

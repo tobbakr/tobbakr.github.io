@@ -13,6 +13,7 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container ">
+       {% include figure.liquid path='/assets/img/icon.svg' sizes="40px" width="40px" alt=page.title %}
         <a class="navbar-brand title" href="{{ site.baseurl }}/">
           {{ site.logo_text }}
         </a>

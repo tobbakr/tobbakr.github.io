@@ -3,6 +3,8 @@ layout: single-werk-page
 
 title: Voordeur herenhuis
 description: Authentieke, op maat gemaakte houten voordeur, precies nagebouwd volgens origineel herenhuisontwerp. Historische elegantie ontmoet modern vakmanschap.
+header: Voordeur herenhuis
+subheader: Authentieke, op maat gemaakte houten voordeur.
 image: assets/img/project_3_deur.webp
 img: assets/img/project_3_deur.webp
 img_thumb: assets/img/project_3_deur_thumb.webp
