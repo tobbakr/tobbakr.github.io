@@ -6,6 +6,7 @@ title: Diensten
 description: Wat we doen? Maak kennis met onze verschillende diensten.
 header: Onze diensten
 subheader: Maak kennis met onze verschillende diensten.
+nav_title: Diensten
 nav: true
 nav_order: 3
 hero: hero-3

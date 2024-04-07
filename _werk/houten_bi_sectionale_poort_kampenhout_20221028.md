@@ -1,7 +1,7 @@
 ---
 layout: single-werk-page
 
-title: Bi-sectionale poort in hout
+title: Bi-sectionale poort in hout | Kampenhout | Schrijnwerkerij Tobback
 description: Strakke, moderne bi-sectionale meranti poort, zwart. Duurzaam, op maat gemaakt design perfect voor elke eigentijdse woning.
 header: Bi-sectionale poort in hout
 subheader: Strakke, moderne bi-sectionale meranti poort.

@@ -1,7 +1,7 @@
 ---
 layout: single-werk-page
 
-title: Schuifdeur in beuk
+title: Schuifdeur in beuk | Melsbroek | Schrijnwerkerij Tobback
 description: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem. Bespaart ruimte met een elegante, minimalistische uitstraling.
 header: Schuifdeur in beuk
 subheader: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem.

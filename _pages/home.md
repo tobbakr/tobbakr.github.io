@@ -1,15 +1,15 @@
 ---
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
-title: Schrijnwerkerij Tobback
-description: Traditioneel vakmanschap met hedendaagse precisie. Uw houtbewerker. Uw vakman.
+title: Schrijnwerkerij Tobback. Regio Boortmeerbeek, Mechelen en Leuven.
+description: Schrijnwerkerij. Houtbewerker. Uw vakman. Regio Boortmeerbeek, Mechelen, Leuven en Aarschot.
 header: Schrijnwerkerij Tobback
 subheader: Traditioneel vakmanschap met hedendaagse precisie.
 permalink: /
+nav_title: Schrijnwerkerij Tobback
 nav: false
 nav_order: 1
 hero: hero-1
-social: true 
 ---
 
 {% assign diensten_sorted = site.diensten | sort: "importance" %}

@@ -13,7 +13,7 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container ">
-       {% include figure.liquid path='/assets/img/icon.svg' sizes="40px" width="40px" alt=page.title %}
+       {% include figure.liquid path='/assets/img/icon.svg' sizes="40px" width="40px" alt=page.nav_title %}
         <a class="navbar-brand title" href="{{ site.baseurl }}/">
           {{ site.logo_text }}
         </a>
@@ -40,7 +40,7 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %} {% assign about_title = page.nav_title %} {% endif %}
           {% endfor %}
 
           <!-- Other pages -->
@@ -50,11 +50,11 @@
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
-                  {% if page.title == child.title %}
+                  {% if page.nav_title == child.nav_title %}
                     {% assign has_active_child = true %}
                   {% endif %}
                 {% endfor %}
-                <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
+                <li class="nav-item dropdown {% if page.nav_title == p.nav_title or has_active_child %}active{% endif %}">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -64,18 +64,18 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
-                    {% if page.title == p.title or has_active_child %}
+                    {{- p.nav_title }}
+                    {% if page.nav_title == p.nav_title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     {% for child in p.children %}
-                      {% if child.title == 'divider' %}
+                      {% if child.nav_title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
-                          {{- child.title -}}
+                        <a class="dropdown-item {% if page.nav_title == child.nav_title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                          {{- child.nav_title -}}
                         </a>
                       {% endif %}
                     {% endfor %}
@@ -85,7 +85,7 @@
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    {{- p.nav_title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}

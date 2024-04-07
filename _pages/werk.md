@@ -2,10 +2,11 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /werk/
-title: Werk
+title: Vakmanschap in houtbewerking
 description: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
 header: Ons werk
 subheader: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
+nav_title: Werk
 nav: true
 nav_order: 2
 hero: hero-2

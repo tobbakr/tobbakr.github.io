@@ -1,7 +1,7 @@
 ---
 layout: single-werk-page
 
-title: Beuken tap
+title: Beuken tap | Melsbroek | Schrijnwerkerij Tobback
 description: Elegante beukenhouten trap met unieke, handgesmede smeedijzeren leuning. Perfecte synergie van stijl & duurzaamheid.
 header: Beuken tap
 subheader: Elegante beukenhouten trap met unieke, handgesmede smeedijzeren leuning.
