@@ -2,29 +2,28 @@
   <footer class="sticky-bottom">
     <div class="container">
       <div class="row">
-        <div class="col">
-          &copy; Copyright {{ site.time | date: '%Y' }}
-          {{ site.first_name }}
-          {{ site.middle_name }}
-          {{ site.last_name }}. {{ site.footer_text }}
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+          <h3 class="text-white">{{ site.footer_text }}</h3>
+          Ondernemingsnummer: 744429468
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
           <h3 class="text-white">Volg ons</h3>
           <div><i class="fa-brands fa-facebook text-white"></i> <a href="https://www.facebook.com/profile.php?id=61555452444146" target="_blank" class="link-white">Facebook </a></div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
           <h3 class="text-white">Adresgegevens</h3>
           <div>Bredepleinstraat 59 <br/>3190 Boortmeerbeek</div>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
           <h3 class="text-white">Contactgegevens</h3>
           <div><a href="mailto:info@schrijnwerkerijtobback.be" class="link-white">info@schrijnwerkerijtobback.be</a></div>
           <div>+32 496 15 66 40</div>
         </div>
       </div>
       <div class="row">
-        <div class="col">
-          <a href="{{site.url}}/privacy" class="link-white">Privacy</a>
+        <div class="col mb-5">
+          <a href="{{site.url}}/privacy" class="link-white">Privacy</a> | &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }}
+          {{ site.last_name }}
         </div>
       </div>
     </div>

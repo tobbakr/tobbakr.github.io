@@ -446,7 +446,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   //border-top: 1px solid var(--global-divider-color);
-  background: url(/assets/img/bg-footer.webp);
+  //background: url(/assets/img/bg-footer.webp);
+  background-color: var(--global-footer-bg-color);
   background-position: 100% 100%;
   background-size: cover;
   padding-top: 80px;
