@@ -13,10 +13,13 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container ">
+        <span class="d-none d-lg-block">
        {% include figure.liquid path='/assets/img/icon.svg' sizes="40px" width="40px" alt=page.nav_title %}
+       </span>
         <a class="navbar-brand title" href="{{ site.baseurl }}/">
           {{ site.logo_text }}
         </a>
+        
       {% if site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>

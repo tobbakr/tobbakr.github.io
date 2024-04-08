@@ -27,8 +27,8 @@ hero: hero-3
                 {% include figure.liquid path=dienst.img sizes="(min-width: 768px) 156px, 50vw" alt=dienst.title %}
             </div>
             <div class="col-md-6">
-                <h3 >{{dienst.title}}</h3>
-                <div class="dienst-sub ">{{dienst.subtitle}}</div>
+                <h3 >{{dienst.header}}</h3>
+                <div class="dienst-sub ">{{dienst.subheader}}</div>
                 <p >{{dienst.description}}</p>
                 <a href="{{dienst.url}}" class="btn btn-outline-black btn-sm" role="button" aria-pressed="true" alt="Ontdek meer over {{dienst.title}}">Lees verder...</a>
             </div>
