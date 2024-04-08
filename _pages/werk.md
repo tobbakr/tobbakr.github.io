@@ -29,7 +29,7 @@ social: true # includes social icons at the bottom of the page
           <div class="card rounded-lg shadow-sm">
             <a href="{{werk.url}}" class="card-link"><img class="card-img-top" src="../{{werk.img_thumb}}" alt="{{werk.title}}"></a>
             <div class="card-body">
-              <a href="{{werk.url}}" class="card-link"><h3 class="card-title">{{werk.title}}</h3></a>
+              <a href="{{werk.url}}" class="card-link"><h3 class="card-title">{{werk.header}}</h3></a>
               <p class="card-text">{{werk.description}}</p>
               <div><i class="fa-solid fa-location-dot"></i><span class="werk-meta"> {{werk.location}}</span></div>
             </div>
