@@ -24,7 +24,7 @@ hero: hero-1
     <div class="row">
       {% for dienst in diensten_sorted %}
         <div class="col-xs-12 col-md-6 col-lg-4 mb-5">
-          <h3 class="text-white">{{dienst.title}}</h3>
+          <h3 class="text-white">{{dienst.header}}</h3>
           <div class="dienst-sub text-white">{{dienst.subtitle}}</div>
           <p class="text-white">{{dienst.description}}</p>
           <a href="{{dienst.url}}" class="btn btn-outline-light btn-sm" role="button" aria-pressed="true" alt="Ontdek meer over {{dienst.title}}">Lees verder...</a>
