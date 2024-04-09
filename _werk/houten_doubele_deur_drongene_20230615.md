@@ -1,7 +1,7 @@
 ---
 layout: single-werk-page
 
-title: Dubbele houten voordeur | Drongene | Schrijnwerkerij Tobback
+title: Dubbele houten voordeur - Drongene
 description: Unieke houten dubbele voordeur, op maat met elegante, gebogen ramen. Combineert veiligheid met natuurlijke lichtinval.
 header: Dubbele houten voordeur
 subheader: Unieke houten dubbele voordeur, op maat met elegante, gebogen ramen.

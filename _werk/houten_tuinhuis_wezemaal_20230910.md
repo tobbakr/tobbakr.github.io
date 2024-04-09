@@ -1,7 +1,7 @@
 ---
 layout: single-werk-page
 
-title: Ceder tuinhuis | Wezemaal | Schrijnwerkerij Tobback
+title: Ceder tuinhuis - Wezemaal
 description: Op maat gemaakt cederhouten tuinhuis - een mix van schoonheid en weerbestendigheid. Perfect voor elke tuin.
 header: Ceder tuinhuis
 subheader: Op maat gemaakt cederhouten tuinhuis.

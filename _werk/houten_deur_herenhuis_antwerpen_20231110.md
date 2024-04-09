@@ -1,7 +1,7 @@
 ---
 layout: single-werk-page
 
-title: Voordeur herenhuis | Antwerpen | Schrijnwerkerij Tobback
+title: Voordeur herenhuis - Antwerpen
 description: Authentieke, op maat gemaakte houten voordeur, precies nagebouwd volgens origineel herenhuisontwerp. Historische elegantie ontmoet modern vakmanschap.
 header: Voordeur herenhuis
 subheader: Authentieke, op maat gemaakte houten voordeur.

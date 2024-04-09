@@ -2,7 +2,7 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /diensten/
-title: Diensten
+title: Diensten, binnen- en buitenschrijnwerkerij, maatwerk...
 description: Wat we doen? Maak kennis met onze verschillende diensten.
 header: Onze diensten
 subheader: Maak kennis met onze verschillende diensten.
