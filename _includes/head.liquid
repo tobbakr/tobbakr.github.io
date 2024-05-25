@@ -54,6 +54,25 @@
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Schrijnwerkerij Tobback - Maatwerk - Houtbewerking",
+  "image": "https://schrijnwerkerijtobback.be/assets/img/icon.svg",
+  "telephone": "+32496156640",
+  "email": "info@schrijnwerkerijtobback.be",
+  "url": {{ page.url }}
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bredepleinstraat 59",
+    "addressLocality": "Boortmeerbeek",
+    "postalCode": "3190"
+  }
+}
+</script>
+
+
 <!-- Structured data -->
 {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
 <script type="application/ld+json">
