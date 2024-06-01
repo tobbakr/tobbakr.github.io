@@ -9,7 +9,7 @@ image: assets/img/project_9_gebogen_ramen.webp
 img: assets/img/project_9_gebogen_ramen.webp
 img_thumb: assets/img/project_9_gebogen_ramen_thumb.webp
 date: 01-06-2024
-location: Drongen
+location: Drongene
 categories: 
     - buitenschrijnwerkerij
     - maatwerk

@@ -167,6 +167,9 @@ collections:
   diensten:
     output: true
     permalink: /diensten/:path/
+  regio:
+    output: true
+    permalink: /:path/
 
 announcements:
   enabled: true

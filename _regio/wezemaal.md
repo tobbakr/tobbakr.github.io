@@ -1,18 +1,14 @@
 ---
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
-permalink: /werk/
-title: Vakmanschap in houtbewerking
-description: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
-header: Ons werk
-subheader: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
-nav_title: Werk
-nav: true
-nav_order: 2
+title: Uw schrijnwerkering in de buurt van Wezemaal
+description: Uw lokale schrijnwerker in Wezemaal voor op maat gemaakte houten constructies. Kwaliteit en vakmanschap in elk project
+header: Schrijnwerkerij Projecten in Wezemaal
+subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Wezemaal.
 hero: hero-2
 ---
 
-{% assign werk_sorted = site.werk | sort: "date" | reverse %}
+{% assign werk_sorted = site.werk | where:"location","Wezemaal" | sort: "date" | reverse %}
 
 <section id="section-home-overons">
   <div class="container mt-5">
