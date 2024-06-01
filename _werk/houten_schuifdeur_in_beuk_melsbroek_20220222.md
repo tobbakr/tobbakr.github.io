@@ -3,8 +3,8 @@ layout: single-werk-page
 
 title: Schuifdeur in beuk - Melsbroek
 description: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem. Bespaart ruimte met een elegante, minimalistische uitstraling.
-header: Schuifdeur in beuk
-subheader: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem.
+header: Houten binnenschuifdeur
+subheader: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem
 image: assets/img/project_2_deur.webp
 img: assets/img/project_2_deur.webp
 img_thumb: assets/img/project_2_deur_thumb.webp

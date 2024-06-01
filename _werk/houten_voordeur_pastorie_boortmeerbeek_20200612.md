@@ -2,9 +2,9 @@
 layout: single-werk-page
 
 title: Voordeur pastoriewoning - Boortmeerbeek 
-description: Moderne pastoriewoning voordeur met bovenraam voor natuurlijk licht en stijlvolle uitstraling.
+description: Moderne pastoriewoning voordeur met bovenraam voor natuurlijk licht en stijlvolle uitstraling
 header: Voordeur pastoriewoning
-subheader: Ontdek duurzame voordeuren met bovenraam voor optimale lichtinval en elegante uitstraling"
+subheader: Ontdek duurzame voordeuren met bovenraam voor optimale lichtinval en elegante uitstraling
 image: assets/img/project_7_voordeur.webp
 img: assets/img/project_7_voordeur.webp
 img_thumb: assets/img/project_7_voordeur_thumb.webp

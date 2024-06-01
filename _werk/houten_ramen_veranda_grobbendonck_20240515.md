@@ -3,7 +3,7 @@ layout: single-werk-page
 
 title: Houten ramen van veranda - Grobbendonck 
 description: Op maat gemaakte houten ramen voor pastoriewoning veranda's. Combineer natuurlijke schoonheid met topisolatie.
-header: Houten Ramen voor Pastoriewoning Veranda - Charme & Duurzaamheid
+header: Houten Ramen voor pastoriewoning veranda
 subheader: Verhoog de uitstraling en energie-efficiëntie van uw Veranda met op maat gemaakte houten ramen
 image: assets/img/project_8_ramen.webp
 img: assets/img/project_8_ramen.webp

@@ -4,7 +4,7 @@ layout: single-werk-page
 title: Ceder tuinhuis - Wezemaal
 description: Op maat gemaakt cederhouten tuinhuis - een mix van schoonheid en weerbestendigheid. Perfect voor elke tuin.
 header: Ceder tuinhuis
-subheader: Op maat gemaakt cederhouten tuinhuis.
+subheader: Op maat gemaakt cederhouten tuinhuis
 image: assets/img/project_5_tuinhuis.webp
 img: assets/img/project_5_tuinhuis.webp
 img_thumb: assets/img/project_5_tuinhuis_thumb.webp

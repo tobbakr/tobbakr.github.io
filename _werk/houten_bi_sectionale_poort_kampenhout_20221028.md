@@ -4,7 +4,7 @@ layout: single-werk-page
 title: Bi-sectionale poort in hout - Kampenhout 
 description: Strakke, moderne bi-sectionale meranti poort, zwart. Duurzaam, op maat gemaakt design perfect voor elke eigentijdse woning.
 header: Bi-sectionale poort in hout
-subheader: Strakke, moderne bi-sectionale meranti poort.
+subheader: Strakke, moderne bi-sectionale meranti poort
 image: assets/img/project_6_bi_sectionale_poort.webp
 img: assets/img/project_6_bi_sectionale_poort.webp
 img_thumb: assets/img/project_6_bi_sectionale_poort_thumb.webp

@@ -2,10 +2,10 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /diensten/
-title: Diensten, binnen- en buitenschrijnwerkerij, maatwerk...
+title: Houtbewerking. Binnen- en buitenschrijnwerkerij, maatwerk...
 description: Wat we doen? Maak kennis met onze verschillende diensten.
-header: Onze diensten
-subheader: Maak kennis met onze verschillende diensten.
+header: Houtbewerking. Maatwerk.
+subheader: Maken en plaatsen van ramen, deuren, trappen...
 nav_title: Diensten
 nav: true
 nav_order: 3
