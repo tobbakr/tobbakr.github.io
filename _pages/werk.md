@@ -2,10 +2,10 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /werk/
-title: Vakmanschap in houtbewerking
-description: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
-header: Ons werk
-subheader: Hout, Aluminium of PVC. We zijn fier op al onze recente realisaties.
+title: Maatwerk Schrijnwerkerij - Binnen & Buiten Projecten
+description: Bekijk ons uitgebreide portfolio van maatwerk schrijnwerkerij, inclusief zowel binnen- als buitenschrijnwerk
+header: Maatwerk Schrijnwerkerij - Binnen & Buiten Projecten
+subheader: Ontdek ons vakmanschap dat elk huis verwarmt
 nav_title: Werk
 nav: true
 nav_order: 2
