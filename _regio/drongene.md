@@ -10,7 +10,7 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Drongene" | sort: "date" | reverse %}
 
-<section id="section-home-overons">
+<section id="section-regio">
   <div class="container mt-5">
   <div class="row">
       <div class="col-md-12">
