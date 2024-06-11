@@ -156,11 +156,6 @@ giscus:
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
   werk:
     output: true
     permalink: /werk/:path/
@@ -170,6 +165,11 @@ collections:
   regio:
     output: true
     permalink: /regio/:path/
+  artikels:
+    defaults:
+      layout: post
+    output: true
+    permalink: /artikels/:path/
 
 announcements:
   enabled: true

@@ -8,6 +8,6 @@ header: Op zoek naar uw schrijnwerker?
 subheader: Dromen van bouwen of verbouwen? Stel ons gerust uw vragen.
 nav_title: Contacteer ons
 nav: true
-nav_order: 4
-hero: hero-3
+nav_order: 5
+hero: hero-2
 ---
