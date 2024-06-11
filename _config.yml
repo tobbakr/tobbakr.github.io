@@ -169,7 +169,7 @@ collections:
     permalink: /diensten/:path/
   regio:
     output: true
-    permalink: /:path/
+    permalink: /regio/:path/
 
 announcements:
   enabled: true

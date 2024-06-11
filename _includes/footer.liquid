@@ -7,8 +7,13 @@
           Ondernemingsnummer: 744429468
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
-          <h3 class="text-white">Volg ons</h3>
-          <div><i class="fa-brands fa-facebook text-white"></i> <a href="https://www.facebook.com/profile.php?id=61555452444146" target="_blank" class="link-white">Facebook </a></div>
+          <h3 class="text-white">Werk in regio's</h3>
+          {% assign regio_sorted = site.regio %}
+          <ul class="list-unstyled">
+          {% for regio in regio_sorted limit: 10 %}
+            <li><a href="{{regio.url}}" class="link-white">{{regio.name}}</a></li>
+          {% endfor %}
+          </ul>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
           <h3 class="text-white">Adresgegevens</h3>
@@ -18,12 +23,16 @@
           <h3 class="text-white">Contactgegevens</h3>
           <div><a href="mailto:info@schrijnwerkerijtobback.be" class="link-white">info@schrijnwerkerijtobback.be</a></div>
           <div>+32 496 15 66 40</div>
+          <br />
+          <h3 class="text-white">Volg ons</h3>
+          <div><i class="fa-brands fa-facebook text-white"></i> <a href="https://www.facebook.com/profile.php?id=61555452444146" target="_blank" class="link-white">Facebook </a></div>
         </div>
       </div>
       <div class="row">
         <div class="col mb-5">
           <a href="{{site.url}}/privacy" class="link-white">Privacy</a> | &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }}
           {{ site.last_name }}
+          
         </div>
       </div>
     </div>
