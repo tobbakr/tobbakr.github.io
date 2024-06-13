@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Waarom Kiezen voor een familiebedrijf?
+title: Waarom kiezen voor een familiebedrijf?
 description: Ontdek waarom kiezen voor Schrijnwerkerij Tobback, een familiebedrijf sinds 1933, garant staat voor persoonlijke service, vakmanschap, en duurzame kwaliteit. Lees meer!
-header: Waarom Kiezen voor een familiebedrijf?
+header: Waarom kiezen voor een familiebedrijf?
 date_created: 13-06-2024
 ---
 
