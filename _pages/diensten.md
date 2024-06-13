@@ -36,3 +36,6 @@ hero: hero-3
     {% endfor %}
   </div>
 </section>
+
+
+{% include latest_posts.liquid %}

@@ -7,7 +7,7 @@
           Ondernemingsnummer: 744429468
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
-          <h3 class="text-white">Werk in regio's</h3>
+          <h3 class="text-white">Ons werk in regio</h3>
           {% assign regio_sorted = site.regio %}
           <ul class="list-unstyled">
           {% for regio in regio_sorted limit: 10 %}
@@ -16,10 +16,18 @@
           </ul>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
-          <h3 class="text-white">Adresgegevens</h3>
-          <div>Bredepleinstraat 59 <br/>3190 Boortmeerbeek</div>
+          <h3 class="text-white">Tips &amp; advies</h3>
+          {% assign artikels_sorted = site.artikels %}
+          <ul class="list-unstyled">
+          {% for artikel in artikels_sorted limit: 5 %}
+            <li><a href="{{artikel.url}}" class="link-white">{{artikel.title}}</a></li>
+          {% endfor %}
+          </ul>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
+          <h3 class="text-white">Adresgegevens</h3>
+          <div>Bredepleinstraat 59 <br/>3190 Boortmeerbeek</div>
+          <br />
           <h3 class="text-white">Contactgegevens</h3>
           <div><a href="mailto:info@schrijnwerkerijtobback.be" class="link-white">info@schrijnwerkerijtobback.be</a></div>
           <div>+32 496 15 66 40</div>
@@ -30,9 +38,7 @@
       </div>
       <div class="row">
         <div class="col mb-5">
-          <a href="{{site.url}}/privacy" class="link-white">Privacy</a> | &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }}
-          {{ site.last_name }}
-          
+          <a href="{{site.url}}/privacy" class="link-white">Privacy</a> | &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}
         </div>
       </div>
     </div>

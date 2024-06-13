@@ -61,6 +61,8 @@ hero: hero-1
 
 {% include latest_werk.liquid %}
 
+{% include latest_posts.liquid %}
+
 
 
   

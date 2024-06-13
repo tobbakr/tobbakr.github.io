@@ -11,3 +11,5 @@ nav: true
 nav_order: 5
 hero: hero-2
 ---
+
+{% include latest_posts.liquid %}
