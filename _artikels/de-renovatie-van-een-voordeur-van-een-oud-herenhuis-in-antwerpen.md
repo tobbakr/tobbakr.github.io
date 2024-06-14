@@ -42,4 +42,6 @@ De renovatie van de voordeur van dit oude herenhuis was een project waar we bij 
 behouden en te verbeteren. Heeft u ook een project waarbij u de unieke charme van uw woning wilt herstellen? Neem dan contact met ons op. Wij denken graag met u mee om uw dromen werkelijkheid te maken.
 
 
-<img src="/assets/img/project_3_deur.webp" alt="Voordeur herenhuis" style="width:400px;"/>
+### Het resultaat mag er zijn
+
+<img src="/assets/img/project_3_deur.webp" alt="Voordeur herenhuis" style="width:300px;"/>
