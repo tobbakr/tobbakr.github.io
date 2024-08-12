@@ -1,5 +1,8 @@
 # al-folio
 
+1. bundle exec jekyll serve --lsi
+
+
 <div align="center">
 
 [![Preview](assets/img/readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
