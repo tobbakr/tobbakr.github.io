@@ -3,6 +3,9 @@ layout: default
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
 
+{% assign artikels_sorted = site.artikels | where_exp: "item", "item.url != page.url" | sort: "date_created" | reverse %}
+{% assign limited = include.limit_items | default: 3 %}
+
 <section id="sc-hero" class="section-hero div-hero {{page.hero | default: "hero-1"}}">
   <div class="container mt-2">
     <div class="row">
@@ -17,14 +20,21 @@ image: assets/img/social_schrijnwerkerijtobback.png
   </div>
 </section>
 
-<section id="sc-artikel">
+<article id="sc-artikel">
   <div class="container mt-5">
     <div class="row">
-        <div class="col"></div>
-        <div class="col-sm-12 col-md-10">
+        <div class="col-md-7 mt-2">
           {{content}}
         </div>
-        <div class="col"></div>
+        <div class="col-md-1 mt-2"></div>
+        <div class="col-md-4 mt-2">
+          <h2>Meer Tips &amp; Advies</h2>
+          {% for artikel in artikels_sorted limit: limited %}        
+            <h3><a href="{{artikel.url}}">{{artikel.header}}</a></h3>
+            <p>{{artikel.description}}</p>   
+          {% endfor %}
+        </div>
     </div>
   </div>
-</section> 
+</article> 
+
