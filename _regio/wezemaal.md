@@ -2,7 +2,7 @@
 layout: single-page
 name: Wezemaal
 image: assets/img/social_schrijnwerkerijtobback.png
-title: Uw schrijnwerkering in de buurt van Wezemaal
+title: Uw schrijnwerker in de buurt van Wezemaal
 description: Uw lokale schrijnwerker in Wezemaal voor op maat gemaakte houten constructies. Kwaliteit en vakmanschap in elk project
 header: Schrijnwerkerij Projecten in Wezemaal
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Wezemaal.

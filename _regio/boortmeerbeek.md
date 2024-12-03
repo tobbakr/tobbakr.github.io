@@ -2,7 +2,7 @@
 layout: single-page
 name: Boortmeerbeek
 image: assets/img/social_schrijnwerkerijtobback.png
-title: Uw schrijnwerkering in de buurt van Boortmeerbeek
+title: Uw schrijnwerker in de buurt van Boortmeerbeek
 description: Uw lokale schrijnwerker in Boortmeerbeek voor op maat gemaakte houten constructies. Kwaliteit en vakmanschap in elk project
 header: Schrijnwerkerij Projecten in Boortmeerbeek
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Boortmeerbeek.

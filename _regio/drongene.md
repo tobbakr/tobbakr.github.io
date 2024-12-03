@@ -2,7 +2,7 @@
 layout: single-page
 name: Drongene
 image: assets/img/social_schrijnwerkerijtobback.png
-title: Uw schrijnwerkering in de buurt van Drongene
+title: Uw schrijnwerker in de buurt van Drongene
 description: Uw lokale schrijnwerker in Drongene voor op maat gemaakte houten constructies. Kwaliteit en vakmanschap in elk project
 header: Schrijnwerkerij Projecten in Drongene
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Drongene.

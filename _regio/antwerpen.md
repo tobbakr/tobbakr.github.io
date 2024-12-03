@@ -2,7 +2,7 @@
 layout: single-page
 name: Antwerpen
 image: assets/img/social_schrijnwerkerijtobback.png
-title: Uw schrijnwerkering in de buurt van Antwerpen
+title: Uw schrijnwerker in de buurt van Antwerpen
 description: Uw lokale schrijnwerker in Antwerpen voor op maat gemaakte houten constructies. Kwaliteit en vakmanschap in elk project
 header: Schrijnwerkerij Projecten in Antwerpen
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Antwerpen.
