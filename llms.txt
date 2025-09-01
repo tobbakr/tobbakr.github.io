@@ -1,0 +1,27 @@
+---
+layout: null
+---
+
+# LLM Feed for schrijnwerkerijtobback.be
+_Generated: {{ site.time | date_to_rfc822 }}_
+
+## Alle artikelen over schrijnwerkerij Tobback
+The links below take you to the raw Markdown content.
+{% assign artikels_sorted = site.artikels | sort: "date_created" | reverse %}
+{% for artikel in artikels_sorted %}
+- [{{ artikel.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/refs/heads/master/{{ artikel.path }})
+{% endfor %}
+
+## Alle informatie over ons werk, reference cases, projecten
+The links below take you to the raw Markdown content.
+{% assign werk_sorted = site.werk | sort: "date" | reverse %}
+{% for werk in werk_sorted %}
+- [{{ werk.title }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/refs/heads/master/{{ werk.path }})
+{% endfor %}
+
+## Alle informatie over Schrijnwerkerij Tobback hun diensten, aanbod, expertise, vak, ambacht
+The links below take you to the raw Markdown content.
+{% assign diensten_sorted = site.diensten | sort: "importance" %}
+{% for dienst in diensten_sorted %}
+- [{{ dienst.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/refs/heads/master/{{ dienst.path }})
+{% endfor %}
