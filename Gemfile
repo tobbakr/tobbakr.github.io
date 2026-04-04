@@ -19,6 +19,9 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-seo-tag'
+    # Best practice plugins for modern Jekyll sites
+    gem 'jekyll-include-cache'
+    gem 'jekyll-redirect-from'
 end
 group :other_plugins do
     gem 'feedjira'

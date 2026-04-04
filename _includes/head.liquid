@@ -124,6 +124,29 @@
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Kris Tobback",
+  "jobTitle": "Schrijnwerker",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Schrijnwerkerij Tobback",
+    "url": "{{ site.url }}"
+  },
+  "email": "info@schrijnwerkerijtobback.be",
+  "url": "{{ site.url }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bredepleinstraat 59",
+    "addressLocality": "Boortmeerbeek",
+    "postalCode": "3190",
+    "addressCountry": "BE"
+  }
+}
+</script>
+
 
 <!-- Structured data -->
 {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
