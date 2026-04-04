@@ -145,7 +145,7 @@ kramdown:
 # Build settings
 
 # Includes & excludes
-include: ["_pages", "llms.txt"]
+include: ["_pages", "llms.txt", "llms-full.txt"]
 keep_files:
   - CNAME
   - .nojekyll

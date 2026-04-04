@@ -1,27 +1,44 @@
 ---
 layout: null
+permalink: /llms.txt
 ---
+# Schrijnwerkerij Tobback
 
-# LLM Feed for schrijnwerkerijtobback.be
-_Generated: {{ site.time | date_to_rfc822 }}_
+> Schrijnwerkerij Tobback is een familiebedrijf in Boortmeerbeek (Vlaams-Brabant, België), gespecialiseerd in maatwerk schrijnwerkerij sinds 1933. Zaakvoerder Kris Tobback combineert traditioneel vakmanschap met hedendaagse precisie voor binnen- en buitenschrijnwerk in de regio Leuven, Mechelen, Antwerpen en omstreken.
 
-## Alle artikelen over schrijnwerkerij Tobback
-The links below take you to the raw Markdown content.
-{% assign artikels_sorted = site.artikels | sort: "date_created" | reverse %}
-{% for artikel in artikels_sorted %}
-- [{{ artikel.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/refs/heads/master/{{ artikel.path }})
-{% endfor %}
+- Adres: Bredepleinstraat 59, 3190 Boortmeerbeek, België
+- Telefoon: +32 496 15 66 40
+- E-mail: info@schrijnwerkerijtobback.be
+- Website: https://schrijnwerkerijtobback.be
+- Opgericht: 1933
+- Openingsuren: Ma-Vr 7:00-20:00, Za 8:00-20:00
 
-## Alle informatie over ons werk, reference cases, projecten
-The links below take you to the raw Markdown content.
+## Diensten
+
+- [Binnenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Binnenschrijnwerkerij.md): Binnendeuren, trappen, vloeren, kasten en interieurafwerking op maat
+- [Buitenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Buitenschrijnwerkerij.md): Ramen, buitendeuren, poorten, veranda's en terrasoverkappingen
+- [Maatwerk](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Maatwerk.md): Op maat gemaakte houten creaties voor unieke projecten
+
+## Projecten
 {% assign werk_sorted = site.werk | sort: "date" | reverse %}
 {% for werk in werk_sorted %}
-- [{{ werk.title }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/refs/heads/master/{{ werk.path }})
+- [{{ werk.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/{{ werk.path }}): {{ werk.description }}
 {% endfor %}
 
-## Alle informatie over Schrijnwerkerij Tobback hun diensten, aanbod, expertise, vak, ambacht
-The links below take you to the raw Markdown content.
-{% assign diensten_sorted = site.diensten | sort: "importance" %}
-{% for dienst in diensten_sorted %}
-- [{{ dienst.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/refs/heads/master/{{ dienst.path }})
+## Artikels
+{% assign artikels_sorted = site.artikels | sort: "date_created" | reverse %}
+{% for artikel in artikels_sorted %}
+- [{{ artikel.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/{{ artikel.path }}): {{ artikel.description }}
 {% endfor %}
+
+## Paginas
+
+- [Home](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/home.md): Startpagina met overzicht van diensten, recente projecten en bedrijfsinformatie
+- [Werkwijze](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/werkwijze.md): Ons 6-stappen proces van kennismaking tot oplevering
+- [FAQ](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/faq.md): Veelgestelde vragen over materialen, levertijden, regio en meer
+- [Contact](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/contact.md): Contactformulier en bedrijfsgegevens
+
+## Optional
+
+- [Privacy Policy](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/privacy-policy.md): Privacybeleid
+- [Volledige inhoud](https://schrijnwerkerijtobback.be/llms-full.txt): Alle content van de website in één bestand
