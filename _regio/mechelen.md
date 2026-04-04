@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Mechelen" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Mechelen en de ruime omgeving behoren tot ons vaste werkgebied. Van statige herenhuizen langs de Dijle tot nieuwbouwprojecten — wij leveren schrijnwerk op maat dat perfect past bij het karakter van elke woning. Onze vakmensen komen graag ter plaatse voor een vrijblijvend adviesgesprek en opmeting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

@@ -35,7 +35,7 @@ hero: hero-1
 </section>
 
 
-<section id="section-home-overons">
+<section id="section-home-overons" class="fade-in-up">
   <div class="container mt-5">
     <div class="row">
       <div class="col-sm">
@@ -59,8 +59,13 @@ hero: hero-1
   </div>
 </section>
 
+{% include trust-signals.liquid %}
+
+{% include cta-banner.liquid %}
 
 {% include latest_werk.liquid %}
+
+{% include testimonials.liquid %}
 
 {% include latest_posts.liquid %}
 

@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Leuven" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>In Leuven en omgeving zijn we regelmatig aan de slag. De stad met haar mix van historische panden en moderne architectuur vraagt om schrijnwerk dat zowel karakter als precisie heeft. Of het nu gaat om de restauratie van een herenhuis in het centrum of nieuw maatwerk voor een hedendaagse woning — ons team combineert traditioneel vakmanschap met de nieuwste technieken.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

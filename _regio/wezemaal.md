@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Wezemaal" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Wezemaal, gelegen aan de voet van de Wijngaardberg, is een gemeente waar we graag werken. De omgeving biedt een mooie mix van renovatieprojecten en nieuwbouw. Van tuinhuizen tot maatwerk interieurs — ontdek wat we in Wezemaal hebben gerealiseerd.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

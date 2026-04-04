@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Kampenhout" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Kampenhout ligt op amper een steenworp van ons atelier. We kennen de wijk en haar bewoners, en dat merk je aan onze persoonlijke aanpak. Voor ramen, deuren, poorten of volledige interieurafwerking bent u bij ons aan het juiste adres. Snel bereikbaar, altijd bereid om even langs te komen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

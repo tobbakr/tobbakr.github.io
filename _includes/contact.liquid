@@ -43,19 +43,61 @@
                         placeholder="Boortmeerbeek">
                 </div>
             </div>
+            <div class="mb-3 row">
+                <div class="col-sm">
+                    <label for="project_type">Type project</label>
+                    <select class="form-control" id="project_type" name="Project_type">
+                        <option value="" disabled selected>Kies een type project...</option>
+                        <option value="Binnenschrijnwerk">Binnenschrijnwerk (deuren, trappen, kasten, ...)</option>
+                        <option value="Buitenschrijnwerk">Buitenschrijnwerk (ramen, buitendeuren, poorten, ...)</option>
+                        <option value="Maatwerk">Maatwerk (op maat gemaakt project)</option>
+                        <option value="Renovatie">Renovatie of restauratie</option>
+                        <option value="Andere">Andere</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-sm">
+                    <label for="referral">Hoe heeft u ons gevonden?</label>
+                    <select class="form-control" id="referral" name="Referral">
+                        <option value="" disabled selected>Selecteer...</option>
+                        <option value="Google">Google / zoekmachine</option>
+                        <option value="Aanbeveling">Aanbeveling van bekende</option>
+                        <option value="Social media">Social media</option>
+                        <option value="Voorbijgereden">Voorbijgereden</option>
+                        <option value="Andere">Andere</option>
+                    </select>
+                </div>
+            </div>
             <div class="mb-3">
                 <label for="message">Boodschap</label>
                 <textarea class="form-control" id="message" name="message" rows="5"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-green px-4 btn-sm">Verzenden</button>
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary btn-green px-5 py-2">
+                    <i class="fa-solid fa-paper-plane"></i> Verzenden
+                </button>
+                <p class="text-muted mt-2"><small><i class="fa-solid fa-lock"></i> Uw gegevens worden vertrouwelijk behandeld. We nemen binnen 24 uur contact met u op.</small></p>
+            </div>
         </form>
       </div>
       <div class="col-md-4 mt-5">
         <h3>Adres</h3>
-        Bredepleinstraat 59 <br/>
-        3190 Boortmeerbeek <br />
-        <br />
-        Ondernemingsnummer: 744429468
+        <p>Bredepleinstraat 59<br>3190 Boortmeerbeek</p>
+
+        <h3>Telefoon</h3>
+        <p><a href="tel:+32496156640"><i class="fa-solid fa-phone"></i> 0496 15 66 40</a></p>
+
+        <h3>E-mail</h3>
+        <p><a href="mailto:info@schrijnwerkerijtobback.be"><i class="fa-solid fa-envelope"></i> info@schrijnwerkerijtobback.be</a></p>
+
+        <h3>Openingsuren</h3>
+        <p>
+          Ma - Vr: 7:00 - 20:00<br>
+          Za: 8:00 - 20:00
+        </p>
+
+        <p class="mt-3"><small class="text-muted">Ondernemingsnummer: 744429468</small></p>
       </div>
   </div>
 </div>

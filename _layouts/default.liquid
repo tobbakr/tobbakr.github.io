@@ -23,6 +23,8 @@ layout: compress
     <!-- Contact -->
     {% include contact.liquid %}
 
+    {% include mobile-cta.liquid %}
+
     <!-- Footer -->
     {% include footer.liquid %}
 
@@ -35,6 +37,8 @@ layout: compress
     {% include scripts/badges.liquid %}
     {% include scripts/mathjax.liquid %}
     {% include scripts/analytics.liquid %}
+    <script src="{{ '/assets/js/animations.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/werk-filter.js' | relative_url }}" defer></script>
     {% include cookie-consent.liquid %}
   </body>
 </html>

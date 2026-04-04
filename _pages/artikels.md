@@ -8,7 +8,7 @@ header: Inspiratie en tips van uw schrijnwerker
 subheader: Ontdek tips over houten ramen, deuren, trappen en meer
 nav_title: Artikels
 nav: true
-nav_order: 4
+nav_order: 5
 hero: hero-1
 ---
 

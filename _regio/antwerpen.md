@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Antwerpen" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Ook in de provincie Antwerpen zijn we actief. Van herenhuizen in het Zurenborg-district tot moderne woningen in de rand — ons maatwerk schrijnwerk vindt zijn weg naar heel Antwerpen en omstreken. De iets langere verplaatsing compenseren we met extra zorgvuldig planwerk zodat elk bezoek maximaal rendeert.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

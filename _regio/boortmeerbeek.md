@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Boortmeerbeek" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Als schrijnwerkerij gevestigd in het hart van Boortmeerbeek zijn wij uw buurtambachtsman. Sinds 1933 werken we vanuit ons atelier aan de Bredepleinstraat voor gezinnen en bedrijven in Boortmeerbeek en omstreken. Van maatwerk keukens en binnendeuren tot buitenramen en veranda's — wij kennen de lokale bouwstijlen en staan altijd dichtbij voor snelle service.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

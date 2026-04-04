@@ -11,6 +11,16 @@ hero: hero-2
 
 {% assign werk_sorted = site.werk | where:"location","Wespelaar" | sort: "date" | reverse %}
 
+<section class="fade-in-up">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Wespelaar, een deelgemeente van Haacht, ligt vlak bij ons atelier in Boortmeerbeek. De landelijke charme van deze buurt vraagt om schrijnwerk met karakter. Wij maken graag ramen, deuren en maatwerk dat naadloos past bij de typische architectuur van de streek.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="section-regio">
   <div class="container mt-5">
   <div class="row">
@@ -34,3 +44,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}
