@@ -20,7 +20,7 @@
         <a class="navbar-brand title" href="{{ site.baseurl }}/">
           {{ site.logo_text }}
         </a>
-        
+
       {% if site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
@@ -47,10 +47,10 @@
             {% if page.permalink == '/' %} {% assign about_title = page.nav_title %} {% endif %}
           {% endfor %}
 
-          <!-- Other pages -->
+          <!-- Nav items in fixed order -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% if p.nav and p.autogen == null and p.permalink != '/diensten/' %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -96,6 +96,11 @@
                   </a>
                 </li>
               {% endif %}
+            {% endif %}
+            {% if p.nav_title == 'Werk' %}
+              <li class="nav-item {% if page.url == '/diensten/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/diensten/' | relative_url }}">Diensten{% if page.url == '/diensten/' %} <span class="sr-only">(current)</span>{% endif %}</a>
+              </li>
             {% endif %}
           {% endfor %}
         </ul>
