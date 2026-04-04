@@ -26,8 +26,7 @@ hero: hero-3
                 <p><strong>3) Vragen</strong></p>
                 <p>Als u meer informatie wilt ontvangen, of vragen hebt over de privacy policy van&nbsp; Kris Tobback en specifiek schrijnwerkerijtobback.be, kun u ons benaderen via e-mail. Ons e-mailadres is&nbsp;info@schrijnwerkerijtobback.be.</p>
                 <p><strong>4) Monitoren gedrag</strong>&nbsp;bezoeker</p>
-                <p>schrijnwerkerijtobback.be&nbsp;maakt gebruik van verschillende technieken om bij te houden wie de&nbsp;website <a
-                        href="https://www.hp-links.com/" target="_blank">link</a> bezoekt, hoe deze bezoeker zich op de
+                <p>schrijnwerkerijtobback.be&nbsp;maakt gebruik van verschillende technieken om bij te houden wie de&nbsp;website bezoekt, hoe deze bezoeker zich op de
                     website gedraagt en welke pagina’s worden bezocht. Dat is een gebruikelijke manier van werken voor
                     websites omdat het informatie oplevert op die bijdraagt aan de kwaliteit van de gebruikerservaring.
                     De informatie die we, via cookies, registreren, bestaat uit onder meer IP-adressen, het type browser
