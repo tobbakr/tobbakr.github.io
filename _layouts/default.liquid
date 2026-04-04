@@ -16,8 +16,10 @@ layout: compress
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
+    <main id="content">
     {{ content }}
     
+    </main>
     <!-- Contact -->
     {% include contact.liquid %}
 

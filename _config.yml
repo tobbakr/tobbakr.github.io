@@ -48,7 +48,7 @@ navbar_fixed: false
 footer_fixed: false
 
 # Dimensions
-max_width: 1140x
+max_width: 1140px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -189,15 +189,9 @@ kramdown:
       start_line: 1
 
 # Build settings
-safe: true
 
 # Includes & excludes
 include: ["_pages", "llms.txt"]
-exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
 keep_files:
   - CNAME
   - .nojekyll
@@ -205,21 +199,15 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-link-attributes
   - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
   - jekyll-seo-tag
-  - jekyll-redirect-from
   - jekyll-include-cache
 
 # Sitemap settings
@@ -232,10 +220,9 @@ defaults:
 sass:
   style: compressed
 
-# Build performance settings
+# Build settings
 future: true
 
-# Performance optimizations
 exclude:
   - bin
   - Gemfile
