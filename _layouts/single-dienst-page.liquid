@@ -3,6 +3,27 @@ layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
 
+{% include breadcrumbs.liquid %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "provider": {
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Schrijnwerkerij Tobback",
+    "url": "https://schrijnwerkerijtobback.be"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Vlaams-Brabant"
+  },
+  "serviceType": "{{ page.category }}"
+}
+</script>
+
 {{content}}
 
 {% assign diensten_sorted = site.diensten | where_exp: "item", "item.url != page.url" | sort: "importance" %}
@@ -27,3 +48,5 @@ image: assets/img/social_schrijnwerkerijtobback.png
 </section>
 
 {% include latest_werk.liquid limit_items="4"%}
+
+{% include cta-banner.liquid %}

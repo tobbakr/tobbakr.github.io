@@ -3,6 +3,32 @@ layout: default
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
 
+{% if page.date_created %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "datePublished": "{{ page.date_created }}",
+  "author": {
+    "@type": "Person",
+    "name": "Kris Tobback",
+    "url": "https://schrijnwerkerijtobback.be"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Schrijnwerkerij Tobback",
+    "url": "https://schrijnwerkerijtobback.be",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://schrijnwerkerijtobback.be/assets/img/icon.svg"
+    }
+  }
+}
+</script>
+{% endif %}
+
 {% assign artikels_sorted = site.artikels | where_exp: "item", "item.url != page.url" | sort: "date_created" | reverse %}
 {% assign limited = include.limit_items | default: 3 %}
 

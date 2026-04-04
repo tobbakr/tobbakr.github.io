@@ -2,6 +2,27 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ page.header | escape }}",
+  "description": "{{ page.description | escape }}",
+  "image": "{{ site.url }}/{{ page.img }}",
+  "dateCreated": "{{ page.date }}",
+  "creator": {
+    "@type": "Organization",
+    "name": "Schrijnwerkerij Tobback",
+    "url": "https://schrijnwerkerijtobback.be"
+  },
+  "locationCreated": {
+    "@type": "Place",
+    "name": "{{ page.location }}"
+  }
+}
+</script>
+
 {% include breadcrumbs.liquid %}
 
 <section class="mb-5">

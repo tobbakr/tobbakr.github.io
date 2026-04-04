@@ -2,6 +2,7 @@
 layout: post
 title: Schrijnwerker voor het plaatsen van houten vloeren
 description: Vakkundige plaatsing van houten vloeren door ervaren schrijnwerker. Kies voor duurzaamheid, esthetiek en advies op maat over houtsoorten.
+image: assets/img/social_schrijnwerkerijtobback.png
 header: Schrijnwerker voor het plaatsen van houten vloeren
 date_created: 29-10-2024
 ---

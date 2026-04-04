@@ -2,6 +2,7 @@
 layout: post
 title: Specialist in houten vloeren en traprenovatie
 description: Voor hoogwaardige houten vloeren en traprenovatie kiest u een ervaren schrijnwerker. Vakmanschap en oog voor detail voor een perfecte afwerking.
+image: assets/img/social_schrijnwerkerijtobback.png
 header: Specialist in houten vloeren en traprenovatie
 date_created: 29-10-2024
 ---

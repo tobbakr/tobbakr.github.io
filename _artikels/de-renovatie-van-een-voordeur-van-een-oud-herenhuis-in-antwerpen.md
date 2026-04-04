@@ -2,6 +2,7 @@
 layout: post
 title: Renovatie van een voordeur van een oud herenhuis
 description: Lees hoe Schrijnwerkerij Tobback de historische charme van een oud herenhuis herstelde met een vakkundige renovatie van de voordeur. Vakmanschap en traditie sinds 1933.
+image: assets/img/social_schrijnwerkerijtobback.png
 header: Renovatie van een voordeur van een oud herenhuis in Antwerpen
 date_created: 14-06-2024
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: Jouw zomerse bankirai terras - Aanleggen van een bankirai houten terras
 description: Ontdek hoe je een prachtig, duurzaam tuinterras van bankirai hout aanlegt. Tips, stappen en onderhoudsadvies voor een perfect zomers terras. Start jouw project vandaag!
+image: assets/img/social_schrijnwerkerijtobback.png
 header: Jouw zomerse bankirai terras
 date_created: 22-07-2024
 ---

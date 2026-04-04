@@ -2,6 +2,7 @@
 layout: post
 title: Schrijnwerker gespecialiseerd in renovatie
 description: Laat uw interieur schitteren met renovatie door een gespecialiseerde schrijnwerker. Herstel, kwaliteit en authenticiteit voor uw meubels en houtwerk.
+image: assets/img/social_schrijnwerkerijtobback.png
 header: Schrijnwerker gespecialiseerd in renovatie
 date_created: 29-10-2024
 ---

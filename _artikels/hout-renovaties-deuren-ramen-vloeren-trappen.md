@@ -2,6 +2,7 @@
 layout: post
 title: Hout bij renovaties - ramen, deuren, vloeren en trappen
 description: Ontdek waarom hout de ideale keuze is voor renovaties van ramen, deuren, vloeren, en trappen. Lees meer over de voordelen zoals duurzaamheid, isolatie, en tijdloze schoonheid. Transformeer je huis met hout!
+image: assets/img/social_schrijnwerkerijtobback.png
 header: De voordelen van hout bij renovaties - ramen, deuren, vloeren en trappen
 date_created: 12-08-2024
 ---

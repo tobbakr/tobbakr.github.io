@@ -38,18 +38,25 @@
 
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "LocalBusiness",
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
   "name": "Schrijnwerkerij Tobback - Maatwerk - Houtbewerking",
+  "description": "Schrijnwerkerij Tobback is een familiebedrijf in Boortmeerbeek, gespecialiseerd in maatwerk schrijnwerkerij sinds 1933. Binnenschrijnwerkerij, buitenschrijnwerkerij en houtbewerking op maat.",
   "image": "https://schrijnwerkerijtobback.be/assets/img/icon.svg",
+  "logo": "https://schrijnwerkerijtobback.be/assets/img/icon.svg",
   "telephone": "+32496156640",
   "email": "info@schrijnwerkerijtobback.be",
   "url": "{{ site.url }}",
+  "foundingDate": "1933",
+  "priceRange": "$$",
+  "currenciesAccepted": "EUR",
+  "paymentAccepted": "Cash, Bank Transfer",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Bredepleinstraat 59",
     "addressLocality": "Boortmeerbeek",
     "postalCode": "3190",
+    "addressRegion": "Vlaams-Brabant",
     "addressCountry": "BE"
   },
   "geo": {
@@ -57,46 +64,47 @@
     "latitude": 50.9783,
     "longitude": 4.5728
   },
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Boortmeerbeek"
-    },
-    {
-      "@type": "City",
-      "name": "Kampenhout"
-    },
-    {
-      "@type": "City",
-      "name": "Haacht"
-    },
-    {
-      "@type": "City",
-      "name": "Leuven"
-    },
-    {
-      "@type": "City",
-      "name": "Mechelen"
-    },
-    {
-      "@type": "City",
-      "name": "Antwerpen"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Vlaams-Brabant"
-    }
+  "founder": {
+    "@type": "Person",
+    "name": "Kris Tobback"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61555452444146"
   ],
+  "areaServed": [
+    { "@type": "City", "name": "Boortmeerbeek" },
+    { "@type": "City", "name": "Kampenhout" },
+    { "@type": "City", "name": "Haacht" },
+    { "@type": "City", "name": "Leuven" },
+    { "@type": "City", "name": "Mechelen" },
+    { "@type": "City", "name": "Antwerpen" },
+    { "@type": "AdministrativeArea", "name": "Vlaams-Brabant" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Schrijnwerkerij Diensten",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Binnenschrijnwerkerij",
+        "description": "Binnendeuren, trappen, vloeren, kasten op maat"
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Buitenschrijnwerkerij",
+        "description": "Ramen, buitendeuren, poorten, veranda's"
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Maatwerk",
+        "description": "Op maat gemaakte houten creaties"
+      }
+    ]
+  },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       "opens": "07:00",
       "closes": "20:00"
     },
