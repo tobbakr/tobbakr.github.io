@@ -201,6 +201,13 @@ div.margin-block {
 
 .btn-green {
     background-color: $green-color;
+    border-color: $green-color;
+    color: #fff;
+    &:hover, &:focus, &:active {
+        background-color: darken($green-color, 8%);
+        border-color: darken($green-color, 10%);
+        color: #fff;
+    }
 }
 
 .list-diensten ul li {
