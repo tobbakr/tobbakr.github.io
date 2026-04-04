@@ -97,6 +97,17 @@
                 </li>
               {% endif %}
             {% endif %}
+            {% if p.nav_order == 2 %}
+              <!-- Diensten: hardcoded because /diensten/ permalink collides with diensten collection output -->
+              <li class="nav-item {% if page.url contains '/diensten/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/diensten/' | relative_url }}">
+                  Diensten
+                  {% if page.url contains '/diensten/' %}
+                    <span class="sr-only">(current)</span>
+                  {% endif %}
+                </a>
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>

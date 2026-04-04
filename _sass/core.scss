@@ -184,6 +184,11 @@ a.link-white:hover, a.link-white:visited {
     color: $white-color;
 }
 
+footer .list-unstyled li a {
+    display: inline-block;
+    padding: 0.25em 0;
+}
+
 
 div.margin-block {
     margin: 40px 0;
@@ -238,13 +243,13 @@ div.margin-block {
   padding: 3rem 0;
 
   h2 {
-    color: #fff;
+    color: #fff !important;
     font-size: 2.2em;
     margin-bottom: 0.5rem;
   }
 
   p {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9) !important;
     font-size: 1.1em;
     margin-bottom: 1.5rem;
   }
