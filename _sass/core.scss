@@ -61,9 +61,13 @@
 }
 
 .werk-card-overlay-text {
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
   font-size: 0.95em;
+
+  * {
+    color: #fff !important;
+  }
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 0.3s ease, transform 0.3s ease;
