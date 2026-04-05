@@ -174,7 +174,10 @@ div.contact-us svg {
 }
 
 a.contact-box {
-  padding-left: 10px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 
 a.link-white {
@@ -216,6 +219,25 @@ div.margin-block {
     border-color: darken($green-color, 10%);
     color: #fff;
   }
+}
+
+// Touch targets: ensure 44px minimum height for all interactive elements
+.btn-sm {
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.form-control {
+  min-height: 44px;
+}
+
+.card-title a,
+.card-link {
+  display: inline-block;
+  min-height: 44px;
+  line-height: 1.4;
 }
 
 .list-diensten ul li {
