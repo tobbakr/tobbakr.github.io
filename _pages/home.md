@@ -35,15 +35,16 @@ hero: hero-1
 </section>
 
 <section id="section-home-overons" class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container mt-5 mb-5">
     <div class="row">
-      <div class="col-sm">
+      <div class="col-md-5">
         <h2>Traditioneel vakmanschap met hedendaagse precisie.</h2>
         <p>Bij Schrijnwerkerij Tobback, gevestigd in het hart van <strong>Boortmeerbeek</strong>, combineren we traditionele vakmanschap met hedendaagse precisie om uw droomprojecten in hout tot leven te brengen.</p>
         <p>Opgericht in 1933, heeft onze familiezaak de kunst van houtbewerking van generatie op generatie doorgegeven, een traditie die met trots wordt voortgezet door onze huidige zaakvoerder, <strong>Kris Tobback</strong>.</p>
-
+        <a href="{{ '/werkwijze/' | relative_url }}" class="btn btn-outline-dark btn-sm mt-3">Ontdek onze werkwijze</a>
       </div>
-      <div class="col-sm">
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
         <h3>Grootste zorg en precisie</h3>
         <p>Onze specialisatie in maatwerk omvat alles van sfeervolle ramen en robuuste deuren tot elegante trappen en unieke interieuroplossingen. Of het nu gaat om binnenschrijnwerk of buitenschrijnwerk, elk project krijgt onze volle aandacht en wordt met de grootste zorg en precisie uitgevoerd.</p>
 
@@ -54,7 +55,6 @@ hero: hero-1
         <p>Wij geloven dat elk stuk hout een verhaal te vertellen heeft. Laat ons uw verhaal tot leven brengen met onze deskundige handen en jarenlange ervaring. Neem vandaag nog contact met ons op voor uw project op maat!</p>
       </div>
     </div>
-
   </div>
 </section>
 
