@@ -374,11 +374,14 @@ div.margin-block {
 // CTA Banner
 .cta-banner {
   background-color: $green-color;
-  color: #fff;
+  color: #fff !important;
   padding: 3rem 0;
 
-  h2 {
+  * {
     color: #fff !important;
+  }
+
+  h2 {
     font-size: 2.2em;
     margin-bottom: 0.5rem;
   }
