@@ -20,12 +20,9 @@ jobs:
             --exclude-path INSTALL.md
             --exclude-path FAQ.md
             --exclude-path AGENT.MD
-            --exclude-path _pages/404.md
-            --exclude-path _pages/blog.md
-            --exclude-path _pages/home.md
-            --exclude-path _pages/diensten.md
-            --exclude-path _pages/werk.md
-            --exclude-path _pages/contact.md
+            --exclude-path CONTRIBUTING.md
+            --exclude-path .github
+            --exclude-path _pages
             --exclude-path _includes
             --exclude-path _layouts
             --exclude-path _regio
