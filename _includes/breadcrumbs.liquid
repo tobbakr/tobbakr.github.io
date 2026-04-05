@@ -1,22 +1,24 @@
 {% unless page.url == '/' %}
-<nav aria-label="Broodkruimels" class="breadcrumb-nav">
-  <div class="container">
-    <ol class="breadcrumb mb-0 py-2 bg-transparent px-0">
-      <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-      {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
-      {% for crumb in crumbs offset: 1 %}
-        {% if forloop.last %}
-          <li class="breadcrumb-item active" aria-current="page">{{ page.title | default: crumb | capitalize }}</li>
-        {% else %}
-          {% assign crumb_url = '' %}
-          {% assign crumb_limit = forloop.index %}
-          {% for c in crumbs offset: 1 limit: crumb_limit %}
-            {% assign crumb_url = crumb_url | append: '/' | append: c %}
-          {% endfor %}
-          <li class="breadcrumb-item"><a href="{{ crumb_url | append: '/' | relative_url }}">{{ crumb | capitalize }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ol>
-  </div>
-</nav>
+  <nav aria-label="Broodkruimels" class="breadcrumb-nav">
+    <div class="container">
+      <ol class="breadcrumb mb-0 py-2 bg-transparent px-0">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+        {% for crumb in crumbs offset: 1 %}
+          {% if forloop.last %}
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title | default: crumb | capitalize }}</li>
+          {% else %}
+            {% assign crumb_url = '' %}
+            {% assign crumb_limit = forloop.index %}
+            {% for c in crumbs offset: 1 limit: crumb_limit %}
+              {% assign crumb_url = crumb_url | append: '/' | append: c %}
+            {% endfor %}
+            <li class="breadcrumb-item">
+              <a href="{{ crumb_url | append: '/' | relative_url }}">{{ crumb | capitalize }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </div>
+  </nav>
 {% endunless %}

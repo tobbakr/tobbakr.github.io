@@ -11,13 +11,13 @@ img_thumb: assets/img/project_13_houten_vloer_thumb.webp
 date: 07-10-2025
 location: Mechelen
 categories:
-    - binnenschrijnwerkerij
-    - maatwerk
+  - binnenschrijnwerkerij
+  - maatwerk
 ---
 
 In het hart van Mechelen kregen we de kans om een bestaand interieur volledig nieuw leven in te blazen. Tijdens de renovatie van deze charmante woning stond één doel centraal: warmte, authenticiteit en natuurlijke schoonheid terugbrengen in elke ruimte. Het resultaat? Een prachtige houten vloer in Yellow Pine, die het hele huis verbindt met een zacht en uitnodigend karakter.
 
-##  Waarom Yellow Pine?
+## Waarom Yellow Pine?
 
 Yellow Pine is een naaldhoutsoort die bekendstaat om haar rijke kleurvariaties en diepe tekening. De warme honing- tot ambertinten brengen leven in elke ruimte, terwijl de duidelijke nerfstructuur zorgt voor een natuurlijke uitstraling. Door de jaren heen ontwikkelt dit hout een nog diepere, doorleefde patina – ideaal voor wie houdt van charme en karakter.
 

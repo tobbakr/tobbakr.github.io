@@ -10,9 +10,9 @@ img: assets/img/project_12_dubbele_deur.webp
 img_thumb: assets/img/project_12_dubbele_deur_thumb.webp
 date: 07-02-2025
 location: Wespelaar
-categories: 
-    - buitenschrijnwerkerij
-    - maatwerk
+categories:
+  - buitenschrijnwerkerij
+  - maatwerk
 ---
 
 We hebben een prachtige realisatie opgeleverd: een dubbele houten voordeur in afrormosia. Dit duurzame en stijlvolle hardhout geeft een warme uitstraling en kan tegen een stootje – perfect voor een karaktervolle entree.

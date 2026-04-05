@@ -77,5 +77,6 @@ hero: hero-3
         </div>
       </div>
     </div>
+
   </div>
 </section>

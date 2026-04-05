@@ -10,9 +10,9 @@ img: assets/img/project_11_deur_historisch_pand.webp
 img_thumb: assets/img/project_11_deur_historisch_pand_thumb.webp
 date: 09-01-2025
 location: Leuven
-categories: 
-    - binnenschrijnwerkerij
-    - maatwerk
+categories:
+  - binnenschrijnwerkerij
+  - maatwerk
 ---
 
 Onlangs hebben we met trots een uniek project afgerond in het hartje van Leuven. Voor een prachtig historisch pand mochten we een replica maken van een originele deur, volledig in de stijl en uitstraling van weleer. Het resultaat? Een authentieke eyecatcher die naadloos aansluit bij de rijke geschiedenis van het gebouw.

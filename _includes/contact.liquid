@@ -1,4 +1,3 @@
-
 <section id="section-contacteer-ons" style="background-color:rgb(245, 243, 239)">
   <div class="container pt-5 pb-5 mt-5">
     <div class="row">
@@ -9,87 +8,122 @@
     <div class="row">
       <div class="col-md-8 mt-5">
         <form action="https://formeezy.com/api/v1/forms/65d20badf385a10008026770/submissions" method="POST" enctype="multipart/form-data">
-            <div class="mb-3 row">
-                <div class="col-sm">
-                    <label for="first_name">Voornaam</label>
-                    <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="Voornaam">
-                </div>
-                <div class="col-sm">
-                    <label for="last_name">Naam</label>
-                    <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name" placeholder="Naam">
-                </div>
+          <div class="mb-3 row">
+            <div class="col-sm">
+              <label for="first_name">Voornaam</label>
+              <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="Voornaam">
             </div>
-            <div class="mb-3 row">
-                <div class="col-sm">
-                    <label for="email_addr">Emailadres</label>
-                    <input type="email" required maxlength="50" class="form-control" id="email_addr" name="Email"
-                        placeholder="name@example.com">
-                </div>
-                <div class="col-sm">
-                    <label for="phone_input">Telefoon</label>
-                    <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
-                        placeholder="Telefoon">
-                </div>
+            <div class="col-sm">
+              <label for="last_name">Naam</label>
+              <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name" placeholder="Naam">
             </div>
-            <div class="mb-3 row">
-                <div class="col-sm">
-                    <label for="postcode_addr">Postcode</label>
-                    <input type="text" required maxlength="4" class="form-control" id="postcode_addr" name="Postcode"
-                        placeholder="3190">
-                </div>
-                <div class="col-sm">
-                    <label for="gemeente_addr">Gemeente</label>
-                    <input type="text" required maxlength="50" class="form-control" id="gemeente_addr" name="Gemeente"
-                        placeholder="Boortmeerbeek">
-                </div>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-sm">
+              <label for="email_addr">Emailadres</label>
+              <input
+                type="email"
+                required
+                maxlength="50"
+                class="form-control"
+                id="email_addr"
+                name="Email"
+                placeholder="name@example.com"
+              >
             </div>
-            <div class="mb-3 row">
-                <div class="col-sm">
-                    <label for="project_type">Type project</label>
-                    <select class="form-control" id="project_type" name="Project_type">
-                        <option value="" disabled selected>Kies een type project...</option>
-                        <option value="Binnenschrijnwerk">Binnenschrijnwerk (deuren, trappen, kasten, ...)</option>
-                        <option value="Buitenschrijnwerk">Buitenschrijnwerk (ramen, buitendeuren, poorten, ...)</option>
-                        <option value="Maatwerk">Maatwerk (op maat gemaakt project)</option>
-                        <option value="Renovatie">Renovatie of restauratie</option>
-                        <option value="Andere">Andere</option>
-                    </select>
-                </div>
+            <div class="col-sm">
+              <label for="phone_input">Telefoon</label>
+              <input
+                type="tel"
+                required
+                maxlength="50"
+                class="form-control"
+                id="phone_input"
+                name="Phone"
+                placeholder="Telefoon"
+              >
             </div>
-            <div class="mb-3 row">
-                <div class="col-sm">
-                    <label for="referral">Hoe heeft u ons gevonden?</label>
-                    <select class="form-control" id="referral" name="Referral">
-                        <option value="" disabled selected>Selecteer...</option>
-                        <option value="Google">Google / zoekmachine</option>
-                        <option value="Aanbeveling">Aanbeveling van bekende</option>
-                        <option value="Social media">Social media</option>
-                        <option value="Voorbijgereden">Voorbijgereden</option>
-                        <option value="Andere">Andere</option>
-                    </select>
-                </div>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-sm">
+              <label for="postcode_addr">Postcode</label>
+              <input
+                type="text"
+                required
+                maxlength="4"
+                class="form-control"
+                id="postcode_addr"
+                name="Postcode"
+                placeholder="3190"
+              >
             </div>
-            <div class="mb-3">
-                <label for="message">Boodschap</label>
-                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+            <div class="col-sm">
+              <label for="gemeente_addr">Gemeente</label>
+              <input
+                type="text"
+                required
+                maxlength="50"
+                class="form-control"
+                id="gemeente_addr"
+                name="Gemeente"
+                placeholder="Boortmeerbeek"
+              >
             </div>
-            <div class="mt-4">
-                <button type="submit" class="btn btn-primary btn-green px-5 py-2">
-                    <i class="fa-solid fa-paper-plane"></i> Verzenden
-                </button>
-                <p class="text-muted mt-2"><small><i class="fa-solid fa-lock"></i> Uw gegevens worden vertrouwelijk behandeld. We nemen binnen 24 uur contact met u op.</small></p>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-sm">
+              <label for="project_type">Type project</label>
+              <select class="form-control" id="project_type" name="Project_type">
+                <option value="" disabled selected>Kies een type project...</option>
+                <option value="Binnenschrijnwerk">Binnenschrijnwerk (deuren, trappen, kasten, ...)</option>
+                <option value="Buitenschrijnwerk">Buitenschrijnwerk (ramen, buitendeuren, poorten, ...)</option>
+                <option value="Maatwerk">Maatwerk (op maat gemaakt project)</option>
+                <option value="Renovatie">Renovatie of restauratie</option>
+                <option value="Andere">Andere</option>
+              </select>
             </div>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-sm">
+              <label for="referral">Hoe heeft u ons gevonden?</label>
+              <select class="form-control" id="referral" name="Referral">
+                <option value="" disabled selected>Selecteer...</option>
+                <option value="Google">Google / zoekmachine</option>
+                <option value="Aanbeveling">Aanbeveling van bekende</option>
+                <option value="Social media">Social media</option>
+                <option value="Voorbijgereden">Voorbijgereden</option>
+                <option value="Andere">Andere</option>
+              </select>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message">Boodschap</label>
+            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+          </div>
+          <div class="mt-4">
+            <button type="submit" class="btn btn-primary btn-green px-5 py-2"><i class="fa-solid fa-paper-plane"></i> Verzenden</button>
+            <p class="text-muted mt-2">
+              <small><i class="fa-solid fa-lock"></i> Uw gegevens worden vertrouwelijk behandeld. We nemen binnen 24 uur contact met u op.</small>
+            </p>
+          </div>
         </form>
       </div>
       <div class="col-md-4 mt-5">
         <h3>Adres</h3>
-        <p>Bredepleinstraat 59<br>3190 Boortmeerbeek</p>
+        <p>
+          Bredepleinstraat 59<br>
+          3190 Boortmeerbeek
+        </p>
 
         <h3>Telefoon</h3>
-        <p><a href="tel:+32496156640"><i class="fa-solid fa-phone"></i> 0496 15 66 40</a></p>
+        <p>
+          <a href="tel:+32496156640"><i class="fa-solid fa-phone"></i> 0496 15 66 40</a>
+        </p>
 
         <h3>E-mail</h3>
-        <p><a href="mailto:info@schrijnwerkerijtobback.be"><i class="fa-solid fa-envelope"></i> info@schrijnwerkerijtobback.be</a></p>
+        <p>
+          <a href="mailto:info@schrijnwerkerijtobback.be"><i class="fa-solid fa-envelope"></i> info@schrijnwerkerijtobback.be</a>
+        </p>
 
         <h3>Openingsuren</h3>
         <p>
@@ -99,6 +133,6 @@
 
         <p class="mt-3"><small class="text-muted">Ondernemingsnummer: 744429468</small></p>
       </div>
+    </div>
   </div>
-</div>
 </section>

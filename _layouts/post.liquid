@@ -2,43 +2,42 @@
 layout: default
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
-
 {% if page.date_created %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ page.title | escape }}",
-  "description": "{{ page.description | escape }}",
-  "datePublished": "{{ page.date_created }}",
-  "author": {
-    "@type": "Person",
-    "name": "Kris Tobback",
-    "url": "https://schrijnwerkerijtobback.be"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Schrijnwerkerij Tobback",
-    "url": "https://schrijnwerkerijtobback.be",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://schrijnwerkerijtobback.be/assets/img/icon.svg"
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ page.title | escape }}",
+      "description": "{{ page.description | escape }}",
+      "datePublished": "{{ page.date_created }}",
+      "author": {
+        "@type": "Person",
+        "name": "Kris Tobback",
+        "url": "https://schrijnwerkerijtobback.be"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Schrijnwerkerij Tobback",
+        "url": "https://schrijnwerkerijtobback.be",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://schrijnwerkerijtobback.be/assets/img/icon.svg"
+        }
+      }
     }
-  }
-}
-</script>
+  </script>
 {% endif %}
 
-{% assign artikels_sorted = site.artikels | where_exp: "item", "item.url != page.url" | sort: "date_created" | reverse %}
+{% assign artikels_sorted = site.artikels | where_exp: 'item', 'item.url != page.url' | sort: 'date_created' | reverse %}
 {% assign limited = include.limit_items | default: 3 %}
 
 <section id="sc-hero" class="section-hero div-hero {{page.hero | default: "hero-1"}}">
   <div class="container mt-2">
     <div class="row">
-       <div class="col-sm-12">
+      <div class="col-sm-12">
         <div class="div-hero div-hero-text">
           <div>
-            <h1 class="hero">{{page.header}}</h1>
+            <h1 class="hero">{{ page.header }}</h1>
           </div>
         </div>
       </div>
@@ -51,20 +50,21 @@ image: assets/img/social_schrijnwerkerijtobback.png
 <article id="sc-artikel">
   <div class="container mt-5">
     <div class="row">
-        <div class="col-md-7 mt-2">
-          {{content}}
-        </div>
-        <div class="col-md-1 mt-2"></div>
-        <div class="col-md-4 mt-2">
-          <h2>Meer Tips &amp; Advies</h2>
-          {% for artikel in artikels_sorted limit: limited %}        
-            <h3><a href="{{artikel.url}}">{{artikel.header}}</a></h3>
-            <p>{{artikel.description}}</p>   
-          {% endfor %}
-        </div>
+      <div class="col-md-7 mt-2">
+        {{ content }}
+      </div>
+      <div class="col-md-1 mt-2"></div>
+      <div class="col-md-4 mt-2">
+        <h2>Meer Tips &amp; Advies</h2>
+        {% for artikel in artikels_sorted limit: limited %}
+          <h3>
+            <a href="{{artikel.url}}">{{ artikel.header }}</a>
+          </h3>
+          <p>{{ artikel.description }}</p>
+        {% endfor %}
+      </div>
     </div>
   </div>
-
 </article>
 
 <section id="section-related-werk" class="fade-in-up">
@@ -75,13 +75,17 @@ image: assets/img/social_schrijnwerkerijtobback.png
       </div>
     </div>
     <div class="row">
-      {% assign werk_items = site.werk | sort: "date" | reverse %}
+      {% assign werk_items = site.werk | sort: 'date' | reverse %}
       {% for werk in werk_items limit: 3 %}
         <div class="col-md-4 mb-3">
           <div class="card rounded-lg shadow-sm">
-            <a href="{{ werk.url | relative_url }}"><img class="card-img-top" src="{{ site.url }}/{{ werk.img_thumb }}" alt="{{ werk.title }}" loading="lazy" width="400" height="300"></a>
+            <a href="{{ werk.url | relative_url }}"
+              ><img class="card-img-top" src="{{ site.url }}/{{ werk.img_thumb }}" alt="{{ werk.title }}" loading="lazy" width="400" height="300"
+            ></a>
             <div class="card-body">
-              <a href="{{ werk.url | relative_url }}"><h3 class="card-title">{{ werk.header }}</h3></a>
+              <a href="{{ werk.url | relative_url }}">
+                <h3 class="card-title">{{ werk.header }}</h3>
+              </a>
               <p class="card-text">{{ werk.description }}</p>
             </div>
           </div>

@@ -1,16 +1,17 @@
-{% assign artikels_sorted = site.artikels | where_exp: "item", "item.url != page.url" | sort: "date_created" | reverse %}
+{% assign artikels_sorted = site.artikels | where_exp: 'item', 'item.url != page.url' | sort: 'date_created' | reverse %}
 {% assign limited = include.limit_items | default: 3 %}
 {% assign title = include.title | join: 'Tips &amp; advies' %}
-
 
 <section id="section-posts">
   <div class="container mt-5 hero-2">
     <div class="row">
       <div class="col-xs-12 col-md-6 mt-5"><h2 class="text-white">Tips &amp; advies</h2></div>
       <div class="col-xs-12 col-md-6 mt-5">
-        {% for artikel in artikels_sorted limit: limited %}        
-          <h3><a href="{{artikel.url}}" class="link-white">{{artikel.header}}</a></h3>
-          <p class="text-white">{{artikel.description}}</p>   
+        {% for artikel in artikels_sorted limit: limited %}
+          <h3>
+            <a href="{{artikel.url}}" class="link-white">{{ artikel.header }}</a>
+          </h3>
+          <p class="text-white">{{ artikel.description }}</p>
         {% endfor %}
       </div>
     </div>

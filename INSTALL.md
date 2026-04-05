@@ -1,8 +1,8 @@
 # Basic commands
+
 bundle exec jekyll serve --lsi
 bin/deploy --user
 rbenv shell 3.3.0
-
 
 # Installing and Deploying
 

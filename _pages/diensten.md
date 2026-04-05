@@ -37,5 +37,4 @@ hero: hero-3
   </div>
 </section>
 
-
 {% include latest_posts.liquid %}

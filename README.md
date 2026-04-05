@@ -2,7 +2,6 @@
 
 1. bundle exec jekyll serve --lsi
 
-
 <div align="center">
 
 [![Preview](assets/img/readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
@@ -411,6 +410,7 @@ The theme is available as open source under the terms of the [MIT License](https
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
 
 ## Documentation
+
 - [Functional Specification](SPECS/functional/functional_spec.md)
 - [Technical Specification](SPECS/technical/technical_spec.md)
 - [Non-Functional Specification](SPECS/non-functional/non_functional_spec.md)

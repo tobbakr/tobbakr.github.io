@@ -34,7 +34,6 @@ hero: hero-1
   </div>
 </section>
 
-
 <section id="section-home-overons" class="fade-in-up">
   <div class="container mt-5">
     <div class="row">
@@ -43,7 +42,6 @@ hero: hero-1
         <p>Bij Schrijnwerkerij Tobback, gevestigd in het hart van <strong>Boortmeerbeek</strong>, combineren we traditionele vakmanschap met hedendaagse precisie om uw droomprojecten in hout tot leven te brengen.</p>
         <p>Opgericht in 1933, heeft onze familiezaak de kunst van houtbewerking van generatie op generatie doorgegeven, een traditie die met trots wordt voortgezet door onze huidige zaakvoerder, <strong>Kris Tobback</strong>.</p>
 
-        
       </div>
       <div class="col-sm">
         <h3>Grootste zorg en precisie</h3>
@@ -56,6 +54,7 @@ hero: hero-1
         <p>Wij geloven dat elk stuk hout een verhaal te vertellen heeft. Laat ons uw verhaal tot leven brengen met onze deskundige handen en jarenlange ervaring. Neem vandaag nog contact met ons op voor uw project op maat!</p>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -68,12 +67,3 @@ hero: hero-1
 {% include testimonials.liquid %}
 
 {% include latest_posts.liquid %}
-
-
-
-  
-
-
-
-
-

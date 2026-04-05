@@ -2,25 +2,24 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
-
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CreativeWork",
-  "name": "{{ page.header | escape }}",
-  "description": "{{ page.description | escape }}",
-  "image": "{{ site.url }}/{{ page.img }}",
-  "dateCreated": "{{ page.date }}",
-  "creator": {
-    "@type": "Organization",
-    "name": "Schrijnwerkerij Tobback",
-    "url": "https://schrijnwerkerijtobback.be"
-  },
-  "locationCreated": {
-    "@type": "Place",
-    "name": "{{ page.location }}"
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "{{ page.header | escape }}",
+    "description": "{{ page.description | escape }}",
+    "image": "{{ site.url }}/{{ page.img }}",
+    "dateCreated": "{{ page.date }}",
+    "creator": {
+      "@type": "Organization",
+      "name": "Schrijnwerkerij Tobback",
+      "url": "https://schrijnwerkerijtobback.be"
+    },
+    "locationCreated": {
+      "@type": "Place",
+      "name": "{{ page.location }}"
+    }
   }
-}
 </script>
 
 {% include breadcrumbs.liquid %}
@@ -28,25 +27,28 @@ image: assets/img/social_schrijnwerkerijtobback.png
 <section class="mb-5">
   <div class="container mt-5">
     <div class="row justify-content-between">
-        <div class="col-sm-12 col-md-4 mb-5">
-            <h2>{{page.header}}</h2>
-            <div><i class="fas fa-quote-left fa-2x"></i></div>
-            <p>{{content}}</p>
-            <div><i class="fas fa-quote-right fa-2x mb-5"></i></div>
-            <div><span class="badge badge-pill badge-success"><i class="fa-solid fa-location-dot fa-white"></i> {{page.location}}</span></div>
-            {% for cat in page.categories %}
-                <div><span class="badge badge-pill badge-info"><i class="fa-solid fa-tag fa-white"></i> {{cat}}</span></div>
-            {% endfor %}
-        </div>              
-        <div class="col-sm-12 col-md-7">
-          <div class="watermarked">
-            {% include figure.liquid path=page.img sizes="(min-width: 440px) 156px" alt=page.title %}
+      <div class="col-sm-12 col-md-4 mb-5">
+        <h2>{{ page.header }}</h2>
+        <div><i class="fas fa-quote-left fa-2x"></i></div>
+        <p>{{ content }}</p>
+        <div><i class="fas fa-quote-right fa-2x mb-5"></i></div>
+        <div>
+          <span class="badge badge-pill badge-success"><i class="fa-solid fa-location-dot fa-white"></i> {{ page.location }}</span>
+        </div>
+        {% for cat in page.categories %}
+          <div>
+            <span class="badge badge-pill badge-info"><i class="fa-solid fa-tag fa-white"></i> {{ cat }}</span>
           </div>
+        {% endfor %}
+      </div>
+      <div class="col-sm-12 col-md-7">
+        <div class="watermarked">
+          {% include figure.liquid path=page.img sizes="(min-width: 440px) 156px" alt=page.title %}
         </div>
       </div>
+    </div>
   </div>
 </section>
-
 
 {% include cta-banner.liquid %}
 
@@ -58,10 +60,12 @@ image: assets/img/social_schrijnwerkerijtobback.png
       </div>
     </div>
     <div class="row">
-      {% assign artikels = site.artikels | sort: "date_created" | reverse %}
+      {% assign artikels = site.artikels | sort: 'date_created' | reverse %}
       {% for artikel in artikels limit: 3 %}
         <div class="col-md-4 mb-3">
-          <h3><a href="{{ artikel.url | relative_url }}">{{ artikel.header }}</a></h3>
+          <h3>
+            <a href="{{ artikel.url | relative_url }}">{{ artikel.header }}</a>
+          </h3>
           <p>{{ artikel.description }}</p>
         </div>
       {% endfor %}
@@ -69,4 +73,4 @@ image: assets/img/social_schrijnwerkerijtobback.png
   </div>
 </section>
 
-{% include latest_werk.liquid limit_items="4"%}
+{% include latest_werk.liquid limit_items="4" %}

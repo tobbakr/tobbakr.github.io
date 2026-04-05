@@ -10,9 +10,9 @@ img: assets/img/project_15_deur_holsbeek.webp
 img_thumb: assets/img/project_15_deur_holsbeek_thumb.webp
 date: 04-04-2026
 location: Holsbeek
-categories: 
-    - buitenschrijnwerkerij
-    - maatwerk
+categories:
+  - buitenschrijnwerkerij
+  - maatwerk
 ---
 
 Deze voordeur in massief Afrormosia is volledig op maat vervaardigd door onze schrijnwerkerij. Het ontwerp combineert verticale planken met een klassiek vierdelig ruitjesvenster, wat zorgt voor een tijdloze, landelijke uitstraling.

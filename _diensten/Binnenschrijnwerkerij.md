@@ -11,4 +11,3 @@ hero: hero-1
 importance: 1
 category: binnenschrijnwerkerij
 ---
-
