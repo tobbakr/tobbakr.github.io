@@ -537,6 +537,112 @@ div.margin-block {
   letter-spacing: 0.05em;
 }
 
+// Artikel listing
+.artikel-listing-intro {
+  color: #666;
+  font-size: 1.1em;
+  margin-bottom: 1rem;
+}
+
+.artikel-card-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.artikel-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-left: 4px solid $green-color;
+  border-radius: 0 8px 8px 0;
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.artikel-card-title {
+  font-family: "Judson", serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+  color: #333;
+}
+
+.artikel-card-desc {
+  font-size: 0.9em;
+  color: #555;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.artikel-card-meta {
+  font-size: 0.8em;
+  color: #888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  i {
+    color: $green-color;
+  }
+}
+
+.artikel-card-arrow {
+  opacity: 0;
+  transform: translateX(-5px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.artikel-card:hover .artikel-card-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+// Article meta bar
+.artikel-meta-bar {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85em;
+  color: #888;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+
+  i {
+    color: $green-color;
+    margin-right: 4px;
+  }
+}
+
+// Article sidebar
+.sidebar-artikel a {
+  font-family: "Judson", serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.3;
+}
+
+.sidebar-artikel-desc {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 0.25rem;
+}
+
 // Breadcrumbs
 .breadcrumb-nav {
   background-color: #f8f9fa;

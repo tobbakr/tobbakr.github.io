@@ -2,6 +2,7 @@
 layout: default
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
+
 {% if page.date_created %}
   <script type="application/ld+json">
     {
@@ -31,7 +32,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
 {% assign artikels_sorted = site.artikels | where_exp: 'item', 'item.url != page.url' | sort: 'date_created' | reverse %}
 {% assign limited = include.limit_items | default: 3 %}
 
-<section id="sc-hero" class="section-hero div-hero {{page.hero | default: "hero-1"}}">
+<section id="sc-hero" class="section-hero div-hero {{ page.hero | default: 'hero-1' }}">
   <div class="container mt-2">
     <div class="row">
       <div class="col-sm-12">
@@ -47,20 +48,37 @@ image: assets/img/social_schrijnwerkerijtobback.png
 
 {% include breadcrumbs.liquid %}
 
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="artikel-meta-bar">
+        {% assign words = content | number_of_words %}
+        {% assign reading_time = words | divided_by: 200 %}
+        {% if reading_time == 0 %}{% assign reading_time = 1 %}{% endif %}
+        <span><i class="fa-regular fa-clock"></i> {{ reading_time }} min leestijd</span>
+        <span><i class="fa-solid fa-user"></i> Kris Tobback</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <article id="sc-artikel">
-  <div class="container mt-5">
+  <div class="container mt-3">
     <div class="row">
       <div class="col-md-7 mt-2">
         {{ content }}
       </div>
       <div class="col-md-1 mt-2"></div>
       <div class="col-md-4 mt-2">
-        <h2>Meer Tips &amp; Advies</h2>
+        <a href="{{ '/artikels/' | relative_url }}" class="btn btn-outline-secondary btn-sm mb-4">
+          <i class="fa-solid fa-arrow-left"></i> Alle artikels
+        </a>
+        <h3>Meer lezen</h3>
         {% for artikel in artikels_sorted limit: limited %}
-          <h3>
-            <a href="{{artikel.url}}">{{ artikel.header }}</a>
-          </h3>
-          <p>{{ artikel.description }}</p>
+          <div class="sidebar-artikel mb-3">
+            <a href="{{ artikel.url | relative_url }}">{{ artikel.header }}</a>
+            <p class="sidebar-artikel-desc">{{ artikel.description }}</p>
+          </div>
         {% endfor %}
       </div>
     </div>
