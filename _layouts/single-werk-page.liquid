@@ -2,6 +2,7 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
+
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -24,31 +25,49 @@ image: assets/img/social_schrijnwerkerijtobback.png
 
 {% include breadcrumbs.liquid %}
 
-<section class="mb-5">
-  <div class="container mt-5">
-    <div class="row justify-content-between">
-      <div class="col-sm-12 col-md-4 mb-5">
-        <h2>{{ page.header }}</h2>
-        <div><i class="fas fa-quote-left fa-2x"></i></div>
-        <p>{{ content }}</p>
-        <div><i class="fas fa-quote-right fa-2x mb-5"></i></div>
-        <div>
-          <span class="badge badge-pill badge-success"><i class="fa-solid fa-location-dot fa-white"></i> {{ page.location }}</span>
+<section class="werk-detail">
+  <div class="container mt-4">
+    <div class="row align-items-start">
+      <div class="col-md-5 mb-4">
+        <div class="werk-detail-img">
+          {% include figure.liquid path=page.img sizes="(min-width: 768px) 450px, 100vw" alt=page.title %}
         </div>
-        {% for cat in page.categories %}
-          <div>
-            <span class="badge badge-pill badge-info"><i class="fa-solid fa-tag fa-white"></i> {{ cat }}</span>
-          </div>
-        {% endfor %}
       </div>
-      <div class="col-sm-12 col-md-7">
-        <div class="watermarked">
-          {% include figure.liquid path=page.img sizes="(min-width: 440px) 156px" alt=page.title %}
+      <div class="col-md-7">
+        <h2 class="werk-detail-title">{{ page.header }}</h2>
+        {% if page.subheader %}
+          <p class="werk-detail-sub">{{ page.subheader }}</p>
+        {% endif %}
+        <div class="werk-detail-meta">
+          <span><i class="fa-solid fa-location-dot"></i> {{ page.location }}</span>
+          {% for cat in page.categories %}
+            <span><i class="fa-solid fa-tag"></i> {{ cat }}</span>
+          {% endfor %}
+        </div>
+        <div class="werk-detail-intro">
+          <p>{{ page.description }}</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+{% if content != "" %}
+<section class="werk-detail-story">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="werk-detail-content">
+          {{ content }}
+        </div>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary btn-green mt-3 mb-5">
+          <i class="fa-solid fa-envelope"></i> Vraag een offerte aan
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
 
 {% include cta-banner.liquid %}
 
