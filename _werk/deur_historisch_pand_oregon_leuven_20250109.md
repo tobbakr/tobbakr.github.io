@@ -23,6 +23,6 @@ Oregon Kroon, afkomstig van de Douglas-spar, is niet alleen esthetisch aantrekke
 
 Met oog voor detail en respect voor traditie hebben we ervoor gezorgd dat deze replica niet alleen een praktisch element is, maar ook een stukje vakmanschap dat een verhaal vertelt.
 
-Wil jij ook jouw historisch pand nieuw leven inblazen met authentiek vakwerk? Neem gerust contact met ons op, en samen creëren we iets bijzonders!
+Wilt u ook uw historisch pand nieuw leven inblazen met authentiek vakwerk? Neem gerust contact met ons op, en samen creëren we iets bijzonders!
 
-Tip: Heb je vragen over Oregon Kroon of andere houtsoorten? We vertellen je er graag meer over.
+Tip: Heeft u vragen over Oregon Kroon of andere houtsoorten? We vertellen u er graag meer over.

@@ -16,6 +16,7 @@ hero: hero-2
     <div class="row">
       <div class="col-md-8">
         <p>In Leuven en omgeving zijn we regelmatig aan de slag. De stad met haar mix van historische panden en moderne architectuur vraagt om schrijnwerk dat zowel karakter als precisie heeft. Of het nu gaat om de restauratie van een herenhuis in het centrum of nieuw maatwerk voor een hedendaagse woning — ons team combineert traditioneel vakmanschap met de nieuwste technieken.</p>
+        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Leuven</a>
       </div>
     </div>
   </div>

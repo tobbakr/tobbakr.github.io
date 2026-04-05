@@ -3,6 +3,7 @@ layout: single-page
 title: Werkwijze - Hoe wij te werk gaan | Schrijnwerkerij Tobback
 image: assets/img/social_schrijnwerkerijtobback.png
 description: Ontdek hoe Schrijnwerkerij Tobback uw project van A tot Z begeleidt. Van eerste contact tot perfecte plaatsing.
+date_updated: 2026-04-05
 header: Onze werkwijze
 subheader: Van idee tot realisatie.
 permalink: /werkwijze/
@@ -78,5 +79,17 @@ hero: hero-3
       </div>
     </div>
 
+  </div>
+</section>
+
+<section>
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Klaar om te starten?</h2>
+        <p>Neem vrijblijvend contact op voor een eerste gesprek. Wij komen graag bij u langs voor een opmeting en advies op maat, in Boortmeerbeek en heel Vlaams-Brabant.</p>
+        <a href="/contact/" class="btn btn-primary btn-green">Contacteer ons</a>
+      </div>
+    </div>
   </div>
 </section>

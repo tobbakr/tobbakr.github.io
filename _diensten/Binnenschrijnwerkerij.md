@@ -11,3 +11,21 @@ hero: hero-1
 importance: 1
 category: binnenschrijnwerkerij
 ---
+
+## Wat is binnenschrijnwerkerij?
+
+Binnenschrijnwerkerij omvat het ontwerpen, vervaardigen en plaatsen van alle houten elementen in het interieur van uw woning. Bij Schrijnwerkerij Tobback in Boortmeerbeek realiseren we maatwerk dat perfect aansluit bij de stijl en functionaliteit van uw leefruimte.
+
+### Onze binnenschrijnwerk diensten
+
+- **Binnendeuren** — klassieke paneeldeuren, moderne vlakke deuren, schuifdeuren
+- **Trappen en leuningen** — op maat in beuk, eik of andere houtsoorten
+- **Houten vloeren** — massief parket, planken in yellow pine, eik of beuk
+- **Kasten en dressings** — inbouwkasten, wandkasten, boekenkasten op maat
+- **Interieurafwerking** — plinten, lijstwerk, lambrisering, plafondafwerking
+
+### Materialen en vakmanschap
+
+Wij werken met kwalitatieve houtsoorten zoals eik, beuk, esdoorn en notenhout. Elk materiaal wordt geselecteerd op basis van uw wensen, het beoogde gebruik en de gewenste uitstraling. Ons atelier in Boortmeerbeek beschikt over professionele machines en gereedschappen voor uiterst nauwkeurige afwerkingen.
+
+Actief in Boortmeerbeek, Leuven, Mechelen, Antwerpen en heel Vlaams-Brabant. [Contacteer ons](/contact/) voor een vrijblijvend adviesgesprek en opmeting.

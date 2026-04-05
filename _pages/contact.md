@@ -12,4 +12,15 @@ nav_order: 6
 hero: hero-2
 ---
 
+<section>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Heeft u een bouw- of renovatieproject in gedachten? Of wilt u vrijblijvend de mogelijkheden bespreken? Neem gerust contact op — wij staan klaar om u te helpen. Een eerste gesprek en offerte zijn altijd kosteloos.</p>
+        <p>U bereikt ons telefonisch op <a href="tel:+32496156640"><strong>0496 15 66 40</strong></a>, per e-mail op <a href="mailto:info@schrijnwerkerijtobback.be"><strong>info@schrijnwerkerijtobback.be</strong></a>, of via onderstaand formulier. Wij zijn actief in Boortmeerbeek, Leuven, Mechelen, Antwerpen en heel Vlaams-Brabant.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 {% include latest_posts.liquid %}

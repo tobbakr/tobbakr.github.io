@@ -3,6 +3,7 @@ layout: single-page
 title: Veelgestelde vragen | Schrijnwerkerij Tobback
 image: assets/img/social_schrijnwerkerijtobback.png
 description: Antwoorden op veelgestelde vragen over schrijnwerk, materialen, levertijden en meer bij Schrijnwerkerij Tobback.
+date_updated: 2026-04-05
 header: Veelgestelde vragen
 subheader: Alles wat u wilt weten over ons schrijnwerk.
 permalink: /faq/
@@ -62,6 +63,14 @@ hero: hero-4
         "@type": "Answer",
         "text": "U kunt ons bereiken via telefoon op 0496 15 66 40, per e-mail op info@schrijnwerkerijtobback.be, of via het contactformulier op onze website. We zijn bereikbaar van maandag tot vrijdag van 7u tot 20u en op zaterdag van 8u tot 20u."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Wat kost een project op maat bij Schrijnwerkerij Tobback?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De prijs van een project hangt af van de omvang, het gekozen materiaal en de complexiteit van het ontwerp. Een standaard binnendeur op maat begint vanaf enkele honderden euro's, terwijl een volledig raam- of deurproject in een hogere prijsklasse valt. Wij maken altijd een gedetailleerde offerte op maat, zodat u precies weet wat u kunt verwachten. Een offerte aanvragen is geheel vrijblijvend en kosteloos."
+      }
     }
   ]
 }
@@ -94,6 +103,11 @@ hero: hero-4
         <div class="faq-item mb-4">
           <h2>Wat is het verschil tussen binnen- en buitenschrijnwerk?</h2>
           <p><strong>Binnenschrijnwerk</strong> omvat alles binnenin uw woning: binnendeuren, trappen, kasten, interieurafwerking en meer. <strong>Buitenschrijnwerk</strong> betreft elementen die blootgesteld worden aan weer en wind: buitendeuren, ramen, veranda's, poorten en gevelbekleding. Beide vereisen een andere aanpak qua materialen en afwerking. Lees meer over onze <a href="/diensten/">diensten</a>.</p>
+        </div>
+
+        <div class="faq-item mb-4">
+          <h2>Wat kost een project op maat bij Schrijnwerkerij Tobback?</h2>
+          <p>De prijs van een project hangt af van de omvang, het gekozen materiaal en de complexiteit van het ontwerp. Een standaard binnendeur op maat begint vanaf enkele honderden euro's, terwijl een volledig raam- of deurproject in een hogere prijsklasse valt. Wij maken altijd een <strong>gedetailleerde offerte op maat</strong>, zodat u precies weet wat u kunt verwachten. Een offerte aanvragen is geheel <a href="/contact/">vrijblijvend en kosteloos</a>.</p>
         </div>
 
         <div class="faq-item mb-4">

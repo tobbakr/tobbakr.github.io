@@ -11,3 +11,20 @@ hero: hero-1
 importance: 3
 category: maatwerk
 ---
+
+## Maatwerk in hout: uw idee, ons vakmanschap
+
+Maatwerk schrijnwerkerij gaat verder dan standaard deuren en ramen. Het is het realiseren van unieke houten creaties die nergens anders te vinden zijn — ontworpen en vervaardigd speciaal voor uw ruimte, uw stijl en uw behoeften. Sinds 1933 is maatwerk de kern van Schrijnwerkerij Tobback.
+
+### Wat kan op maat?
+
+- **Unieke meubels** — eettafels, dressoirs, boekenkasten, tv-meubels
+- **Inrichtingsoplossingen** — wandbekleding, nissen, zitbanken, keukeneilanden
+- **Restauratie en reproductie** — historische profielen nabootsen, antieke stukken herstellen
+- **Bijzondere projecten** — gebogen constructies, combinaties met glas of metaal
+
+### Ons proces
+
+Elk maatwerkproject begint met een persoonlijk gesprek. We luisteren naar uw wensen, nemen ter plaatse opmetingen en adviseren over de beste materialen en technieken. In ons atelier in Boortmeerbeek gaat uw project vervolgens van tekening naar realisatie.
+
+Heeft u een uniek project in gedachten? [Neem contact op](/contact/) voor een vrijblijvend gesprek. Wij zijn actief in Boortmeerbeek, Leuven, Mechelen en heel Vlaams-Brabant.

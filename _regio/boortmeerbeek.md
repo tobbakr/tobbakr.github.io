@@ -16,6 +16,7 @@ hero: hero-2
     <div class="row">
       <div class="col-md-8">
         <p>Als schrijnwerkerij gevestigd in het hart van Boortmeerbeek zijn wij uw buurtambachtsman. Sinds 1933 werken we vanuit ons atelier aan de Bredepleinstraat voor gezinnen en bedrijven in Boortmeerbeek en omstreken. Van maatwerk keukens en binnendeuren tot buitenramen en veranda's — wij kennen de lokale bouwstijlen en staan altijd dichtbij voor snelle service.</p>
+        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Boortmeerbeek</a>
       </div>
     </div>
   </div>
