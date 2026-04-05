@@ -5,11 +5,17 @@
   flex-direction: column;
   border-radius: 8px;
   overflow: hidden;
+  border-bottom: 3px solid $green-color;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  &:hover .card-title::after {
+    content: " \2192";
+    color: $green-color;
   }
 
   .card-body {
@@ -21,8 +27,9 @@
     font-family: "Judson", serif;
     font-size: 1.15em;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     line-height: 1.3;
+    transition: color 0.2s ease;
   }
 }
 
@@ -84,6 +91,13 @@
   text-transform: capitalize;
 }
 
+.werk-card-sub {
+  font-size: 0.8em;
+  color: #777;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
 .werk-card-desc {
   font-size: 0.9em;
   color: #555;
@@ -97,11 +111,19 @@
 .werk-card-meta {
   font-size: 0.8em;
   color: #888;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 
   i {
     color: $green-color;
     margin-right: 4px;
   }
+}
+
+.werk-card-date i {
+  color: $green-color;
+  margin-right: 4px;
 }
 
 html * {
