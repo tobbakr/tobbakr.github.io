@@ -78,17 +78,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
       {% assign werk_items = site.werk | sort: 'date' | reverse %}
       {% for werk in werk_items limit: 3 %}
         <div class="col-md-4 mb-3">
-          <div class="card rounded-lg shadow-sm">
-            <a href="{{ werk.url | relative_url }}"
-              ><img class="card-img-top" src="{{ site.url }}/{{ werk.img_thumb }}" alt="{{ werk.title }}" loading="lazy" width="400" height="300"
-            ></a>
-            <div class="card-body">
-              <a href="{{ werk.url | relative_url }}">
-                <h3 class="card-title">{{ werk.header }}</h3>
-              </a>
-              <p class="card-text">{{ werk.description }}</p>
-            </div>
-          </div>
+          {% include werk-card.liquid werk=werk %}
         </div>
       {% endfor %}
     </div>

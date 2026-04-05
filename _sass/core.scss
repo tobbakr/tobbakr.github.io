@@ -1,18 +1,106 @@
-.card.rounded-lg {
+// Werk cards
+.werk-card {
   height: 100%;
   display: flex;
   flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
   .card-body {
     flex: 1;
+    padding: 1.2rem;
+  }
+
+  .card-title {
+    font-family: "Judson", serif;
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
   }
 }
 
-.card.hoverable {
-  transition: box-shadow 0.25s ease-in-out;
-  &:hover {
-    box-shadow:
-      0 8px 17px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.werk-card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    transition: transform 0.4s ease;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    height: auto;
+  }
+
+  &:hover img {
+    transform: scale(1.05);
+  }
+}
+
+.werk-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.werk-card-overlay-text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95em;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.werk-card-img-wrapper:hover .werk-card-overlay {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.werk-card-img-wrapper:hover .werk-card-overlay-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.werk-card-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: $green-color;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+
+.werk-card-desc {
+  font-size: 0.9em;
+  color: #555;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.werk-card-meta {
+  font-size: 0.8em;
+  color: #888;
+
+  i {
+    color: $green-color;
+    margin-right: 4px;
   }
 }
 

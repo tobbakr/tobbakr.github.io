@@ -34,14 +34,7 @@ hero: hero-2
     <div class="row" id="werk-grid">
       {% for werk in werk_sorted %}
         <div class="col-xs-12 col-md-6 col-lg-3 mt-5 werk-item" data-categories="{{ werk.categories | join: ' ' }}">
-          <div class="card rounded-lg shadow-sm">
-            <a href="{{werk.url}}" class="card-link"><img class="card-img-top" src="../{{werk.img_thumb}}" alt="{{werk.title}}" loading="lazy" width="400" height="300"></a>
-            <div class="card-body">
-              <a href="{{werk.url}}" class="card-link"><h3 class="card-title">{{werk.header}}</h3></a>
-              <p class="card-text">{{werk.description}}</p>
-              <div><i class="fa-solid fa-location-dot"></i><span class="werk-meta"> {{werk.location}}</span></div>
-            </div>
-          </div>
+          {% include werk-card.liquid werk=werk base_url=".." %}
         </div>
       {% endfor %}
     </div>

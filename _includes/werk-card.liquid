@@ -1,0 +1,22 @@
+<div class="card werk-card border-0 shadow-sm">
+  <div class="werk-card-img-wrapper">
+    <a href="{{ include.werk.url | relative_url }}">
+      <img class="card-img-top" src="{{ include.base_url | default: site.url }}/{{ include.werk.img_thumb }}" alt="{{ include.werk.title }}" loading="lazy" width="400" height="300">
+      <div class="werk-card-overlay">
+        <span class="werk-card-overlay-text">Bekijk project</span>
+      </div>
+    </a>
+    {% if include.werk.categories %}
+      <span class="werk-card-badge">{{ include.werk.categories | first }}</span>
+    {% endif %}
+  </div>
+  <div class="card-body">
+    <a href="{{ include.werk.url | relative_url }}" class="card-link">
+      <h3 class="card-title">{{ include.werk.header }}</h3>
+    </a>
+    <p class="card-text werk-card-desc">{{ include.werk.description }}</p>
+    <div class="werk-card-meta">
+      <span><i class="fa-solid fa-location-dot"></i> {{ include.werk.location }}</span>
+    </div>
+  </div>
+</div>
