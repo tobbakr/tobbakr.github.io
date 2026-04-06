@@ -41,7 +41,11 @@ hero: hero-1
         <h2>Traditioneel vakmanschap met hedendaagse precisie.</h2>
         <p>Bij Schrijnwerkerij Tobback, gevestigd in het hart van <strong>Boortmeerbeek</strong>, combineren we traditionele vakmanschap met hedendaagse precisie om uw droomprojecten in hout tot leven te brengen.</p>
         <p>Opgericht in 1933, heeft onze familiezaak de kunst van houtbewerking van generatie op generatie doorgegeven, een traditie die met trots wordt voortgezet door onze huidige zaakvoerder, <strong>Kris Tobback</strong>.</p>
-        <a href="{{ '/werkwijze/' | relative_url }}" class="btn btn-outline-dark btn-sm mt-3">Ontdek onze werkwijze</a>
+        <div class="mt-4 mb-3">
+          <img src="{{ '/assets/img/oprichters.webp' | relative_url }}" alt="Kris Tobback en zijn vader, oprichters van Schrijnwerkerij Tobback" class="img-fluid rounded shadow-sm" width="450" height="338" loading="lazy">
+          <p class="text-muted mt-2" style="font-size: 0.85em;"><em>Kris Tobback en zijn vader — vakmanschap van generatie op generatie.</em></p>
+        </div>
+        <a href="{{ '/werkwijze/' | relative_url }}" class="btn btn-outline-dark btn-sm mt-2">Ontdek onze werkwijze</a>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-6">
