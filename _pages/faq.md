@@ -4,8 +4,8 @@ title: Veelgestelde vragen | Schrijnwerkerij Tobback
 image: assets/img/social_schrijnwerkerijtobback.png
 description: Antwoorden op veelgestelde vragen over schrijnwerk, materialen, levertijden en meer bij Schrijnwerkerij Tobback.
 date_updated: 2026-04-05
-header: Veelgestelde vragen
-subheader: Alles wat u wilt weten over ons schrijnwerk.
+header: "Veelgestelde Vragen over Schrijnwerkerij en Maatwerk"
+subheader: "Antwoorden op uw vragen over materialen, levertijden, prijzen en meer"
 permalink: /faq/
 nav_title: FAQ
 nav: false
@@ -114,6 +114,7 @@ hero: hero-4
           <h2>Hoe kan ik contact opnemen met Schrijnwerkerij Tobback?</h2>
           <p>U kunt ons bereiken via telefoon op <a href="tel:+32496156640">0496 15 66 40</a>, per e-mail op <a href="mailto:info@schrijnwerkerijtobback.be">info@schrijnwerkerijtobback.be</a>, of via het <a href="/contact/">contactformulier</a> op onze website. We zijn bereikbaar van maandag tot vrijdag van 7u tot 20u en op zaterdag van 8u tot 20u.</p>
         </div>
+        <p class="mt-4">Bekijk ook onze <a href="/werkwijze/">werkwijze</a> voor een overzicht van ons 6-stappen proces, of ontdek onze <a href="/diensten/">diensten</a> voor meer informatie over wat we aanbieden.</p>
       </div>
     </div>
 

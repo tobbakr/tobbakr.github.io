@@ -14,3 +14,5 @@ Houten vloeren en trappen geven elke woning een elegante uitstraling. Een specia
 Naast het renoveren van bestaande trappen kan een schrijnwerker ook een nieuwe houten vloer leggen die past bij de stijl van uw woning. In de regio Leuven, Mechelen en omstreken verzorgen wij regelmatig vloer- en traprenovaties. Van massieve houten vloeren tot lamelparket, een ervaren schrijnwerker zorgt voor een vakkundige plaatsing en afwerking. Houten vloeren en trappen hebben niet alleen een lange levensduur, maar zijn ook makkelijk te onderhouden.
 
 Heeft uw woning een nieuwe trap of vloer nodig? Neem vandaag nog contact met ons op voor een vrijblijvend advies en ontdek de mogelijkheden voor renovatie en plaatsing door onze specialist.
+
+Bekijk onze [recente vloer- en trapprojecten](/werk/) of lees meer over onze [binnenschrijnwerkerij](/diensten/Binnenschrijnwerkerij/).

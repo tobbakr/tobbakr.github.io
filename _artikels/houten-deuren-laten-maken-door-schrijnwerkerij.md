@@ -14,3 +14,5 @@ Een houten deur op maat geeft uw woning een unieke uitstraling en straalt kwalit
 Bij het laten maken van houten deuren kunt u kiezen uit verschillende houtsoorten en afwerkingen. Als schrijnwerkerij in Vlaams-Brabant helpen wij u bij het selecteren van de juiste materialen en afwerking die passen bij de stijl van uw interieur of exterieur. Een maatwerk houten deur biedt tevens uitstekende isolatie en geluidswering.
 
 Interesse in een unieke houten deur? Neem contact met ons op om uw wensen te bespreken en vraag vrijblijvend naar de mogelijkheden en een offerte.
+
+Bekijk ook onze [realisaties met houten deuren](/werk/) of ontdek ons volledige aanbod [buitenschrijnwerkerij](/diensten/Buitenschrijnwerkerij/).

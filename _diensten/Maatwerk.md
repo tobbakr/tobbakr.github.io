@@ -28,3 +28,5 @@ Maatwerk schrijnwerkerij gaat verder dan standaard deuren en ramen. Het is het r
 Elk maatwerkproject begint met een persoonlijk gesprek. We luisteren naar uw wensen, nemen ter plaatse opmetingen en adviseren over de beste materialen en technieken. In ons atelier in Boortmeerbeek gaat uw project vervolgens van tekening naar realisatie.
 
 Heeft u een uniek project in gedachten? [Neem contact op](/contact/) voor een vrijblijvend gesprek. Wij zijn actief in Boortmeerbeek, Leuven, Mechelen en heel Vlaams-Brabant.
+
+Benieuwd naar het proces? Ontdek onze [werkwijze](/werkwijze/) of bekijk [veelgestelde vragen](/faq/) over maatwerk.

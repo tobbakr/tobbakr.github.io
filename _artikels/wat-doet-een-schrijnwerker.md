@@ -33,3 +33,5 @@ We luisteren naar jouw ideeën en werken nauw met je samen om ervoor te zorgen d
 Bij Schrijnwerkerij Tobback zijn we trots op ons vakmanschap en onze lange geschiedenis. We staan klaar om samen met jou iets bijzonders te creëren. Neem vandaag nog contact met ons op en ontdek wat we voor jou kunnen betekenen!
 
 Met dit artikel laten we zien wat het werk van een schrijnwerker inhoudt en waarom Schrijnwerkerij Tobback dé keuze is voor maatwerk houten projecten. Dit zou klanten moeten inspireren om contact met ons op te nemen voor hun volgende project!
+
+Ontdek ons volledige aanbod op onze [diensten pagina](/diensten/) of bekijk onze [realisaties](/werk/).

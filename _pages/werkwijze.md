@@ -4,8 +4,8 @@ title: Werkwijze - Hoe wij te werk gaan | Schrijnwerkerij Tobback
 image: assets/img/social_schrijnwerkerijtobback.png
 description: Ontdek hoe Schrijnwerkerij Tobback uw project van A tot Z begeleidt. Van eerste contact tot perfecte plaatsing.
 date_updated: 2026-04-05
-header: Onze werkwijze
-subheader: Van idee tot realisatie.
+header: "Werkwijze van Uw Schrijnwerker — Van Idee tot Realisatie"
+subheader: "Ontdek hoe Schrijnwerkerij Tobback uw project in 6 stappen begeleidt"
 permalink: /werkwijze/
 nav_title: Werkwijze
 nav: true

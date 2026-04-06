@@ -26,6 +26,8 @@ Binnenschrijnwerkerij omvat het ontwerpen, vervaardigen en plaatsen van alle hou
 
 ### Materialen en vakmanschap
 
-Wij werken met kwalitatieve houtsoorten zoals eik, beuk, esdoorn en notenhout. Elk materiaal wordt geselecteerd op basis van uw wensen, het beoogde gebruik en de gewenste uitstraling. Ons atelier in Boortmeerbeek beschikt over professionele machines en gereedschappen voor uiterst nauwkeurige afwerkingen.
+Wij werken met kwalitatieve houtsoorten zoals eik, beuk, esdoorn en notenhout. Elk materiaal wordt geselecteerd op basis van uw wensen, het beoogde gebruik en de gewenste uitstraling. In ons atelier in Boortmeerbeek werken we met professioneel handgereedschap en traditionele technieken voor uiterst nauwkeurige afwerkingen.
 
 Actief in Boortmeerbeek, Leuven, Mechelen, Antwerpen en heel Vlaams-Brabant. [Contacteer ons](/contact/) voor een vrijblijvend adviesgesprek en opmeting.
+
+Meer weten? Bekijk onze [veelgestelde vragen](/faq/) of ontdek onze [werkwijze](/werkwijze/) van eerste gesprek tot plaatsing.

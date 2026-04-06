@@ -5,8 +5,8 @@ permalink: /diensten/
 title: Houtbewerking. Binnen- en buitenschrijnwerkerij, maatwerk...
 description: "Ontdek onze diensten: binnenschrijnwerkerij, buitenschrijnwerkerij en maatwerk in hout. Schrijnwerkerij Tobback, vakmanschap sinds 1933 in Boortmeerbeek."
 date_updated: 2026-04-05
-header: Houtbewerking. Maatwerk.
-subheader: Maken en plaatsen van ramen, deuren, trappen...
+header: "Schrijnwerkerij Diensten — Binnen & Buitenschrijnwerk op Maat"
+subheader: "Ramen, deuren, trappen, kasten en meer — vakmanschap sinds 1933"
 nav_title: Diensten
 nav: true
 nav_order: 3

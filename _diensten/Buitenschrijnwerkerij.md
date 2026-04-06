@@ -29,3 +29,5 @@ Buitenschrijnwerkerij omvat alle houten constructies aan de buitenzijde van uw w
 Voor buitenschrijnwerk gebruiken wij uitsluitend houtsoorten die van nature bestand zijn tegen vocht en temperatuurschommelingen: afromosia, padoek, meranti en western red cedar. Deze houtsoorten vereisen minimaal onderhoud en behouden jarenlang hun uitstraling.
 
 Wij zijn actief in Boortmeerbeek, Leuven, Mechelen, Antwerpen en heel Vlaams-Brabant. [Vraag een vrijblijvende offerte aan](/contact/) voor uw buitenschrijnwerk project.
+
+Heeft u vragen over buitenschrijnwerk? Raadpleeg onze [FAQ](/faq/) of neem een kijkje bij onze [recente projecten](/werk/).

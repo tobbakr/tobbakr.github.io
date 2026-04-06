@@ -44,3 +44,5 @@ Hout voelt lekker warm aan onder uw voeten, in tegenstelling tot koudere materia
 Een houten trap biedt een perfecte mix van stijl, duurzaamheid en comfort. Of u nu een nieuwe trap wilt bouwen of uw oude trap een make-over wilt geven, hout is altijd een goede keuze.
 
 Neem contact met ons op om uw droomtrap te realiseren. Ons team van vakmensen staat klaar om u te helpen bij elk aspect van het ontwerp en de installatie.
+
+Ontdek onze [binnenschrijnwerkerij diensten](/diensten/Binnenschrijnwerkerij/) waaronder trappen op maat, of bekijk onze [projecten](/werk/).
