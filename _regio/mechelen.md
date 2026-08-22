@@ -26,14 +26,14 @@ hero: hero-2
         <h3>Onze diensten in Mechelen</h3>
         <p>Wij bieden een volledig gamma aan schrijnwerk voor particulieren en bedrijven in Mechelen en deelgemeenten:</p>
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, kasten op maat, interieurafwerking, staldeurconstructies en lambrisering</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, interieurafwerking, staldeurconstructies en lambrisering</li>
           <li><strong>Buitenschrijnwerkerij</strong> — ramen, buitendeuren, poorten, veranda's, terrasoverkappingen, gevelbekleding en dakkapellen</li>
           <li><strong>Maatwerk</strong> — unieke projecten op maat, restauratie van historisch schrijnwerk, reproductie van authentieke profielen, massieve eiken vloeren en pivotdeuren</li>
         </ul>
 
         <p>Mechelen telt heel wat beschermde gevels en monumenten, van het Schepenhuis tot de begunstigde herenhuizen langs de IJzerenleen. Ons atelier heeft ruime ervaring met restauratieprojecten waarbij we bestaande profielen nauwkeurig reproduceren in dezelfde houtsoort als het origineel. We werken daarbij samen met architecten en erfgoedconsulenten om het historische karakter van het pand te bewaren, terwijl we tegelijk moderne isolatie- en veiligheidsnormen respecteren.</p>
 
-        <p>Daarnaast zien we in Mechelen een groeiende vraag naar stoere, industrieel geinspireerde elementen: staldeurconstructies als roomdividers in lofts, massieve eiken vloeren in gerenoveerde pakhuizen en op maat gemaakte keukenkasten met een ambachtelijke uitstraling. Het zijn projecten die perfect aansluiten bij onze filosofie: eerlijk hout, doordacht ontwerp en een onberispelijke afwerking. We denken mee over elke detail, van de houtsoort en de kleur van de beits tot het type beslag en de manier waarop het licht op het oppervlak valt.</p>
+        <p>Daarnaast zien we in Mechelen een groeiende vraag naar stoere, industrieel geinspireerde elementen: staldeurconstructies als roomdividers in lofts, massieve eiken vloeren in gerenoveerde pakhuizen en op maat gemaakte lambrisering met een ambachtelijke uitstraling. Het zijn projecten die perfect aansluiten bij onze filosofie: eerlijk hout, doordacht ontwerp en een onberispelijke afwerking. We denken mee over elke detail, van de houtsoort en de kleur van de beits tot het type beslag en de manier waarop het licht op het oppervlak valt.</p>
 
         <h3>Waarom kiezen voor Schrijnwerkerij Tobback in Mechelen?</h3>
         <p>Als familiebedrijf met drie generaties ervaring bieden we wat grotere bedrijven vaak niet kunnen:</p>

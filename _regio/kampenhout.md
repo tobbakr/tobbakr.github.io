@@ -3,7 +3,7 @@ layout: single-page
 name: Kampenhout
 image: assets/img/social_schrijnwerkerijtobback.png
 title: "Schrijnwerker Kampenhout | Maatwerk Schrijnwerkerij Tobback"
-description: "Uw schrijnwerker in Kampenhout, op een steenworp van ons atelier. Ramen, deuren, poorten en interieur op maat. Schrijnwerkerij Tobback sinds 1933."
+description: "Uw schrijnwerker in Kampenhout, op een steenworp van ons atelier. Ramen, deuren, poorten en interieurafwerking op maat. Schrijnwerkerij Tobback sinds 1933."
 header: "Schrijnwerker in Kampenhout — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Kampenhout.
 hero: hero-2
@@ -18,16 +18,16 @@ hero: hero-2
 
         <p>Kampenhout is een buurgemeente van Boortmeerbeek en ligt op amper een steenworp van ons atelier aan de Bredepleinstraat. Dat betekent dat we snel ter plaatse zijn voor opmetingen, adviesgesprekken en plaatsingen. Het landelijke karakter van Kampenhout, met zijn villawijken, vrijstaande woningen en groene omgeving, vraagt om schrijnwerk dat zowel robuust als stijlvol is. Schrijnwerkerij Tobback kent de lokale bouwstijlen door en door en levert al sinds 1933 maatwerk in hout voor woningen en bedrijfspanden in de regio.</p>
 
-        <p>Of u nu droomt van nieuwe hardhouten ramen voor uw villa, een op maat gemaakte eiken voordeur, een bi-sectionaalpoort voor uw garage of een volledig interieur in massief hout — wij realiseren het van ontwerp tot en met plaatsing. In Kampenhout hebben we onder andere een bi-sectionaal poortproject mogen uitvoeren waarbij de poort naadloos werd ge&iuml;ntegreerd in de bestaande gevelstijl. Elk project begint met een gratis huisbezoek waarin we uw wensen bespreken, opmeten en een vrijblijvende offerte opstellen.</p>
+        <p>Of u nu droomt van nieuwe hardhouten ramen voor uw villa, een op maat gemaakte eiken voordeur, een bi-sectionaalpoort voor uw garage of een volledige interieurafwerking in massief hout — wij realiseren het van ontwerp tot en met plaatsing. In Kampenhout hebben we onder andere een bi-sectionaal poortproject mogen uitvoeren waarbij de poort naadloos werd ge&iuml;ntegreerd in de bestaande gevelstijl. Elk project begint met een gratis huisbezoek waarin we uw wensen bespreken, opmeten en een vrijblijvende offerte opstellen.</p>
 
         <p>Onze schrijnwerkers werken uitsluitend met traditioneel handgereedschap en bewezen technieken. Dat vakmanschap garandeert een perfecte pasvorm, een strakke afwerking en een lange levensduur. We werken met duurzame Europese en tropische houtsoorten zoals eik, meranti, afzelia en western red cedar, steeds afgestemd op het gebruik en uw budget. Bovendien behandelen we elk werkstuk met hoogwaardige afwerkingsproducten zodat uw schrijnwerk jarenlang mooi en functioneel blijft.</p>
 
         <h3>Onze diensten in Kampenhout</h3>
 
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — Maatwerk keukens, kasten, binnendeuren, trappen, wandbekleding en volledige interieurinrichting in massief hout of fineer.</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — Binnendeuren, trappen, houten vloeren, wandbekleding en lambrisering in massief hout of fineer.</li>
           <li><strong>Buitenschrijnwerkerij</strong> — Houten ramen, buitendeuren, garagepoorten, veranda's, carports, tuinhuizen en gevelbekleding, met optimale isolatie en duurzaamheid.</li>
-          <li><strong>Maatwerk</strong> — Unieke meubels, inbouwkasten, bibliotheken, toonbanken en elk ander houtproject dat u zich kunt voorstellen, volledig op maat van uw ruimte en stijl.</li>
+          <li><strong>Maatwerk</strong> — Restauratie van historisch schrijnwerk, gebogen constructies, tuinhuizen, carports en elk ander houtproject dat u zich kunt voorstellen, volledig op maat van uw ruimte en stijl.</li>
         </ul>
 
         <h3>Waarom kiezen voor Schrijnwerkerij Tobback in Kampenhout?</h3>
@@ -43,7 +43,7 @@ hero: hero-2
 
         <div class="faq-item mb-3">
           <strong>Welke projecten heeft Schrijnwerkerij Tobback in Kampenhout gerealiseerd?</strong>
-          <p>In Kampenhout hebben we onder meer bi-sectionaalpoorten, hardhouten raamkozijnen, maatwerk binnendeuren en volledige keukeninrichtingen uitgevoerd. Bekijk onze realisaties hieronder voor een overzicht van recent afgewerkte projecten in de buurt.</p>
+          <p>In Kampenhout hebben we onder meer bi-sectionaalpoorten, hardhouten raamkozijnen, maatwerk binnendeuren en volledige interieurafwerkingen uitgevoerd. Bekijk onze realisaties hieronder voor een overzicht van recent afgewerkte projecten in de buurt.</p>
         </div>
 
         <div class="faq-item mb-3">
@@ -97,7 +97,7 @@ hero: hero-2
       "name": "Welke projecten heeft Schrijnwerkerij Tobback in Kampenhout gerealiseerd?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In Kampenhout hebben we onder meer bi-sectionaalpoorten, hardhouten raamkozijnen, maatwerk binnendeuren en volledige keukeninrichtingen uitgevoerd. Bekijk onze realisaties op de pagina voor een overzicht van recent afgewerkte projecten in de buurt."
+        "text": "In Kampenhout hebben we onder meer bi-sectionaalpoorten, hardhouten raamkozijnen, maatwerk binnendeuren en volledige interieurafwerkingen uitgevoerd. Bekijk onze realisaties op de pagina voor een overzicht van recent afgewerkte projecten in de buurt."
       }
     },
     {

@@ -53,7 +53,7 @@ hero: hero-4
       "name": "Wat is het verschil tussen binnen- en buitenschrijnwerk?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Binnenschrijnwerk omvat alles binnenin uw woning: binnendeuren, trappen, kasten, interieurafwerking en meer. Buitenschrijnwerk betreft elementen die blootgesteld worden aan weer en wind: buitendeuren, ramen, veranda's, poorten en gevelbekleding. Beide vereisen een andere aanpak qua materialen en afwerking."
+        "text": "Binnenschrijnwerk omvat alles binnenin uw woning: binnendeuren, trappen, houten vloeren, lambrisering en interieurafwerking. Buitenschrijnwerk betreft elementen die blootgesteld worden aan weer en wind: buitendeuren, ramen, veranda's, poorten en gevelbekleding. Beide vereisen een andere aanpak qua materialen en afwerking."
       }
     },
     {
@@ -102,7 +102,7 @@ hero: hero-4
 
         <div class="faq-item mb-4">
           <h2>Wat is het verschil tussen binnen- en buitenschrijnwerk?</h2>
-          <p><strong>Binnenschrijnwerk</strong> omvat alles binnenin uw woning: binnendeuren, trappen, kasten, interieurafwerking en meer. <strong>Buitenschrijnwerk</strong> betreft elementen die blootgesteld worden aan weer en wind: buitendeuren, ramen, veranda's, poorten en gevelbekleding. Beide vereisen een andere aanpak qua materialen en afwerking. Lees meer over onze <a href="/diensten/">diensten</a>.</p>
+          <p><strong>Binnenschrijnwerk</strong> omvat alles binnenin uw woning: binnendeuren, trappen, houten vloeren, lambrisering en interieurafwerking. <strong>Buitenschrijnwerk</strong> betreft elementen die blootgesteld worden aan weer en wind: buitendeuren, ramen, veranda's, poorten en gevelbekleding. Beide vereisen een andere aanpak qua materialen en afwerking. Lees meer over onze <a href="/diensten/">diensten</a>.</p>
         </div>
 
         <div class="faq-item mb-4">

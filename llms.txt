@@ -15,9 +15,9 @@ permalink: /llms.txt
 
 ## Diensten
 
-- [Binnenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Binnenschrijnwerkerij.md): Binnendeuren, trappen, vloeren, kasten en interieurafwerking op maat
+- [Binnenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Binnenschrijnwerkerij.md): Binnendeuren, trappen, houten vloeren, lambrisering en interieurafwerking op maat
 - [Buitenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Buitenschrijnwerkerij.md): Ramen, buitendeuren, poorten, veranda's en terrasoverkappingen
-- [Maatwerk](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Maatwerk.md): Op maat gemaakte houten creaties voor unieke projecten
+- [Maatwerk](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Maatwerk.md): Restauratie, reproductie en bijzondere houtconstructies op maat
 
 ## Projecten
 {% assign werk_sorted = site.werk | sort: "date" | reverse %}

@@ -3,7 +3,7 @@ layout: single-page
 name: Antwerpen
 image: assets/img/social_schrijnwerkerijtobback.png
 title: "Schrijnwerker Antwerpen | Maatwerk Schrijnwerkerij Tobback"
-description: "Schrijnwerker in Antwerpen en omgeving. Schrijnwerkerij Tobback levert maatwerk ramen, deuren en interieur in hout. Sinds 1933. Vraag een offerte."
+description: "Schrijnwerker in Antwerpen en omgeving. Schrijnwerkerij Tobback levert maatwerk ramen, deuren en interieurafwerking in hout. Sinds 1933. Vraag een offerte."
 header: "Schrijnwerker in Antwerpen — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Antwerpen.
 hero: hero-2
@@ -26,14 +26,14 @@ hero: hero-2
         <h3>Onze diensten in Antwerpen</h3>
         <p>Wij bieden een volledig gamma aan schrijnwerk voor particulieren en bedrijven in Antwerpen en omstreken:</p>
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, kasten op maat, interieurafwerking, lambrisering en inbouwkasten</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, interieurafwerking, lambrisering en plafondafwerking</li>
           <li><strong>Buitenschrijnwerkerij</strong> — ramen, buitendeuren, voordeuren voor herenhuizen, poorten, veranda's, gevelbekleding en dakkapellen</li>
-          <li><strong>Maatwerk</strong> — unieke projecten op maat, restauratie van historisch schrijnwerk, reproductie van authentieke profielen en ornamenten, pivotdeuren en statement-meubels</li>
+          <li><strong>Maatwerk</strong> — unieke projecten op maat, restauratie van historisch schrijnwerk, reproductie van authentieke profielen en ornamenten, pivotdeuren en gebogen constructies</li>
         </ul>
 
         <p>Antwerpen staat bekend om zijn prachtige herenhuizen met imposante voordeuren, sierlijke bovenramen en gedetailleerd lijstwerk. De restauratie en reproductie van dit soort historisch schrijnwerk is een van onze specialiteiten. We analyseren het originele profiel, selecteren dezelfde houtsoort en frezen elk onderdeel tot op de millimeter na. Zo krijgt uw herenhuis zijn authentieke uitstraling terug zonder aan hedendaags comfort in te boeten. Of het nu gaat om een voordeur in Zurenborg die haar oorspronkelijke grandeur moet herwinnen of een sierlijk bovenlicht dat nauwkeurig gereconstrueerd moet worden — ons atelier levert het vakwerk.</p>
 
-        <p>Naast restauratie merken we in Antwerpen ook een sterke vraag naar statement-stukken: een massieve eiken voordeur die indruk maakt, een pivotdeur als middelpunt van de hal, of een volledig maatwerk dressoir dat de ruimte definieert. Het zijn projecten waar ons atelier tot zijn recht komt — elk stuk wordt met de hand afgewerkt en vertelt het verhaal van echt vakmanschap. We denken mee over design, materialen en afwerking, en zorgen ervoor dat elk element perfect past in het geheel van uw interieur.</p>
+        <p>Naast restauratie merken we in Antwerpen ook een sterke vraag naar statement-stukken: een massieve eiken voordeur die indruk maakt, een pivotdeur als middelpunt van de hal, of een volledige wandbekleding in massief hout die de ruimte definieert. Het zijn projecten waar ons atelier tot zijn recht komt — elk stuk wordt met de hand afgewerkt en vertelt het verhaal van echt vakmanschap. We denken mee over design, materialen en afwerking, en zorgen ervoor dat elk element perfect past in het geheel van uw interieur.</p>
 
         <h3>Waarom kiezen voor Schrijnwerkerij Tobback in Antwerpen?</h3>
         <p>Ondanks de iets grotere afstand bieden we dezelfde voordelen als in onze thuisregio:</p>
@@ -47,7 +47,7 @@ hero: hero-2
 
         <h3>Veelgestelde vragen over schrijnwerk in Antwerpen</h3>
         <div class="faq-item mb-3"><p><strong>Komt Schrijnwerkerij Tobback ook naar Antwerpen?</strong><br>Ja, we zijn regelmatig actief in Antwerpen en omgeving. Ons atelier in Boortmeerbeek ligt op ongeveer 30 minuten rijden van het centrum van Antwerpen. Dankzij doordachte planning bundelen we onze projecten in de regio zodat elk bezoek maximaal rendeert.</p></div>
-        <div class="faq-item mb-3"><p><strong>Welke projecten heeft Schrijnwerkerij Tobback in Antwerpen gerealiseerd?</strong><br>Bekijk hieronder onze realisaties in Antwerpen, van voordeuren voor herenhuizen in Zurenborg tot maatwerk interieurschijnwerk in moderne lofts. Elk project wordt met dezelfde toewijding en oog voor detail uitgevoerd.</p></div>
+        <div class="faq-item mb-3"><p><strong>Welke projecten heeft Schrijnwerkerij Tobback in Antwerpen gerealiseerd?</strong><br>Bekijk hieronder onze realisaties in Antwerpen, van voordeuren voor herenhuizen in Zurenborg tot maatwerk interieurafwerking in moderne lofts. Elk project wordt met dezelfde toewijding en oog voor detail uitgevoerd.</p></div>
         <div class="faq-item mb-3"><p><strong>Wat kost schrijnwerk in Antwerpen?</strong><br>De prijs hangt af van het type project, de gekozen houtsoort en de complexiteit van het ontwerp. <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — wij geven graag een eerlijk en transparant prijsvoorstel zonder verplichtingen.</p></div>
 
         <p>Ook actief in de buurgemeenten: <a href="/regio/mechelen/">Mechelen</a>, <a href="/regio/leuven/">Leuven</a> en <a href="/regio/boortmeerbeek/">Boortmeerbeek</a>.</p>

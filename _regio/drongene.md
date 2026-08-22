@@ -25,9 +25,9 @@ hero: hero-2
         <h3>Onze diensten in Drongene</h3>
 
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — Maatwerk keukens, kasten, binnendeuren, trappen, wandbekleding en volledige interieurinrichting in massief hout of fineer.</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — Binnendeuren, trappen, houten vloeren, wandbekleding en lambrisering in massief hout of fineer.</li>
           <li><strong>Buitenschrijnwerkerij</strong> — Houten ramen, buitendeuren, garagepoorten, veranda's, carports, tuinhuizen en gevelbekleding, met optimale isolatie en duurzaamheid.</li>
-          <li><strong>Maatwerk</strong> — Unieke meubels, inbouwkasten, bibliotheken, toonbanken en elk ander houtproject dat u zich kunt voorstellen, volledig op maat van uw ruimte en stijl.</li>
+          <li><strong>Maatwerk</strong> — Restauratie van historisch schrijnwerk, gebogen constructies, tuinhuizen, carports en elk ander houtproject dat u zich kunt voorstellen, volledig op maat van uw ruimte en stijl.</li>
         </ul>
 
         <h3>Waarom kiezen voor Schrijnwerkerij Tobback in Drongene?</h3>
@@ -43,7 +43,7 @@ hero: hero-2
 
         <div class="faq-item mb-3">
           <strong>Welke projecten heeft Schrijnwerkerij Tobback in Drongene gerealiseerd?</strong>
-          <p>In Drongene hebben we onder meer dubbele voordeuren, gebogen raamkozijnen, maatwerk interieurinrichtingen en buitenschrijnwerk uitgevoerd. Bekijk onze realisaties hieronder voor een overzicht van recent afgewerkte projecten in de buurt.</p>
+          <p>In Drongene hebben we onder meer dubbele voordeuren, gebogen raamkozijnen, maatwerk interieurafwerkingen en buitenschrijnwerk uitgevoerd. Bekijk onze realisaties hieronder voor een overzicht van recent afgewerkte projecten in de buurt.</p>
         </div>
 
         <div class="faq-item mb-3">
@@ -97,7 +97,7 @@ hero: hero-2
       "name": "Welke projecten heeft Schrijnwerkerij Tobback in Drongene gerealiseerd?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In Drongene hebben we onder meer dubbele voordeuren, gebogen raamkozijnen, maatwerk interieurinrichtingen en buitenschrijnwerk uitgevoerd. Bekijk onze realisaties op de pagina voor een overzicht van recent afgewerkte projecten in de buurt."
+        "text": "In Drongene hebben we onder meer dubbele voordeuren, gebogen raamkozijnen, maatwerk interieurafwerkingen en buitenschrijnwerk uitgevoerd. Bekijk onze realisaties op de pagina voor een overzicht van recent afgewerkte projecten in de buurt."
       }
     },
     {

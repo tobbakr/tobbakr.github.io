@@ -50,7 +50,7 @@ hero: hero-1
       <div class="col-md-1"></div>
       <div class="col-md-6">
         <h3>Grootste zorg en precisie</h3>
-        <p>Onze specialisatie in maatwerk omvat alles van sfeervolle ramen en robuuste deuren tot elegante trappen en unieke interieuroplossingen. Of het nu gaat om binnenschrijnwerk of buitenschrijnwerk, elk project krijgt onze volle aandacht en wordt met de grootste zorg en precisie uitgevoerd.</p>
+        <p>Onze specialisatie in maatwerk omvat alles van sfeervolle ramen en robuuste deuren tot elegante trappen en verzorgde interieurafwerking. Of het nu gaat om binnenschrijnwerk of buitenschrijnwerk, elk project krijgt onze volle aandacht en wordt met de grootste zorg en precisie uitgevoerd.</p>
 
         <h3>Specifieke wensen, maatwerk</h3>
         <p>Door de jaren heen hebben we een sterke reputatie opgebouwd in eigen regio en ver daarbuiten. Wij zijn er trots op dat wij onze klanten unieke, op maat gemaakte houten creaties kunnen aanbieden die zowel qua stijl als functionaliteit aan hun specifieke wensen voldoen.</p>

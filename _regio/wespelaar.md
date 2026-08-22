@@ -3,7 +3,7 @@ layout: single-page
 name: Wespelaar
 image: assets/img/social_schrijnwerkerijtobback.png
 title: "Schrijnwerker Wespelaar | Maatwerk Schrijnwerkerij Tobback"
-description: "Schrijnwerker in Wespelaar (Haacht) voor maatwerk ramen, deuren en interieur. Schrijnwerkerij Tobback, vlakbij uw deur. Bel 0496 15 66 40."
+description: "Schrijnwerker in Wespelaar (Haacht) voor maatwerk ramen, deuren en interieurafwerking. Schrijnwerkerij Tobback, vlakbij uw deur. Bel 0496 15 66 40."
 header: "Schrijnwerker in Wespelaar — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Wespelaar.
 hero: hero-2
@@ -25,9 +25,9 @@ hero: hero-2
         <h3>Onze diensten in Wespelaar</h3>
 
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — Maatwerk keukens, kasten, binnendeuren, trappen, wandbekleding en volledige interieurinrichting in massief hout of fineer.</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — Binnendeuren, trappen, houten vloeren, wandbekleding en lambrisering in massief hout of fineer.</li>
           <li><strong>Buitenschrijnwerkerij</strong> — Houten ramen, buitendeuren, garagepoorten, veranda's, carports, tuinhuizen en gevelbekleding, met optimale isolatie en duurzaamheid.</li>
-          <li><strong>Maatwerk</strong> — Unieke meubels, inbouwkasten, bibliotheken, toonbanken en elk ander houtproject dat u zich kunt voorstellen, volledig op maat van uw ruimte en stijl.</li>
+          <li><strong>Maatwerk</strong> — Restauratie van historisch schrijnwerk, gebogen constructies, tuinhuizen, carports en elk ander houtproject dat u zich kunt voorstellen, volledig op maat van uw ruimte en stijl.</li>
         </ul>
 
         <h3>Waarom kiezen voor Schrijnwerkerij Tobback in Wespelaar?</h3>
@@ -43,7 +43,7 @@ hero: hero-2
 
         <div class="faq-item mb-3">
           <strong>Welke projecten heeft Schrijnwerkerij Tobback in Wespelaar gerealiseerd?</strong>
-          <p>In Wespelaar hebben we onder meer dubbele voordeuren, houten raamkozijnen, maatwerk kasten en interieurinrichtingen uitgevoerd. Bekijk onze realisaties hieronder voor een overzicht van recent afgewerkte projecten in de buurt.</p>
+          <p>In Wespelaar hebben we onder meer dubbele voordeuren, houten raamkozijnen, maatwerk lambrisering en interieurafwerking uitgevoerd. Bekijk onze realisaties hieronder voor een overzicht van recent afgewerkte projecten in de buurt.</p>
         </div>
 
         <div class="faq-item mb-3">
@@ -97,7 +97,7 @@ hero: hero-2
       "name": "Welke projecten heeft Schrijnwerkerij Tobback in Wespelaar gerealiseerd?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In Wespelaar hebben we onder meer dubbele voordeuren, houten raamkozijnen, maatwerk kasten en interieurinrichtingen uitgevoerd. Bekijk onze realisaties op de pagina voor een overzicht van recent afgewerkte projecten in de buurt."
+        "text": "In Wespelaar hebben we onder meer dubbele voordeuren, houten raamkozijnen, maatwerk lambrisering en interieurafwerking uitgevoerd. Bekijk onze realisaties op de pagina voor een overzicht van recent afgewerkte projecten in de buurt."
       }
     },
     {

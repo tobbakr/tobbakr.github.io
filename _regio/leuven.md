@@ -26,14 +26,14 @@ hero: hero-2
         <h3>Onze diensten in Leuven</h3>
         <p>Wij bieden een volledig gamma aan schrijnwerk voor particulieren en bedrijven in Leuven en deelgemeenten:</p>
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, kasten op maat, interieurafwerking, lambrisering en inbouwkasten</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, interieurafwerking, lambrisering en plafondafwerking</li>
           <li><strong>Buitenschrijnwerkerij</strong> — ramen, buitendeuren, poorten, veranda's, terrasoverkappingen, gevelbekleding en dakkapellen</li>
           <li><strong>Maatwerk</strong> — unieke projecten op maat, restauratie van historisch schrijnwerk, reproductie van authentieke profielen en ornamenten, pivotdeuren en staldeurconstructies</li>
         </ul>
 
         <p>Leuven telt veel beschermde gebouwen en monumenten, van de Sint-Pieterskerk tot de begijnhofwoningen. Restauratie van historisch schrijnwerk is een van onze specialiteiten: we reproduceren bestaande profielen tot op de millimeter en gebruiken dezelfde houtsoorten als het origineel. Zo bewaren we het erfgoed van de stad terwijl we moderne isolatienormen respecteren. We werken daarbij samen met architecten en erfgoedconsulenten om het historische karakter van het pand maximaal te bewaren.</p>
 
-        <p>Daarnaast merken we een stijgende vraag naar maatwerk in nieuwbouwprojecten aan de Vaartkom en in Leuven-Noord. Strakke, minimalistische raamkaders in eik, ingebouwde kasten die maximaal gebruik maken van elke vierkante meter, of een opvallende pivotdeur als eyecatcher in de hal — het zijn projecten waar ons atelier tot zijn recht komt. We denken mee over design, materialen en afwerking, en vertalen uw wensen in een resultaat dat zowel functioneel als esthetisch overtuigt.</p>
+        <p>Daarnaast merken we een stijgende vraag naar maatwerk in nieuwbouwprojecten aan de Vaartkom en in Leuven-Noord. Strakke, minimalistische raamkaders in eik, massief houten wandbekleding die een ruimte meteen karakter geeft, of een opvallende pivotdeur als eyecatcher in de hal — het zijn projecten waar ons atelier tot zijn recht komt. We denken mee over design, materialen en afwerking, en vertalen uw wensen in een resultaat dat zowel functioneel als esthetisch overtuigt.</p>
 
         <h3>Waarom kiezen voor Schrijnwerkerij Tobback in Leuven?</h3>
         <p>Als familiebedrijf met meer dan 90 jaar ervaring combineren we ambachtelijke kennis met persoonlijke service. Wat ons onderscheidt:</p>

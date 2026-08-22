@@ -26,7 +26,7 @@ hero: hero-2
         <h3>Onze diensten in Boortmeerbeek</h3>
         <p>Wij bieden een volledig gamma aan schrijnwerk voor particulieren en bedrijven in Boortmeerbeek en omstreken:</p>
         <ul>
-          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, kasten op maat, interieurafwerking, lambrisering en inbouwkasten</li>
+          <li><strong>Binnenschrijnwerkerij</strong> — binnendeuren, trappen, houten vloeren, interieurafwerking, lambrisering en plafondafwerking</li>
           <li><strong>Buitenschrijnwerkerij</strong> — ramen, buitendeuren, poorten, veranda's, terrasoverkappingen, gevelbekleding en dakkapellen</li>
           <li><strong>Maatwerk</strong> — unieke projecten op maat, restauratie van historisch schrijnwerk, reproductie van authentieke profielen en ornamenten, staldeurconstructies en pivotdeuren</li>
         </ul>
@@ -43,11 +43,11 @@ hero: hero-2
           <li><strong>Garantie op vakmanschap</strong> — meer dan 90 jaar onafgebroken activiteit is het beste bewijs dat onze klanten tevreden zijn en ons aanbevelen</li>
         </ul>
 
-        <p>We werken met een vast team van ervaren schrijnwerkers die elk project met dezelfde toewijding benaderen. Of het nu gaat om een kleine herstelling of een volledig interieur op maat — de kwaliteit van de afwerking is altijd onberispelijk. Daarom durven we op elk project garantie te geven.</p>
+        <p>We werken met een vast team van ervaren schrijnwerkers die elk project met dezelfde toewijding benaderen. Of het nu gaat om een kleine herstelling of een volledige interieurafwerking op maat — de kwaliteit van de afwerking is altijd onberispelijk. Daarom durven we op elk project garantie te geven.</p>
 
         <h3>Veelgestelde vragen over schrijnwerk in Boortmeerbeek</h3>
         <div class="faq-item mb-3"><p><strong>Hoe snel kan Schrijnwerkerij Tobback in Boortmeerbeek starten?</strong><br>Aangezien ons atelier in Boortmeerbeek zelf ligt, kunnen we doorgaans binnen de week langskomen voor een eerste opmeting en adviesgesprek. De productietijd hangt af van de complexiteit van het project, maar gemiddeld rekent u op vier tot acht weken tussen goedkeuring van de offerte en plaatsing.</p></div>
-        <div class="faq-item mb-3"><p><strong>Welke projecten heeft Schrijnwerkerij Tobback in Boortmeerbeek gerealiseerd?</strong><br>Bekijk hieronder onze realisaties in Boortmeerbeek, van voordeuren en ramen tot volledige interieurafwerkingen. We hebben onder meer de voordeur van een pastorij in het centrum gerestaureerd, houten raamkaders op maat gemaakt voor renovatiewoningen en complete keukens en dressings in massieve eik geleverd.</p></div>
+        <div class="faq-item mb-3"><p><strong>Welke projecten heeft Schrijnwerkerij Tobback in Boortmeerbeek gerealiseerd?</strong><br>Bekijk hieronder onze realisaties in Boortmeerbeek, van voordeuren en ramen tot volledige interieurafwerkingen. We hebben onder meer de voordeur van een pastorij in het centrum gerestaureerd, houten raamkaders op maat gemaakt voor renovatiewoningen en complete lambrisering en interieurafwerking in massieve eik geleverd.</p></div>
         <div class="faq-item mb-3"><p><strong>Wat kost een schrijnwerker in Boortmeerbeek?</strong><br>De prijs hangt af van het type project, de gekozen houtsoort en de complexiteit van het ontwerp. <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — wij rekenen geen verplaatsingskosten in Boortmeerbeek en geven altijd een transparant prijsvoorstel.</p></div>
 
         <p>Ook actief in de buurgemeenten: <a href="/regio/kampenhout/">Kampenhout</a>, <a href="/regio/wespelaar/">Wespelaar</a>, <a href="/regio/wezemaal/">Wezemaal</a> en <a href="/regio/leuven/">Leuven</a>.</p>
