@@ -4,7 +4,7 @@ title: Wat doet een schrijnwerker?
 description: Ontdek het vakmanschap van Schrijnwerkerij Tobback. Specialist in maatwerk ramen, deuren, vloeren en trappen. Al 4 generaties jouw betrouwbare schrijnwerker.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: Wat doet een schrijnwerker?
-date_created: 22-08-2024
+date_created: 2024-08-22
 ---
 
 ## Wat doet een schrijnwerker? Ontdek het vakmanschap van Schrijnwerkerij Tobback

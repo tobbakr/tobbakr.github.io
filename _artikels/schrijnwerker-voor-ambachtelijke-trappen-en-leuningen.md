@@ -4,7 +4,7 @@ title: Schrijnwerker voor ambachtelijke trappen en leuningen
 description: Kies voor een unieke trap met ambachtelijke trappen en leuningen op maat. Vakmanschap en stijl verenigd door een ervaren schrijnwerker.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: Schrijnwerker voor ambachtelijke trappen en leuningen
-date_created: 29-10-2024
+date_created: 2024-10-29
 ---
 
 ## Schrijnwerker voor ambachtelijke trappen en leuningen

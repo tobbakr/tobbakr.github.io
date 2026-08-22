@@ -4,7 +4,7 @@ title: Waarom kiezen voor maatwerk? Ontdek de voordelen van een uniek interieur.
 description: Kies voor maatwerk en geniet van een perfect passend, uniek en functioneel interieur. Lees ons artikel en ontdek de voordelen van op maat gemaakte trappen, deuren en ramen. Neem vandaag nog contact op!
 image: assets/img/social_schrijnwerkerijtobback.png
 header: Waarom kiezen voor maatwerk? Ontdek de voordelen van een uniek interieur.
-date_created: 13-06-2024
+date_created: 2024-06-13
 ---
 
 ## Waarom kiezen voor maatwerk? De voordelen van een uniek interieur

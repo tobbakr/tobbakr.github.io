@@ -8,7 +8,7 @@ subheader: Ontdek duurzame voordeuren met bovenraam voor optimale lichtinval en 
 image: assets/img/project_7_voordeur.webp
 img: assets/img/project_7_voordeur.webp
 img_thumb: assets/img/project_7_voordeur_thumb.webp
-date: 12-06-2020
+date: 2020-06-12
 location: Boortmeerbeek
 categories:
   - buitenschrijnwerkerij

@@ -8,7 +8,7 @@ subheader: Luxe Wandbekleding voor Binnen & Buiten | Duurzaam & Stijlvol
 image: assets/img/project_10_houten_muurwand_afromosia.webp
 img: assets/img/project_10_houten_muurwand_afromosia.webp
 img_thumb: assets/img/project_10_houten_muurwand_afromosia_thumb.webp
-date: 02-10-2024
+date: 2024-10-02
 location: Huldenberg
 categories:
   - buitenschrijnwerkerij

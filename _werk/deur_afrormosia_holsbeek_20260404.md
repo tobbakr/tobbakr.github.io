@@ -8,7 +8,7 @@ subheader: Op maat gemaakt schrijnwerk
 image: assets/img/project_15_deur_holsbeek.webp
 img: assets/img/project_15_deur_holsbeek.webp
 img_thumb: assets/img/project_15_deur_holsbeek_thumb.webp
-date: 04-04-2026
+date: 2026-04-04
 location: Holsbeek
 categories:
   - buitenschrijnwerkerij

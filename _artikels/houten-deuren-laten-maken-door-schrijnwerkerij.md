@@ -4,7 +4,7 @@ title: Houten deuren laten maken door schrijnwerker
 description: Houten deuren op maat laten maken door een ervaren schrijnwerkerij. Kies voor stijl, kwaliteit en vakmanschap passend bij uw woning.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: Houten deuren laten maken
-date_created: 29-10-2024
+date_created: 2024-10-29
 ---
 
 ## Houten deuren laten maken door schrijnwerker

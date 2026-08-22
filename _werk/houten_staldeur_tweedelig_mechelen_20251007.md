@@ -8,7 +8,7 @@ subheader: Tweedelig maatwerk in padoek voor een paardenstal in Mechelen
 image: assets/img/project_14_staldeur.webp
 img: assets/img/project_14_staldeur.webp
 img_thumb: assets/img/project_14_staldeur_thumb.webp
-date: 07-10-2025
+date: 2025-10-07
 location: Mechelen
 categories:
   - buitenschrijnwerkerij

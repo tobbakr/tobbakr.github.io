@@ -8,7 +8,7 @@ subheader: Elegante beukenhouten trap met unieke, handgesmede smeedijzeren leuni
 image: assets/img/project_1_trap.webp
 img: assets/img/project_1_trap.webp
 img_thumb: assets/img/project_1_trap_thumb.webp
-date: 22-02-2022
+date: 2022-02-22
 location: Melsbroek
 categories:
   - binnenschrijnwerkerij

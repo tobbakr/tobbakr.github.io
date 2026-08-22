@@ -8,7 +8,7 @@ subheader: Strakke, moderne bi-sectionale meranti poort
 image: assets/img/project_6_bi_sectionale_poort.webp
 img: assets/img/project_6_bi_sectionale_poort.webp
 img_thumb: assets/img/project_6_bi_sectionale_poort_thumb.webp
-date: 28-10-2022
+date: 2022-10-28
 location: Kampenhout
 categories:
   - buitenschrijnwerkerij

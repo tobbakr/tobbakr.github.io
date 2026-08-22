@@ -8,7 +8,7 @@ subheader: Onze replica voor een historisch pand in Leuven
 image: assets/img/project_11_deur_historisch_pand.webp
 img: assets/img/project_11_deur_historisch_pand.webp
 img_thumb: assets/img/project_11_deur_historisch_pand_thumb.webp
-date: 09-01-2025
+date: 2025-01-09
 location: Leuven
 categories:
   - binnenschrijnwerkerij

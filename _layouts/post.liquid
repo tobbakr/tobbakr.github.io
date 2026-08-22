@@ -10,7 +10,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
       "@type": "BlogPosting",
       "headline": "{{ page.title | escape }}",
       "description": "{{ page.description | escape }}",
-      "datePublished": "{{ page.date_created }}",
+      "datePublished": "{{ page.date_created | date: '%Y-%m-%d' }}",
       "author": {
         "@type": "Person",
         "name": "Kris Tobback",

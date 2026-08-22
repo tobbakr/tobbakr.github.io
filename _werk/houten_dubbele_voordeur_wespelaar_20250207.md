@@ -8,7 +8,7 @@ subheader: Stijlvolle en duurzame entree met een dubbele houten voordeur in afro
 image: assets/img/project_12_dubbele_deur.webp
 img: assets/img/project_12_dubbele_deur.webp
 img_thumb: assets/img/project_12_dubbele_deur_thumb.webp
-date: 07-02-2025
+date: 2025-02-07
 location: Wespelaar
 categories:
   - buitenschrijnwerkerij

@@ -8,7 +8,7 @@ subheader: Authentieke, op maat gemaakte houten voordeur
 image: assets/img/project_3_deur.webp
 img: assets/img/project_3_deur.webp
 img_thumb: assets/img/project_3_deur_thumb.webp
-date: 10-11-2023
+date: 2023-11-10
 location: Antwerpen
 categories:
   - buitenschrijnwerkerij

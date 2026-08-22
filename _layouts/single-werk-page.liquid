@@ -10,7 +10,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
     "name": "{{ page.header | escape }}",
     "description": "{{ page.description | escape }}",
     "image": "{{ site.url }}/{{ page.img }}",
-    "dateCreated": "{{ page.date }}",
+    "dateCreated": "{{ page.date | date: '%Y-%m-%d' }}",
     "creator": {
       "@type": "Organization",
       "name": "Schrijnwerkerij Tobback",

@@ -4,7 +4,7 @@ title: 10 Redenen om Houten Ramen en Deuren te Kiezen - Duurzaam & Stijlvol
 description: Ontdek waarom houten ramen en deuren de beste keuze zijn voor jouw huis. Van natuurlijke esthetiek tot uitstekende isolatie en duurzaamheid, hier zijn 10 overtuigende redenen.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: 10 redenen om te kiezen voor houten ramen en deuren
-date_created: 11-06-2024
+date_created: 2024-06-11
 ---
 
 ## 10 Redenen om Houten Ramen en Deuren te Kiezen - Duurzaam & Stijlvol

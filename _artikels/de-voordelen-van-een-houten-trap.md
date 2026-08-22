@@ -4,7 +4,7 @@ title: De voordelen van een houten trap.
 description: Ontdek de voordelen van een houten trap! Duurzaam, stijlvol en milieuvriendelijk. Lees waarom een houten trap de perfecte keuze is voor uw huis. Neem contact op voor advies en installatie.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: De voordelen van een houten trap.
-date_created: 17-07-2024
+date_created: 2024-07-17
 ---
 
 ## De voordelen van een houten trap.

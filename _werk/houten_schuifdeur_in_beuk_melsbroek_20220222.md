@@ -8,7 +8,7 @@ subheader: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem
 image: assets/img/project_2_deur.webp
 img: assets/img/project_2_deur.webp
 img_thumb: assets/img/project_2_deur_thumb.webp
-date: 22-02-2022
+date: 2022-02-22
 location: Melsbroek
 categories:
   - buitenschrijnwerkerij

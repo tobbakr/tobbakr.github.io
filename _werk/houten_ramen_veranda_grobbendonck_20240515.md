@@ -8,7 +8,7 @@ subheader: Verhoog de uitstraling en energie-efficiëntie van uw Veranda met op 
 image: assets/img/project_8_ramen.webp
 img: assets/img/project_8_ramen.webp
 img_thumb: assets/img/project_8_ramen_thumb.webp
-date: 15-05-2024
+date: 2024-05-15
 location: Grobbendonck
 categories:
   - buitenschrijnwerkerij

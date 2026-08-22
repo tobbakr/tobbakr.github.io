@@ -8,7 +8,7 @@ subheader: Authentieke Yellow Pine in een gerenoveerde woning in Mechelen
 image: assets/img/project_13_houten_vloer.webp
 img: assets/img/project_13_houten_vloer.webp
 img_thumb: assets/img/project_13_houten_vloer_thumb.webp
-date: 07-10-2025
+date: 2025-10-07
 location: Mechelen
 categories:
   - binnenschrijnwerkerij
