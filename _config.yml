@@ -191,6 +191,16 @@ exclude:
   - .DS_Store
   - Thumbs.db
   - "*.log"
+  - node_modules
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - CONTRIBUTING.md
+  - .all-contributorsrc
+  - .pre-commit-config.yaml
+  - .prettierrc
+  - .prettierignore
+  - .git-blame-ignore-revs
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
