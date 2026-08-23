@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Kampenhout
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Kampenhout | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Kampenhout"
 description: "Uw schrijnwerker in Kampenhout, op een steenworp van ons atelier. Ramen, deuren, poorten en interieurafwerking op maat. Schrijnwerkerij Tobback sinds 1933."
 header: "Schrijnwerker in Kampenhout — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Kampenhout.

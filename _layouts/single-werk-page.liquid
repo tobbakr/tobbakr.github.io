@@ -81,7 +81,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
       </div>
     </div>
     <div class="row">
-      {% assign artikels = site.artikels | sort: 'date_created' | reverse %}
+      {% assign artikels = site.artikels | sort: 'date' | reverse %}
       {% for artikel in artikels limit: 3 %}
         <div class="col-md-4 mb-3">
           <h3>

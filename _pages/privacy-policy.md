@@ -2,7 +2,7 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /privacy/
-title: Privacy Policy | Schrijnwerkerij Tobback
+title: "Privacybeleid"
 description: Privacybeleid van Schrijnwerkerij Tobback. Hoe wij omgaan met uw persoonsgegevens conform de Belgische privacywetgeving.
 header: Privacy Policy
 subheader: Privacybeleid van Schrijnwerkerij Tobback

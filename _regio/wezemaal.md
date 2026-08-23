@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Wezemaal
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Wezemaal | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Wezemaal"
 description: "Schrijnwerker in Wezemaal voor houten ramen, deuren, tuinhuizen en maatwerk. Schrijnwerkerij Tobback, vakmanschap sinds 1933 in uw buurt."
 header: "Schrijnwerker in Wezemaal — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Wezemaal.

@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Wespelaar
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Wespelaar | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Wespelaar"
 description: "Schrijnwerker in Wespelaar (Haacht) voor maatwerk ramen, deuren en interieurafwerking. Schrijnwerkerij Tobback, vlakbij uw deur. Bel 0496 15 66 40."
 header: "Schrijnwerker in Wespelaar — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Wespelaar.

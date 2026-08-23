@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Drongene
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Drongene | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Drongene"
 description: "Op zoek naar een schrijnwerker in Drongene? Schrijnwerkerij Tobback maakt ramen, deuren en maatwerk op maat. Vakmanschap sinds 1933."
 header: "Schrijnwerker in Drongene — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Drongene.

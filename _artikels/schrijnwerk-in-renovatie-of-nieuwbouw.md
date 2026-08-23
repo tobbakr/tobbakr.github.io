@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Schrijnwerk in renovatie of nieuwbouw - Vakmanschap dat uw woning tot leven brengt
+title: "Schrijnwerk in renovatie of nieuwbouw"
 description: Ontdek hoe hoogwaardig schrijnwerk in renovatie of nieuwbouw uw woning kan transformeren. Van maatwerk deuren en ramen tot stijlvolle houten trappen en vloeren.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: Schrijnwerk in renovatie of nieuwbouw - Vakmanschap dat uw woning tot leven brengt
-date_created: 2024-09-05
+date: 2024-09-05
 ---
 
 ## Schrijnwerk in renovatie of nieuwbouw: Vakmanschap dat uw woning tot leven brengt

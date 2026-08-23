@@ -1,6 +1,6 @@
 ---
 layout: single-page
-title: Veelgestelde vragen | Schrijnwerkerij Tobback
+title: "Veelgestelde vragen"
 image: assets/img/social_schrijnwerkerijtobback.png
 description: Antwoorden op veelgestelde vragen over schrijnwerk, materialen, levertijden en meer bij Schrijnwerkerij Tobback.
 date_updated: 2026-04-05

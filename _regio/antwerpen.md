@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Antwerpen
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Antwerpen | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Antwerpen"
 description: "Schrijnwerker in Antwerpen en omgeving. Schrijnwerkerij Tobback levert maatwerk ramen, deuren en interieurafwerking in hout. Sinds 1933. Vraag een offerte."
 header: "Schrijnwerker in Antwerpen — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Antwerpen.

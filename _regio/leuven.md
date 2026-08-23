@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Leuven
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Leuven | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Leuven"
 description: "Op zoek naar een schrijnwerker in Leuven? Schrijnwerkerij Tobback maakt ramen, deuren en maatwerk in hout. Vakmanschap sinds 1933. Bel 0496 15 66 40."
 header: "Schrijnwerker in Leuven — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Leuven.

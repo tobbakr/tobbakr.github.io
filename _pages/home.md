@@ -1,6 +1,6 @@
 ---
 layout: single-page
-title: Schrijnwerker in de buurt van Boortmeerbeek, Leuven en Mechelen
+title: "Schrijnwerker Boortmeerbeek, Leuven en Mechelen"
 image: assets/img/social_schrijnwerkerijtobback.png
 description: Boortmeerbeek Schrijnwerkerij Tobback. Houtbewerker. Uw vakman. Regio Boortmeerbeek, Mechelen, Leuven en Aarschot.
 header: Schrijnwerkerij Tobback
