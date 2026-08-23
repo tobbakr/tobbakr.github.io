@@ -9,36 +9,45 @@ permalink: /llms.txt
 - Adres: Bredepleinstraat 59, 3190 Boortmeerbeek, België
 - Telefoon: +32 496 15 66 40
 - E-mail: info@schrijnwerkerijtobback.be
-- Website: https://schrijnwerkerijtobback.be
+- Website: {{ site.url }}
+- BTW: BE 0744.429.468
 - Opgericht: 1933
 - Openingsuren: Ma-Vr 7:00-20:00, Za 8:00-20:00
 
 ## Diensten
+{% assign diensten_sorted = site.diensten | sort: "importance" %}
+{% for dienst in diensten_sorted %}
+- [{{ dienst.header }}]({{ dienst.url | absolute_url }}): {{ dienst.description }}
+{% endfor %}
 
-- [Binnenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Binnenschrijnwerkerij.md): Binnendeuren, trappen, houten vloeren, lambrisering en interieurafwerking op maat
-- [Buitenschrijnwerkerij](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Buitenschrijnwerkerij.md): Ramen, buitendeuren, poorten, veranda's en terrasoverkappingen
-- [Maatwerk](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_diensten/Maatwerk.md): Restauratie, reproductie en bijzondere houtconstructies op maat
+## Werkregio
+{% assign regios = site.regio | sort: "name" %}
+- [Overzicht werkregio]({{ '/regio/' | absolute_url }}): Alle gemeenten waar Schrijnwerkerij Tobback actief is
+{% for regio in regios %}
+- [Schrijnwerker {{ regio.name }}]({{ regio.url | absolute_url }}): {{ regio.description }}
+{% endfor %}
 
 ## Projecten
 {% assign werk_sorted = site.werk | sort: "date" | reverse %}
 {% for werk in werk_sorted %}
-- [{{ werk.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/{{ werk.path }}): {{ werk.description }}
+- [{{ werk.header }}]({{ werk.url | absolute_url }}): {{ werk.description }} (Locatie: {{ werk.location }}, {{ werk.date | date: "%Y-%m-%d" }})
 {% endfor %}
 
 ## Artikels
-{% assign artikels_sorted = site.artikels | sort: "date_created" | reverse %}
+{% assign artikels_sorted = site.artikels | sort: "date" | reverse %}
 {% for artikel in artikels_sorted %}
-- [{{ artikel.header }}](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/{{ artikel.path }}): {{ artikel.description }}
+- [{{ artikel.header }}]({{ artikel.url | absolute_url }}): {{ artikel.description }}
 {% endfor %}
 
 ## Paginas
 
-- [Home](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/home.md): Startpagina met overzicht van diensten, recente projecten en bedrijfsinformatie
-- [Werkwijze](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/werkwijze.md): Ons 6-stappen proces van kennismaking tot oplevering
-- [FAQ](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/faq.md): Veelgestelde vragen over materialen, levertijden, regio en meer
-- [Contact](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/contact.md): Contactformulier en bedrijfsgegevens
+- [Home]({{ '/' | absolute_url }}): Startpagina met overzicht van diensten, recente projecten en bedrijfsinformatie
+- [Realisaties]({{ '/werk/' | absolute_url }}): Alle uitgevoerde projecten, filterbaar per categorie
+- [Werkwijze]({{ '/werkwijze/' | absolute_url }}): Ons 6-stappen proces van kennismaking tot oplevering
+- [FAQ]({{ '/faq/' | absolute_url }}): Veelgestelde vragen over materialen, levertijden, regio en meer
+- [Contact]({{ '/contact/' | absolute_url }}): Contactformulier en bedrijfsgegevens
 
 ## Optional
 
-- [Privacy Policy](https://raw.githubusercontent.com/tobbakr/tobbakr.github.io/master/_pages/privacy-policy.md): Privacybeleid
-- [Volledige inhoud](https://schrijnwerkerijtobback.be/llms-full.txt): Alle content van de website in één bestand
+- [Privacybeleid]({{ '/privacy/' | absolute_url }}): Privacybeleid
+- [Volledige inhoud]({{ '/llms-full.txt' | absolute_url }}): Alle content van de website in één bestand

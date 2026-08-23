@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Mechelen
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Mechelen | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Mechelen"
 description: "Schrijnwerker in Mechelen voor ramen, deuren en maatwerk schrijnwerk. Schrijnwerkerij Tobback, vakmanschap sinds 1933. Vrijblijvende offerte."
 header: "Schrijnwerker in Mechelen — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Mechelen.

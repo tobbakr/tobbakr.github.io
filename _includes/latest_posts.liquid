@@ -1,4 +1,4 @@
-{% assign artikels_sorted = site.artikels | where_exp: 'item', 'item.url != page.url' | sort: 'date_created' | reverse %}
+{% assign artikels_sorted = site.artikels | where_exp: 'item', 'item.url != page.url' | sort: 'date' | reverse %}
 {% assign limited = include.limit_items | default: 3 %}
 {% assign title = include.title | join: 'Tips &amp; advies' %}
 

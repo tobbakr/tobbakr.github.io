@@ -14,6 +14,7 @@ date: 2024-10-02
 location: Huldenberg
 categories:
   - buitenschrijnwerkerij
+  - binnenschrijnwerkerij
   - maatwerk
 ---
 

@@ -2,17 +2,17 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /artikels/
-title: Inspiratie en tips van uw schrijnwerker - Artikelen & Advies
+title: "Tips en advies over schrijnwerk"
 description: "Lees onze uitgebreide artikelen en krijg advies van uw schrijnwerker. Ontdek tips over houten ramen, deuren, trappen en meer voor uw project."
 header: Inspiratie en tips van uw schrijnwerker
 subheader: Ontdek tips over houten ramen, deuren, trappen en meer
 nav_title: Artikels
 nav: true
-nav_order: 5
+nav_order: 6
 hero: hero-1
 ---
 
-{% assign artikels_sorted = site.artikels | sort: "date_created" | reverse %}
+{% assign artikels_sorted = site.artikels | sort: "date" | reverse %}
 
 <section>
   <div class="container pt-5 pb-5">

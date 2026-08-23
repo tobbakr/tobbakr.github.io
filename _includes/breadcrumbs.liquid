@@ -6,7 +6,13 @@
         {% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
         {% for crumb in crumbs offset: 1 %}
           {% if forloop.last %}
-            <li class="breadcrumb-item active" aria-current="page">{{ page.title | default: crumb | capitalize }}</li>
+            {%- comment -%}
+              Niet "page.title | capitalize": Liquid maakt daarbij de rest van de
+              string kleine letters, wat titels als "... in Mechelen" verminkt.
+            {%- endcomment -%}
+            <li class="breadcrumb-item active" aria-current="page">
+              {% if page.title %}{{ page.title }}{% else %}{{ crumb | capitalize }}{% endif %}
+            </li>
           {% else %}
             {% assign crumb_url = '' %}
             {% assign crumb_limit = forloop.index %}
@@ -14,7 +20,7 @@
               {% assign crumb_url = crumb_url | append: '/' | append: c %}
             {% endfor %}
             <li class="breadcrumb-item">
-              <a href="{{ crumb_url | append: '/' | relative_url }}">{{ crumb | capitalize }}</a>
+              <a href="{{ crumb_url | append: '/' | relative_url }}">{{ site.data.sections[crumb].name | default: crumb | capitalize }}</a>
             </li>
           {% endif %}
         {% endfor %}

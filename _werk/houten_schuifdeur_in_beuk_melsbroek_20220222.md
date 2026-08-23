@@ -13,7 +13,7 @@ img_thumb: assets/img/project_2_deur_thumb.webp
 date: 2022-02-22
 location: Melsbroek
 categories:
-  - buitenschrijnwerkerij
+  - binnenschrijnwerkerij
   - maatwerk
 ---
 

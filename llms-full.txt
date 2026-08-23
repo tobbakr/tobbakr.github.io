@@ -68,7 +68,7 @@ Ons 6-stappen proces:
 {% endfor %}
 
 ## Artikels (tips & advies)
-{% assign artikels_sorted = site.artikels | sort: "date_created" | reverse %}
+{% assign artikels_sorted = site.artikels | sort: "date" | reverse %}
 {% for artikel in artikels_sorted %}
 ### {{ artikel.header }}
 

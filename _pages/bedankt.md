@@ -2,7 +2,7 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /bedankt/
-title: "Bedankt voor uw aanvraag | Schrijnwerkerij Tobback"
+title: "Bedankt voor uw aanvraag"
 description: "Uw aanvraag is goed aangekomen bij Schrijnwerkerij Tobback. Wij nemen binnen 24 uur contact met u op."
 header: "Bedankt voor uw aanvraag"
 subheader: "Uw bericht is goed aangekomen. Wij nemen binnen 24 uur contact met u op."

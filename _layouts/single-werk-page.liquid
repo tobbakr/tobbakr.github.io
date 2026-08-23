@@ -22,8 +22,6 @@ image: assets/img/social_schrijnwerkerijtobback.png
   }
 </script>
 
-{% include breadcrumbs.liquid %}
-
 <section class="werk-detail">
   <div class="container mt-4">
     <div class="row align-items-start">
@@ -41,9 +39,30 @@ image: assets/img/social_schrijnwerkerijtobback.png
           <p class="werk-detail-sub">{{ page.subheader }}</p>
         {% endif %}
         <div class="werk-detail-meta">
-          <span><i class="fa-solid fa-location-dot"></i> {{ page.location }}</span>
+          {%- comment -%}
+            Link naar de regiopagina als die bestaat. Voorheen liep de relatie
+            maar één kant op: regio's haalden projecten binnen via location,
+            maar geen enkel project linkte terug.
+          {%- endcomment -%}
+          {% assign regio_match = site.regio | where: 'name', page.location | first %}
+          <span>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            {% if regio_match %}
+              <a href="{{ regio_match.url | relative_url }}">{{ page.location }}</a>
+            {% else %}
+              {{ page.location }}
+            {% endif %}
+          </span>
           {% for cat in page.categories %}
-            <span><i class="fa-solid fa-tag"></i> {{ cat }}</span>
+            {% assign dienst_match = site.diensten | where_exp: 'd', 'd.category == cat' | first %}
+            <span>
+              <i class="fa-solid fa-tag" aria-hidden="true"></i>
+              {% if dienst_match %}
+                <a href="{{ dienst_match.url | relative_url }}">{{ cat }}</a>
+              {% else %}
+                {{ cat }}
+              {% endif %}
+            </span>
           {% endfor %}
         </div>
         <div class="werk-detail-intro">
@@ -81,7 +100,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
       </div>
     </div>
     <div class="row">
-      {% assign artikels = site.artikels | sort: 'date_created' | reverse %}
+      {% assign artikels = site.artikels | sort: 'date' | reverse %}
       {% for artikel in artikels limit: 3 %}
         <div class="col-md-4 mb-3">
           <h3>

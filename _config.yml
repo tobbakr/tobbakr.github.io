@@ -15,6 +15,7 @@ lang: nl
 locale: nl_BE
 icon: /assets/img/favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 logo: /assets/img/icon.svg
+author: Kris Tobback # gebruikt door jekyll-seo-tag als author in de JSON-LD
 url: https://schrijnwerkerijtobback.be # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -29,8 +30,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -162,12 +161,38 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
+# jekyll-feed kijkt standaard naar _posts; die map bestaat niet. Zonder deze
+# instelling genereert het een feed met nul entries.
+feed:
+  collections:
+    - artikels
+
 # Sitemap settings
 defaults:
   - scope:
       path: "assets"
     values:
       sitemap: false
+  # jekyll-seo-tag kiest BlogPosting zodra een pagina een datum heeft. Alleen
+  # _artikels zijn echt artikels; regio-, dienst- en projectpagina's niet.
+  - scope:
+      path: ""
+      type: regio
+    values:
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: diensten
+    values:
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: werk
+    values:
+      seo:
+        type: WebPage
 
 sass:
   style: compressed

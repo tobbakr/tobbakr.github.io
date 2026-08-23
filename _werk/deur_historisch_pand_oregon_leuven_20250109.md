@@ -13,7 +13,7 @@ img_thumb: assets/img/project_11_deur_historisch_pand_thumb.webp
 date: 2025-01-09
 location: Leuven
 categories:
-  - binnenschrijnwerkerij
+  - buitenschrijnwerkerij
   - maatwerk
 ---
 

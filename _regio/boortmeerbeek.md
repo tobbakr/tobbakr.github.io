@@ -1,8 +1,10 @@
 ---
 layout: single-page
+date: 2024-01-16
+last_modified_at: 2026-08-23
 name: Boortmeerbeek
 image: assets/img/social_schrijnwerkerijtobback.png
-title: "Schrijnwerker Boortmeerbeek | Maatwerk Schrijnwerkerij Tobback"
+title: "Schrijnwerker Boortmeerbeek"
 description: "Schrijnwerker in Boortmeerbeek voor ramen, deuren, trappen en maatwerk in hout. Schrijnwerkerij Tobback, uw buurtambachtsman sinds 1933. Vraag een offerte aan."
 header: "Schrijnwerker in Boortmeerbeek — Maatwerk Schrijnwerkerij"
 subheader: Ontdek ons vakmanschap van onze schrijnwerkerij met projecten in de regio Boortmeerbeek.

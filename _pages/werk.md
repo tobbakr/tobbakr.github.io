@@ -2,7 +2,7 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 permalink: /werk/
-title: Maatwerk Schrijnwerkerij - Binnen & Buiten Projecten
+title: "Onze realisaties in hout"
 description: Bekijk ons uitgebreide portfolio van maatwerk schrijnwerkerij, inclusief zowel binnen- als buitenschrijnwerk
 header: Maatwerk Schrijnwerkerij - Binnen & Buiten Projecten
 subheader: Ontdek ons vakmanschap dat elk huis verwarmt
