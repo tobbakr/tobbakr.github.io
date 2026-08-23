@@ -1,31 +1,36 @@
-<section id="section-testimonials" class="testimonials-section fade-in-up">
-  <div class="container pt-5 pb-5">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Wat onze klanten zeggen</h2>
+{% if site.data.testimonials and site.data.testimonials.size > 0 %}
+  <section id="section-testimonials" class="testimonials-section fade-in-up">
+    <div class="container pt-5 pb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Wat onze klanten zeggen</h2>
+        </div>
       </div>
-    </div>
-    <div class="row mt-3">
-      {% for testimonial in site.data.testimonials %}
-        <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
-          <div class="card h-100 border-0 shadow-sm testimonial-card">
-            <div class="card-body p-4">
-              <div class="testimonial-stars mb-2">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-quote">"{{ testimonial.quote }}"</p>
-              <div class="testimonial-author">
-                <strong>{{ testimonial.name }}</strong>
-                <div class="text-muted"><i class="fa-solid fa-location-dot"></i> {{ testimonial.location }} &mdash; {{ testimonial.project }}</div>
+      <div class="row mt-3">
+        {% for testimonial in site.data.testimonials %}
+          <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="card h-100 border-0 shadow-sm testimonial-card">
+              <div class="card-body p-4">
+                {% assign stars = testimonial.rating | default: 5 %}
+                <div class="testimonial-stars mb-2" aria-label="{{ stars }} van 5 sterren">
+                  {% for i in (1..5) %}
+                    {% if i <= stars %}
+                      <i class="fa-solid fa-star" aria-hidden="true"></i>
+                    {% else %}
+                      <i class="fa-regular fa-star" aria-hidden="true"></i>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                <p class="testimonial-quote">"{{ testimonial.quote }}"</p>
+                <div class="testimonial-author">
+                  <strong>{{ testimonial.name }}</strong>
+                  <div class="text-muted"><i class="fa-solid fa-location-dot"></i> {{ testimonial.location }} &mdash; {{ testimonial.project }}</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+{% endif %}

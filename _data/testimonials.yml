@@ -1,19 +1,17 @@
-- name: "Marc V."
-  location: "Leuven"
-  project: "Houten buitendeur"
-  quote: "Kris heeft een prachtige voordeur op maat gemaakt voor ons herenhuis. Het vakmanschap en oog voor detail zijn uitzonderlijk. Van opmeting tot plaatsing, alles verliep vlekkeloos."
-
-- name: "An D."
-  location: "Mechelen"
-  project: "Houten trap"
-  quote: "Onze nieuwe trap in massief beuk is een echte blikvanger geworden. De kwaliteit van het houtwerk is subliem. Schrijnwerkerij Tobback is een aanrader voor iedereen die maatwerk zoekt."
-
-- name: "Johan & Lies"
-  location: "Kampenhout"
-  project: "Ramen en deuren"
-  quote: "We hebben alle ramen en deuren laten vervangen door Schrijnwerkerij Tobback. Uitstekende communicatie, nette afwerking en een eerlijke prijs. Het resultaat overtreft onze verwachtingen."
-
-- name: "Peter S."
-  location: "Boortmeerbeek"
-  project: "Maatwerk interieur"
-  quote: "Voor onze volledige interieurafwerking hebben we beroep gedaan op Kris. Zijn jarenlange ervaring en passie voor het vak merk je in elk detail. Topkwaliteit!"
+# Klantenreviews voor de homepage.
+#
+# LEEG GELATEN OP 2026-08-23.
+# De vorige inhoud bestond uit vier placeholder-quotes die niet van echte
+# klanten kwamen. Het tonen van niet-echte consumentenreviews is sinds de
+# EU-Omnibusrichtlijn (Boek VI WER) een oneerlijke handelspraktijk.
+#
+# Vul dit bestand pas opnieuw met reviews die herleidbaar zijn tot een echte
+# klant — bij voorkeur overgenomen uit het Google Bedrijfsprofiel.
+# Zodra er items in staan, verschijnt de sectie vanzelf weer op de homepage.
+#
+# Formaat:
+# - name: "Voornaam A."
+#   location: "Gemeente"
+#   project: "Type project"
+#   rating: 5              # optioneel, standaard 5
+#   quote: "De letterlijke review."

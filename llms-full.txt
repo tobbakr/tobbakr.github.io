@@ -15,7 +15,7 @@ permalink: /llms-full.txt
 - **E-mail:** info@schrijnwerkerijtobback.be
 - **Website:** https://schrijnwerkerijtobback.be
 - **Opgericht:** 1933
-- **Ondernemingsnummer:** 744429468
+- **BTW-nummer:** BE 0744.429.468
 - **Openingsuren:** Ma-Vr 7:00-20:00, Za 8:00-20:00
 - **Werkgebied:** Boortmeerbeek, Kampenhout, Haacht, Leuven, Mechelen, Antwerpen, Vlaams-Brabant
 
