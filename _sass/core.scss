@@ -976,6 +976,16 @@ main {
     }
   }
 
+  // Regellengte. Lopende tekst liep tot ongeveer 91 tekens per regel; comfortabel
+  // lezen ligt rond 60 à 75. Het oog verliest anders de volgende regel.
+  // Gecentreerde tekst en kaarten blijven ongemoeid.
+  .col-md-8 > p,
+  .col-md-8 > ul,
+  .col-md-8 > ol,
+  .col-md-12 > p:not(.text-center) {
+    max-width: 60ch;
+  }
+
   // Laatste element in een kolom hoeft geen staartruimte.
   .col-md-8 > :last-child,
   .col-md-6 > :last-child,
