@@ -15,8 +15,14 @@ layout: compress
     <main id="content">
       {{ content }}
     </main>
-    <!-- Contact -->
-    {% include contact.liquid %}
+    {%- comment -%}
+      Het contactformulier stond op élke pagina. Dat verdubbelde de HTML en gaf
+      op een werkpagina acht CTA's onder elkaar. Nu alleen waar het hoort; de
+      andere pagina's sturen via de cta-banner naar /contact/.
+    {%- endcomment -%}
+    {% if page.url == '/contact/' %}
+      {% include contact.liquid %}
+    {% endif %}
 
     {% include mobile-cta.liquid %}
 

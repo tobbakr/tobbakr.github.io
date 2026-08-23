@@ -40,3 +40,5 @@ hero: hero-3
 </section>
 
 {% include latest_posts.liquid %}
+
+{% include cta-banner.liquid %}

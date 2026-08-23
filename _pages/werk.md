@@ -40,3 +40,5 @@ hero: hero-2
     </div>
   </div>
 </section>
+
+{% include cta-banner.liquid %}

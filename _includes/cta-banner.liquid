@@ -1,10 +1,14 @@
+{%- comment -%}
+  Eén primaire actie (offerte, witte knop) en één secundaire (bellen, omlijnd).
+  Eerder hadden beide dezelfde btn-outline-light, waardoor er geen hiërarchie was.
+{%- endcomment -%}
 <section class="cta-banner">
   <div class="container text-center">
-    <h2>Klaar voor uw project?</h2>
-    <p>Contacteer ons voor een vrijblijvende offerte. Wij staan klaar om uw ideeën in hout te realiseren.</p>
-    <div class="d-flex flex-column flex-md-row justify-content-center">
-      <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline-light">Vraag een offerte aan</a>
-      <a href="tel:+32496156640" class="btn btn-outline-light"><i class="fa-solid fa-phone"></i> Bel ons: 0496 15 66 40</a>
+    <h2>{{ include.titel | default: 'Klaar voor uw project?' }}</h2>
+    <p>{{ include.tekst | default: 'Vraag een vrijblijvende offerte aan. We komen gratis bij u langs voor een opmeting en advies op maat.' }}</p>
+    <div class="cta-banner-actions">
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-light btn-cta-primary">Vraag een vrijblijvende offerte</a>
+      <a href="tel:+32496156640" class="btn btn-outline-light"> <i class="fa-solid fa-phone" aria-hidden="true"></i> Of bel 0496 15 66 40 </a>
     </div>
   </div>
 </section>

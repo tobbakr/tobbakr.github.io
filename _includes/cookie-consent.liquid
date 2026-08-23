@@ -34,17 +34,21 @@
       {% endif %}
   } else if (readCookie('cookie-notice-option')!='false'){
       document.getElementById('cookie-notice').style.display = 'block';
+      /* Verbergt de mobiele actiebalk zolang de cookievraag openstaat. */
+      document.body.classList.add('has-cookie-notice');
   }
 
   document.getElementById('cookie-notice-accept').addEventListener("click",function() {
       createCookie('cookie-notice-option','true',31);
       document.getElementById('cookie-notice').style.display = 'none';
+      document.body.classList.remove('has-cookie-notice');
       location.reload();
   });
 
   document.getElementById('cookie-notice-deny').addEventListener("click",function() {
       createCookie('cookie-notice-option','false',31);
       document.getElementById('cookie-notice').style.display = 'none';
+      document.body.classList.remove('has-cookie-notice');
       location.reload();
   });
 </script>
