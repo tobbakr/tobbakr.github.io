@@ -20,8 +20,11 @@ module Jekyll
             private
 
             def directory_files_content
-                target_path = File.join(directory, '**', '*')
-                Dir[target_path].map{|f| File.read(f) unless File.directory?(f) }.join
+                Array(directory).flat_map { |dir|
+                    Dir[File.join(dir, '**', '*')].sort.map { |f|
+                        File.read(f) unless File.directory?(f)
+                    }
+                }.join
             end
 
             def file_content
@@ -42,8 +45,13 @@ module Jekyll
             CacheDigester.new(file_name: file_name, directory: nil).digest!
         end
 
+        # Let op: hasht de BRONbestanden, niet de gebouwde CSS. De map heette hier
+        # eerder 'assets/_sass' — die bestaat niet (het is '_sass/' in de root),
+        # waardoor Dir[] leeg terugkwam en de hash altijd d41d8cd9... was: de MD5
+        # van een lege string. Terugkerende bezoekers kregen daardoor na elke
+        # stijlwijziging de oude stylesheet geserveerd.
         def bust_css_cache(file_name)
-            CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
+            CacheDigester.new(file_name: file_name, directory: ['_sass', 'assets/css']).digest!
         end
     end
 end
