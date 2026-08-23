@@ -51,54 +51,20 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null and p.permalink != '/diensten/' %}
-              {% if p.dropdown %}
-                {% assign has_active_child = false %}
-                {% for child in p.children %}
-                  {% if page.nav_title == child.nav_title %}
-                    {% assign has_active_child = true %}
+              {%- comment -%}
+                Hier stond een dropdown-tak die nooit werd gerenderd: geen enkele
+                pagina zet dropdown in de frontmatter. Ze leunde bovendien op
+                Bootstrap-JS, dat sinds fase 2 niet meer geladen wordt, en zou dus
+                stil breken zodra iemand ze alsnog zou gebruiken.
+              {%- endcomment -%}
+              <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
+                <a class="nav-link" href="{{ p.url | relative_url }}">
+                  {{- p.nav_title }}
+                  {% if page.url contains p.url %}
+                    <span class="sr-only">(huidige pagina)</span>
                   {% endif %}
-                {% endfor %}
-                <li class="nav-item dropdown {% if page.nav_title == p.nav_title or has_active_child %}active{% endif %}">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {{- p.nav_title }}
-                    {% if page.nav_title == p.nav_title or has_active_child %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    {% for child in p.children %}
-                      {% if child.nav_title == 'divider' %}
-                        <div class="dropdown-divider"></div>
-                      {% else %}
-                        <a
-                          class="dropdown-item {% if page.nav_title == child.nav_title %}active{% endif %}"
-                          href="{{ child.permalink | relative_url }}"
-                        >
-                          {{- child.nav_title -}}
-                        </a>
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-                </li>
-              {% else %}
-                <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.nav_title }}
-                    {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
-                </li>
-              {% endif %}
+                </a>
+              </li>
             {% endif %}
             {% if p.nav_title == 'Werk' %}
               <li class="nav-item {% if page.url == '/diensten/' %}active{% endif %}">

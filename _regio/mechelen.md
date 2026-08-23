@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Mechelen" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p><strong>Mechelen</strong> is een stad met een rijk architecturaal erfgoed. Langs de Dijle staan statige herenhuizen, patricierswoningen en art-nouveaugevels die vragen om schrijnwerk met respect voor het verleden. Tegelijk groeit de stad met moderne woonwijken en gerenoveerde industriepanden die een hedendaagse aanpak vereisen. Schrijnwerkerij Tobback bedient Mechelen en omgeving al meer dan 90 jaar en kent de uitdagingen van beide werelden.</p>
@@ -53,7 +53,7 @@ hero: hero-2
         <div class="faq-item mb-3"><p><strong>Wat kost schrijnwerk in Mechelen?</strong><br>De prijs hangt af van het type project, de gekozen houtsoort en de complexiteit van het ontwerp. <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — wij geven graag een eerlijk en transparant prijsvoorstel zonder verplichtingen.</p></div>
 
         <p>Ook actief in de buurgemeenten: <a href="/regio/antwerpen/">Antwerpen</a>, <a href="/regio/leuven/">Leuven</a> en <a href="/regio/boortmeerbeek/">Boortmeerbeek</a>.</p>
-        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Mechelen</a>
+        <a href="/contact/" class="btn btn-green btn-sm">Contacteer ons voor uw project in Mechelen</a>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

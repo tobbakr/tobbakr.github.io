@@ -77,7 +77,7 @@ hero: hero-4
 </script>
 
 <section id="section-faq">
-  <div class="container mt-5 mb-5">
+  <div class="container">
     <div class="row">
       <div class="col-lg-8">
         <div class="faq-item mb-4">

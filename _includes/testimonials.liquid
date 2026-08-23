@@ -1,6 +1,6 @@
 {% if site.data.testimonials and site.data.testimonials.size > 0 %}
   <section id="section-testimonials" class="testimonials-section fade-in-up">
-    <div class="container pt-5 pb-5">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h2>Wat onze klanten zeggen</h2>
@@ -24,7 +24,9 @@
                 <p class="testimonial-quote">"{{ testimonial.quote }}"</p>
                 <div class="testimonial-author">
                   <strong>{{ testimonial.name }}</strong>
-                  <div class="text-muted"><i class="fa-solid fa-location-dot"></i> {{ testimonial.location }} &mdash; {{ testimonial.project }}</div>
+                  <div class="text-muted">
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ testimonial.location }} &mdash; {{ testimonial.project }}
+                  </div>
                 </div>
               </div>
             </div>

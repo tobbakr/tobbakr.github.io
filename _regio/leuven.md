@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Leuven" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p><strong>Leuven</strong> is een universiteitsstad met een bijzonder gevarieerd architecturaal landschap. Van gotische gevels rond de Grote Markt en statige herenhuizen in de Naamsestraat tot strakke nieuwbouwappartementen aan de Vaartkom — elk gebouw stelt andere eisen aan schrijnwerk. Schrijnwerkerij Tobback is al meer dan 90 jaar actief in de regio en kent de Leuvense bouwstijlen als geen ander. Ons atelier in Boortmeerbeek ligt op amper <strong>15 minuten rijden</strong> van het centrum van Leuven, waardoor we snel ter plaatse zijn voor opmeting, advies en plaatsing.</p>
@@ -53,7 +53,7 @@ hero: hero-2
         <div class="faq-item mb-3"><p><strong>Wat kost een schrijnwerker in Leuven?</strong><br>De prijs hangt af van het type project, de gekozen houtsoort en de complexiteit van het ontwerp. <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — wij geven graag een eerlijk en transparant prijsvoorstel zonder verplichtingen.</p></div>
 
         <p>Ook actief in de buurgemeenten: <a href="/regio/boortmeerbeek/">Boortmeerbeek</a>, <a href="/regio/mechelen/">Mechelen</a> en <a href="/regio/kampenhout/">Kampenhout</a>.</p>
-        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Leuven</a>
+        <a href="/contact/" class="btn btn-green btn-sm">Contacteer ons voor uw project in Leuven</a>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties in de regio {{page.name}}.</h2>

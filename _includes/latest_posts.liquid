@@ -1,23 +1,30 @@
 {% assign artikels_sorted = site.artikels | where_exp: 'item', 'item.url != page.url' | sort: 'date' | reverse %}
 {% assign limited = include.limit_items | default: 3 %}
-{% assign title = include.title | join: 'Tips &amp; advies' %}
 
-<section id="section-posts">
-  <div class="container mt-5 hero-2">
+{%- comment -%}
+  De achtergrondfoto stond eerder op de .container (max 1140px) in plaats van op
+  de sectie. Daardoor was het een ingezet blok dat op brede schermen abrupt
+  afbrak. Nu full-bleed, met een donkere laag zodat de witte tekst leesbaar
+  blijft ongeacht wat er op de foto staat.
+{%- endcomment -%}
+<section id="section-posts" class="sectie-op-foto hero-2">
+  <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6 mt-5"><h2 class="text-white">Tips &amp; advies</h2></div>
-      <div class="col-xs-12 col-md-6 mt-5">
-        {% for artikel in artikels_sorted limit: limited %}
-          <h3>
-            <a href="{{artikel.url}}" class="link-white">{{ artikel.header }}</a>
-          </h3>
-          <p class="text-white">{{ artikel.description }}</p>
-        {% endfor %}
+      <div class="col-xs-12 col-md-5">
+        <h2 class="text-white">Tips &amp; advies</h2>
+        <p class="text-white">Wat we onderweg leerden over hout, houtsoorten en het onderhoud ervan.</p>
+        <a href="{{ '/artikels/' | relative_url }}" class="btn btn-light btn-cta-primary mt-3">Alle artikels</a>
       </div>
-    </div>
-    <div class="row mt-3">
-      <div class="col-md-12 text-right mb-5">
-        <a href="{{ '/artikels/' | relative_url }}" class="btn btn-primary btn-green btn-sm">Lees verder...</a>
+      <div class="col-xs-12 col-md-1"></div>
+      <div class="col-xs-12 col-md-6">
+        {% for artikel in artikels_sorted limit: limited %}
+          <article class="artikel-teaser">
+            <h3>
+              <a href="{{ artikel.url | relative_url }}" class="link-white">{{ artikel.header }}</a>
+            </h3>
+            <p class="text-white">{{ artikel.description | strip_html | truncate: 150 }}</p>
+          </article>
+        {% endfor %}
       </div>
     </div>
   </div>

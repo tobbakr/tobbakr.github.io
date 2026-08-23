@@ -16,7 +16,7 @@ hero: hero-3
 {% assign diensten_sorted = site.diensten | sort: "importance" %}
 
 <section>
-  <div class="container pt-5 pb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2>Onze diensten</h2>
@@ -32,7 +32,7 @@ hero: hero-3
                 <h3 >{{dienst.header}}</h3>
                 <div class="dienst-sub ">{{dienst.subheader}}</div>
                 <p >{{dienst.description}}</p>
-                <a href="{{dienst.url}}" class="btn btn-outline-black btn-sm">Lees verder...</a>
+                <a href="{{dienst.url}}" class="btn btn-outline-green btn-sm">Lees verder...</a>
             </div>
         </div>
     {% endfor %}

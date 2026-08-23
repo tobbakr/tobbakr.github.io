@@ -15,7 +15,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | sort: "date" | reverse %}
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>
@@ -24,10 +24,10 @@ hero: hero-2
     <div class="row mb-3">
       <div class="col-md-12">
         <div class="werk-filters">
-          <button class="btn btn-sm btn-green werk-filter active" data-filter="all">Alles</button>
-          <button class="btn btn-sm btn-outline-secondary werk-filter" data-filter="binnenschrijnwerkerij">Binnenschrijnwerkerij</button>
-          <button class="btn btn-sm btn-outline-secondary werk-filter" data-filter="buitenschrijnwerkerij">Buitenschrijnwerkerij</button>
-          <button class="btn btn-sm btn-outline-secondary werk-filter" data-filter="maatwerk">Maatwerk</button>
+          <button class="btn btn-sm btn-green werk-filter active" aria-pressed="true" data-filter="all">Alles</button>
+          <button class="btn btn-sm btn-outline-green werk-filter" aria-pressed="false" data-filter="binnenschrijnwerkerij">Binnenschrijnwerkerij</button>
+          <button class="btn btn-sm btn-outline-green werk-filter" aria-pressed="false" data-filter="buitenschrijnwerkerij">Buitenschrijnwerkerij</button>
+          <button class="btn btn-sm btn-outline-green werk-filter" aria-pressed="false" data-filter="maatwerk">Maatwerk</button>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Boortmeerbeek" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p>Schrijnwerkerij Tobback is gevestigd in het hart van <strong>Boortmeerbeek</strong>, aan de Bredepleinstraat 59. Sinds 1933 is dit de thuisbasis van ons familiebedrijf — drie generaties ambachtslieden die het vak van vader op zoon doorgeven. Ons atelier ligt op amper enkele minuten rijden van het centrum van Boortmeerbeek, waardoor we altijd snel ter plaatse zijn voor opmeting, advies en plaatsing. Die nabijheid maakt het verschil: geen lange wachttijden, geen dure verplaatsingskosten, maar persoonlijke service van uw buurtambachtsman.</p>
@@ -53,7 +53,7 @@ hero: hero-2
         <div class="faq-item mb-3"><p><strong>Wat kost een schrijnwerker in Boortmeerbeek?</strong><br>De prijs hangt af van het type project, de gekozen houtsoort en de complexiteit van het ontwerp. <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — wij rekenen geen verplaatsingskosten in Boortmeerbeek en geven altijd een transparant prijsvoorstel.</p></div>
 
         <p>Ook actief in de buurgemeenten: <a href="/regio/kampenhout/">Kampenhout</a>, <a href="/regio/wespelaar/">Wespelaar</a>, <a href="/regio/wezemaal/">Wezemaal</a> en <a href="/regio/leuven/">Leuven</a>.</p>
-        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Boortmeerbeek</a>
+        <a href="/contact/" class="btn btn-green btn-sm">Contacteer ons voor uw project in Boortmeerbeek</a>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

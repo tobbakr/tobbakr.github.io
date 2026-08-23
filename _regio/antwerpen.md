@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Antwerpen" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p><strong>Antwerpen</strong> is een stad die bruist van architecturale contrasten. Van de art-nouveaupracht in het Zurenborg-district en de statige herenhuizen op de Cogels-Osylei tot gerenoveerde pakhuizen in het Eilandje en moderne gezinswoningen in de rand — elk pand vertelt zijn eigen verhaal en vraagt om schrijnwerk met karakter. Schrijnwerkerij Tobback is al meer dan 90 jaar actief in de regio en brengt dat ambachtelijke vakmanschap ook naar Antwerpen en omgeving.</p>
@@ -53,7 +53,7 @@ hero: hero-2
         <div class="faq-item mb-3"><p><strong>Wat kost schrijnwerk in Antwerpen?</strong><br>De prijs hangt af van het type project, de gekozen houtsoort en de complexiteit van het ontwerp. <a href="/contact/">Vraag een vrijblijvende offerte aan</a> — wij geven graag een eerlijk en transparant prijsvoorstel zonder verplichtingen.</p></div>
 
         <p>Ook actief in de buurgemeenten: <a href="/regio/mechelen/">Mechelen</a>, <a href="/regio/leuven/">Leuven</a> en <a href="/regio/boortmeerbeek/">Boortmeerbeek</a>.</p>
-        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Antwerpen</a>
+        <a href="/contact/" class="btn btn-green btn-sm">Contacteer ons voor uw project in Antwerpen</a>
       </div>
     </div>
 
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

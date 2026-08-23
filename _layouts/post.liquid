@@ -21,30 +21,30 @@ image: assets/img/social_schrijnwerkerijtobback.png
 
 {% include breadcrumbs.liquid %}
 
-<div class="container mt-3">
+<div class="container">
   <div class="row">
     <div class="col-md-7">
       <div class="artikel-meta-bar">
         {% assign words = content | number_of_words %}
         {% assign reading_time = words | divided_by: 200 %}
         {% if reading_time == 0 %}{% assign reading_time = 1 %}{% endif %}
-        <span><i class="fa-regular fa-clock"></i> {{ reading_time }} min leestijd</span>
-        <span><i class="fa-solid fa-user"></i> Kris Tobback</span>
+        <span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ reading_time }} min leestijd</span>
+        <span><i class="fa-solid fa-user" aria-hidden="true"></i> Kris Tobback</span>
       </div>
     </div>
   </div>
 </div>
 
 <article id="sc-artikel">
-  <div class="container mt-3">
+  <div class="container">
     <div class="row">
       <div class="col-md-7 mt-2">
         {{ content }}
       </div>
       <div class="col-md-1 mt-2"></div>
       <div class="col-md-4 mt-2">
-        <a href="{{ '/artikels/' | relative_url }}" class="btn btn-outline-secondary btn-sm mb-4">
-          <i class="fa-solid fa-arrow-left"></i> Alle artikels
+        <a href="{{ '/artikels/' | relative_url }}" class="btn btn-outline-green btn-sm">
+          <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Alle artikels
         </a>
         <h3>Meer lezen</h3>
         {% for artikel in artikels_sorted limit: limited %}
@@ -59,7 +59,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
 </article>
 
 <section id="section-related-werk" class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2>Recente realisaties</h2>

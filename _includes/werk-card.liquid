@@ -10,7 +10,7 @@
         height="300"
       >
       <div class="werk-card-overlay">
-        <span class="werk-card-overlay-text">Bekijk project <i class="fa-solid fa-arrow-right"></i></span>
+        <span class="werk-card-overlay-text">Bekijk project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
       </div>
     </a>
     {% if include.werk.categories %}
@@ -21,12 +21,14 @@
     <a href="{{ include.werk.url | relative_url }}" class="card-link">
       <h3 class="card-title">{{ include.werk.header }}</h3>
     </a>
-    {% if include.werk.subheader %}
-      <p class="werk-card-sub">{{ include.werk.subheader }}</p>
-    {% endif %}
-    <p class="card-text werk-card-desc">{{ include.werk.description }}</p>
+    {%- comment -%}
+      Eén regel per kaart. Eerder stonden subheader én description onder elkaar,
+      die elkaar grotendeels herhaalden; de description is bovendien de
+      meta-omschrijving en dus geschreven voor een zoekresultaat.
+    {%- endcomment -%}
+    <p class="werk-card-sub">{{ include.werk.subheader | default: include.werk.description | strip_html | truncate: 110 }}</p>
     <div class="werk-card-meta">
-      <span><i class="fa-solid fa-location-dot"></i> {{ include.werk.location }}</span>
+      <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ include.werk.location }}</span>
     </div>
   </div>
 </div>

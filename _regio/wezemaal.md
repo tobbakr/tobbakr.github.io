@@ -14,7 +14,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Wezemaal" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
 
@@ -55,7 +55,7 @@ hero: hero-2
 
         <p>We werken ook in <a href="/regio/boortmeerbeek/">Boortmeerbeek</a>, <a href="/regio/leuven/">Leuven</a> en <a href="/regio/kampenhout/">Kampenhout</a>. Waar u ook woont in de regio, Schrijnwerkerij Tobback staat voor u klaar.</p>
 
-        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Wezemaal</a>
+        <a href="/contact/" class="btn btn-green btn-sm">Contacteer ons voor uw project in Wezemaal</a>
 
       </div>
     </div>
@@ -64,7 +64,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

@@ -15,7 +15,7 @@ hero: hero-1
 {% assign diensten_sorted = site.diensten | sort: "importance" %}
 
 <section id="section-home-diensten">
-  <div class="container pt-5 pb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2 class="text-white">Sterk werk.</h2>
@@ -35,7 +35,7 @@ hero: hero-1
 </section>
 
 <section id="section-home-overons" class="fade-in-up">
-  <div class="container mt-5 mb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-5">
         <h2>Traditioneel vakmanschap met hedendaagse precisie.</h2>
@@ -45,7 +45,7 @@ hero: hero-1
           <img src="{{ '/assets/img/oprichters.webp' | relative_url }}" alt="Kris Tobback en zijn vader, oprichters van Schrijnwerkerij Tobback" class="img-fluid rounded shadow-sm" width="640" height="640" loading="lazy">
           <p class="text-muted mt-2" style="font-size: 0.85em;"><em>Kris Tobback en zijn vader — vakmanschap van generatie op generatie.</em></p>
         </div>
-        <a href="{{ '/werkwijze/' | relative_url }}" class="btn btn-outline-dark btn-sm mt-2">Ontdek onze werkwijze</a>
+        <a href="{{ '/werkwijze/' | relative_url }}" class="btn btn-outline-green btn-sm">Ontdek onze werkwijze</a>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-6">
