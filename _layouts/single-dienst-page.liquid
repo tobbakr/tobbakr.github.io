@@ -51,6 +51,21 @@ image: assets/img/social_schrijnwerkerijtobback.png
             </li>
           {% endfor %}
         </ul>
+
+        {%- comment -%}
+          Verbindt de dienstpagina's met de regiopagina's. Zonder deze links
+          hangen de regio's alleen aan de footer.
+        {%- endcomment -%}
+        <h3 class="mt-4">Waar we werken</h3>
+        <ul class="list-unstyled">
+          {% assign regios = site.regio | sort: 'name' %}
+          {% for regio in regios %}
+            <li>
+              <a href="{{ regio.url | relative_url }}">{{ page.header }} in {{ regio.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <p><a href="{{ '/regio/' | relative_url }}">Bekijk onze volledige werkregio</a></p>
       </div>
     </div>
   </div>

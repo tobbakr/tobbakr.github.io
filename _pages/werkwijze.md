@@ -9,7 +9,7 @@ subheader: "Ontdek hoe Schrijnwerkerij Tobback uw project in 6 stappen begeleidt
 permalink: /werkwijze/
 nav_title: Werkwijze
 nav: true
-nav_order: 4
+nav_order: 5
 hero: hero-3
 ---
 
