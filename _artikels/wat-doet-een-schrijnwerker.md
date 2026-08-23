@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wat doet een schrijnwerker?
-description: Ontdek het vakmanschap van Schrijnwerkerij Tobback. Specialist in maatwerk ramen, deuren, vloeren en trappen. Al 4 generaties jouw betrouwbare schrijnwerker.
+description: Ontdek het vakmanschap van Schrijnwerkerij Tobback. Specialist in maatwerk ramen, deuren, vloeren en trappen. Al drie generaties jouw betrouwbare schrijnwerker.
 image: assets/img/social_schrijnwerkerijtobback.png
 header: Wat doet een schrijnwerker?
 date: 2024-08-22
@@ -9,7 +9,7 @@ date: 2024-08-22
 
 ## Wat doet een schrijnwerker? Ontdek het vakmanschap van Schrijnwerkerij Tobback
 
-Bij Schrijnwerkerij Tobback weten we als geen ander wat het betekent om vakwerk te leveren. Al sinds 1933, toen onze overgrootvader de eerste plank zaagde, zijn we gepassioneerd bezig met hout. Nu, vier generaties later, blijft die passie in alles wat we doen doorklinken. Maar wat doet een schrijnwerker nu precies, en waarom zou je ons inschakelen voor jouw project?
+Bij Schrijnwerkerij Tobback weten we als geen ander wat het betekent om vakwerk te leveren. Al sinds 1933, toen onze grootvader de eerste plank zaagde, zijn we gepassioneerd bezig met hout. Nu, drie generaties later, blijft die passie in alles wat we doen doorklinken. Maar wat doet een schrijnwerker nu precies, en waarom zou je ons inschakelen voor jouw project?
 
 ### Schrijnwerkerij: Een eeuwenoud ambacht
 
