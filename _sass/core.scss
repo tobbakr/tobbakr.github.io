@@ -208,14 +208,29 @@
   }
 }
 
-html * {
-  color: #333;
-  font-family: "Montserrat";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+// Was één regel `html * { ... }` die élk element in de DOM raakte. Twee gevolgen:
+// links in lopende tekst kregen dezelfde kleur als gewone tekst en waren dus
+// onzichtbaar, en elke afwijkende kleur moest met !important worden afgedwongen
+// (zie de git-historie: "force white text on all CTA banner elements").
+// Nu erven eigenschappen zoals het hoort, en blijft alleen box-sizing universeel.
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+body {
+  color: var(--tekst);
+  font-family:
+    "Montserrat",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: 1em;
   line-height: 1.66667;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1;
   font-kerning: normal;

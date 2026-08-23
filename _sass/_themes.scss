@@ -10,6 +10,24 @@
   // Was $purple-color (#b509ac), de ongewijzigde al-folio-themakleur. Die kwam
   // op ~40 plekken terug, onder meer als kleur van het actieve navigatie-item —
   // paars, midden in een groen merk.
+  // --- Ontwerptokens ---------------------------------------------------
+  // Ruimte. Eén schaal in plaats van veertien losse container-varianten.
+  --ruimte-xs: 0.5rem;
+  --ruimte-s: 1rem;
+  --ruimte-m: 1.5rem;
+  --ruimte-l: 2.5rem;
+  --ruimte-xl: 4rem;
+  --ruimte-2xl: 6rem;
+
+  // Tekst en lijnen. Vervangt vijf losse grijstinten (#444 t/m #888) zonder
+  // variabele. #888 haalde op wit maar 3,5:1 en zakte daarmee onder de
+  // WCAG AA-norm voor bodytekst; --tekst-subtiel haalt 4,5:1.
+  --tekst: #333333;
+  --tekst-zacht: #555555;
+  --tekst-subtiel: #767676;
+  --lijn: #e6e6e6;
+  --vlak: #f5f3ef;
+
   --global-theme-color: #{$green-color};
   --global-hover-color: #{$green-color};
   --global-hover-text-color: #{$white-color};
