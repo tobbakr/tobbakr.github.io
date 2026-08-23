@@ -232,7 +232,10 @@ exclude:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt"]
+  # llms.txt en llms-full.txt volgen de llmstxt.org-spec: Markdown waarvan de
+  # betekenis in de regelstructuur zit. De minifier behandelde ze als HTML en
+  # plette ze tot één regel, waardoor de indeling in secties verdween.
+  exclude: ["robots.txt", "llms.txt", "llms-full.txt"]
   uglifier_args:
     harmony: true
   asset_pipeline: true
