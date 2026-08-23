@@ -500,12 +500,18 @@ div.margin-block {
   .cta-banner-actions {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     gap: 0.75rem;
 
+    // Mobiel: knoppen onder elkaar en even breed, anders ogen ze rafelig.
+    align-items: stretch;
+    margin: 0 auto;
+    max-width: 22rem;
+
     @media (min-width: 768px) {
       flex-direction: row;
+      align-items: center;
+      max-width: none;
     }
   }
 
@@ -528,16 +534,23 @@ div.margin-block {
     }
   }
 
+  // Geen margins hier: de gap van .cta-banner-actions regelt de afstand al, en
+  // een margin-bottom duwde deze knop omhoog ten opzichte van de primaire.
   .btn-outline-light {
     border-width: 2px;
     padding: 0.6rem 1.5rem;
     font-weight: 600;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: #fff;
-      color: $green-color;
+
+      // Moet !important zijn: de regel `.cta-banner * { color: #fff !important }`
+      // hierboven won anders, met witte tekst op een witte knop tot gevolg.
+      &,
+      * {
+        color: $green-color !important;
+      }
     }
   }
 }
