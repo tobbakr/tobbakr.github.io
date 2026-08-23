@@ -834,6 +834,29 @@ body.has-cookie-notice .mobile-cta-bar {
   font-size: 0.9em;
 }
 
+// Lijst met gemeenten op /regio/. Bewust geen kaarten: die beloven per gemeente
+// meer inhoud dan er is, en de meta-omschrijving als kaarttekst herhaalde acht
+// keer dezelfde verkoopszin.
+.regio-lijst {
+  list-style: none;
+  padding-left: 0;
+  columns: 2;
+
+  @media (max-width: 575px) {
+    columns: 1;
+  }
+
+  li {
+    margin-bottom: 0.4rem;
+    break-inside: avoid;
+  }
+
+  a {
+    color: $green-color;
+    font-weight: 600;
+  }
+}
+
 // Scroll-animaties. Het verbergen hangt bewust aan .js op <html>: draait er geen
 // JavaScript, dan blijft de content gewoon zichtbaar in plaats van blanco.
 // Zie assets/js/animations.js.

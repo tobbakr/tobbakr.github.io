@@ -19,38 +19,28 @@ date: 2026-08-23
       <div class="col-md-8">
         <p>Ons atelier staat in de <strong>Bredepleinstraat in Boortmeerbeek</strong>. Van daaruit zijn we binnen het half uur in Leuven, Mechelen, Kampenhout, Haacht en de omliggende gemeenten. Die nabijheid is geen detail: ze bepaalt hoe snel we kunnen opmeten, hoe vlot we kunnen bijsturen tijdens de plaatsing, en hoe eenvoudig we later langskomen voor nazorg.</p>
 
-        <p>Hieronder vindt u per gemeente wat we er gerealiseerd hebben en waar we op letten bij de bouwstijlen die er voorkomen.</p>
+        <p>Kies uw gemeente hieronder voor onze realisaties daar en wat de bouwstijlen ter plaatse vragen van het schrijnwerk.</p>
       </div>
     </div>
 
     <div class="row mt-4">
-      {% assign regios = site.regio | sort: "name" %}
-      {% for regio in regios %}
-        {% assign projecten = site.werk | where: "location", regio.name %}
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-          <div class="card h-100 border-0 shadow-sm regio-card">
-            <div class="card-body">
-              <h2 class="h5 card-title"><a href="{{ regio.url | relative_url }}">Schrijnwerker {{ regio.name }}</a></h2>
-              <p class="card-text">{{ regio.description | strip_html | truncate: 130 }}</p>
-              <p class="text-muted mb-0">
-                <small>
-                  {% if projecten.size > 0 %}
-                    <i class="fa-solid fa-hammer" aria-hidden="true"></i>
-                    {{ projecten.size }} {% if projecten.size == 1 %}realisatie{% else %}realisaties{% endif %}
-                  {% else %}
-                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Actief in deze gemeente
-                  {% endif %}
-                </small>
-              </p>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
+      <div class="col-md-8">
+        <h2>Bekijk ons werk per gemeente</h2>
+        <ul class="regio-lijst">
+          {% assign regios = site.regio | sort: "name" %}
+          {% for regio in regios %}
+            <li><a href="{{ regio.url | relative_url }}">{{ regio.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
 
     <div class="row mt-3">
       <div class="col-md-8">
-        <p>Staat uw gemeente er niet bij? We werken in heel Vlaams-Brabant en daarbuiten — onder meer in Haacht, Keerbergen, Tremelo, Holsbeek, Huldenberg, Melsbroek en Rijmenam. <a href="{{ '/contact/' | relative_url }}">Vraag gerust na</a> of we bij u aan de slag kunnen.</p>
+        <h2>Ook actief in</h2>
+        <p>Haacht, Keerbergen, Tremelo, Rijmenam, Holsbeek, Huldenberg, Melsbroek, Grobbendonk en Wakkerzeel. Voor die gemeenten hebben we (nog) geen aparte pagina, maar we komen er wel degelijk aan huis.</p>
+
+        <p>Staat uw gemeente er helemaal niet bij? <a href="{{ '/contact/' | relative_url }}">Vraag gerust na</a> — buiten deze regio komen we ook, afhankelijk van de omvang van het project.</p>
       </div>
     </div>
 
