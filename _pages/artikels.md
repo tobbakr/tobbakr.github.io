@@ -33,8 +33,8 @@ hero: hero-1
                 {% assign words = artikel.content | number_of_words %}
                 {% assign reading_time = words | divided_by: 200 %}
                 {% if reading_time == 0 %}{% assign reading_time = 1 %}{% endif %}
-                <span><i class="fa-regular fa-clock"></i> {{ reading_time }} min leestijd</span>
-                <span class="artikel-card-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> {{ reading_time }} min leestijd</span>
+                <span class="artikel-card-arrow"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
               </div>
             </div>
           </a>

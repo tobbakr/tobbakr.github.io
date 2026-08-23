@@ -55,7 +55,7 @@ hero: hero-2
 
         <p>We werken ook in <a href="/regio/boortmeerbeek/">Boortmeerbeek</a>, <a href="/regio/leuven/">Leuven</a> en <a href="/regio/kampenhout/">Kampenhout</a>. Waar u ook woont in de regio, Schrijnwerkerij Tobback staat voor u klaar.</p>
 
-        <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Wezemaal</a>
+        <a href="/contact/" class="btn btn-green btn-sm">Contacteer ons voor uw project in Wezemaal</a>
 
       </div>
     </div>

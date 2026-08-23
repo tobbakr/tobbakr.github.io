@@ -1,8 +1,8 @@
-<div id="cookie-notice">
-  <span>Wij willen graag cookies en scripts van derden gebruiken om de functionaliteit van deze website te verbeteren.</span>
-  <button id="cookie-notice-accept" class="btn btn-primary btn-green btn-sm" type="button">Aanvaarden</button>
-  <button id="cookie-notice-deny" class="btn btn-outline-light btn-sm" type="button">Weigeren</button>
-  <a href="/privacy" class="btn btn-primary btn-green btn-sm">Meer info</a>
+<div id="cookie-notice" role="region" aria-label="Cookievoorkeuren">
+  <span id="cookie-notice-tekst">Wij willen graag cookies en scripts van derden gebruiken om de functionaliteit van deze website te verbeteren.</span>
+  <button id="cookie-notice-accept" aria-describedby="cookie-notice-tekst" class="btn btn-green btn-sm" type="button">Aanvaarden</button>
+  <button id="cookie-notice-deny" aria-describedby="cookie-notice-tekst" class="btn btn-outline-light btn-sm" type="button">Weigeren</button>
+  <a href="/privacy" class="btn btn-green btn-sm">Meer info</a>
 </div>
 <script>
   function createCookie(name,value,days) {

@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
       // Update active state
       filterButtons.forEach(function (b) {
         b.classList.remove("active", "btn-green");
-        b.classList.add("btn-outline-secondary");
+        b.classList.add("btn-outline-green");
+        b.setAttribute("aria-pressed", "false");
       });
       this.classList.add("active", "btn-green");
-      this.classList.remove("btn-outline-secondary");
+      this.classList.remove("btn-outline-green");
+      this.setAttribute("aria-pressed", "true");
 
       var filter = this.getAttribute("data-filter");
 

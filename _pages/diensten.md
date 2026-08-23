@@ -32,7 +32,7 @@ hero: hero-3
                 <h3 >{{dienst.header}}</h3>
                 <div class="dienst-sub ">{{dienst.subheader}}</div>
                 <p >{{dienst.description}}</p>
-                <a href="{{dienst.url}}" class="btn btn-outline-black btn-sm">Lees verder...</a>
+                <a href="{{dienst.url}}" class="btn btn-outline-green btn-sm">Lees verder...</a>
             </div>
         </div>
     {% endfor %}
