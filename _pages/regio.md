@@ -31,7 +31,7 @@ date: 2026-08-23
           <div class="card h-100 border-0 shadow-sm regio-card">
             <div class="card-body">
               <h2 class="h5 card-title"><a href="{{ regio.url | relative_url }}">Schrijnwerker {{ regio.name }}</a></h2>
-              <p class="card-text">{{ regio.subheader }}</p>
+              <p class="card-text">{{ regio.description | strip_html | truncate: 130 }}</p>
               <p class="text-muted mb-0">
                 <small>
                   {% if projecten.size > 0 %}
