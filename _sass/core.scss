@@ -219,6 +219,16 @@
   box-sizing: border-box;
 }
 
+// Afbeeldingen mogen nooit buiten hun kolom lopen. Er stond geen enkele globale
+// regel: die in _base.scss is volledig uitgecommentarieerd. Zolang figure.liquid
+// width="100%" als HTML-attribuut meegaf viel dat niet op, maar sinds daar de
+// echte pixelafmetingen staan (nodig tegen layout shift) renderden de
+// dienstenfoto's op 1920x1080 en liepen ze ver buiten de pagina.
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   color: var(--tekst);
   font-family:
