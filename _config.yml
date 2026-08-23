@@ -31,8 +31,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
-
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -162,6 +160,12 @@ plugins:
   - jekyll-toc
   - jekyll-seo-tag
   - jekyll-include-cache
+
+# jekyll-feed kijkt standaard naar _posts; die map bestaat niet. Zonder deze
+# instelling genereert het een feed met nul entries.
+feed:
+  collections:
+    - artikels
 
 # Sitemap settings
 defaults:

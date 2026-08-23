@@ -17,4 +17,11 @@ image: assets/img/social_schrijnwerkerijtobback.png
   </div>
 </section>
 
+{%- comment -%}
+  Breadcrumbs stonden alleen op werk-, dienst- en artikelpagina's, terwijl
+  head.liquid op élke pagina BreadcrumbList-JSON-LD uitstuurt. Gestructureerde
+  data en zichtbare navigatie liepen daardoor uiteen.
+{%- endcomment -%}
+{% include breadcrumbs.liquid %}
+
 {{ content }}

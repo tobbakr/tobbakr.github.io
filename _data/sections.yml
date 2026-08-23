@@ -1,0 +1,11 @@
+# Labels voor de tussenliggende stappen in de broodkruimels en in de
+# BreadcrumbList-JSON-LD (_includes/head.liquid, _includes/breadcrumbs.liquid).
+# Zonder dit bestand viel alles terug op de gecapitaliseerde URL-slug.
+werk:
+  name: Realisaties
+diensten:
+  name: Diensten
+regio:
+  name: Werkregio
+artikels:
+  name: Tips en advies
