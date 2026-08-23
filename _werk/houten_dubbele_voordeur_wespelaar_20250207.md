@@ -7,6 +7,8 @@ header: Dubbele houten voordeur in afrormosia
 subheader: Stijlvolle en duurzame entree met een dubbele houten voordeur in afrormosia
 image: assets/img/project_12_dubbele_deur.webp
 img: assets/img/project_12_dubbele_deur.webp
+img_w: 1235
+img_h: 1854
 img_thumb: assets/img/project_12_dubbele_deur_thumb.webp
 date: 2025-02-07
 location: Wespelaar

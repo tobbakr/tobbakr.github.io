@@ -7,6 +7,8 @@ header: Gebogen houten ramen met stijlen
 subheader: Ontdek opnze duurzame en sierlijke houten ramen
 image: assets/img/project_9_gebogen_ramen.webp
 img: assets/img/project_9_gebogen_ramen.webp
+img_w: 1600
+img_h: 1066
 img_thumb: assets/img/project_9_gebogen_ramen_thumb.webp
 date: 2024-06-01
 location: Drongene

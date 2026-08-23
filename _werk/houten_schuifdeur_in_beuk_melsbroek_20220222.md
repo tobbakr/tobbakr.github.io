@@ -7,6 +7,8 @@ header: Houten binnenschuifdeur
 subheader: Moderne schuifdeur in beuk met stijlvol zwart ijzeren systeem
 image: assets/img/project_2_deur.webp
 img: assets/img/project_2_deur.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_2_deur_thumb.webp
 date: 2022-02-22
 location: Melsbroek

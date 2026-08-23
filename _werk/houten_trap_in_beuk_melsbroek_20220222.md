@@ -7,6 +7,8 @@ header: Beuken tap
 subheader: Elegante beukenhouten trap met unieke, handgesmede smeedijzeren leuning
 image: assets/img/project_1_trap.webp
 img: assets/img/project_1_trap.webp
+img_w: 1600
+img_h: 1066
 img_thumb: assets/img/project_1_trap_thumb.webp
 date: 2022-02-22
 location: Melsbroek

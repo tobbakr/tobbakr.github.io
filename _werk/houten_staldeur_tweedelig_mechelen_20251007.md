@@ -7,6 +7,8 @@ header: Een staldeur met karakter
 subheader: Tweedelig maatwerk in padoek voor een paardenstal in Mechelen
 image: assets/img/project_14_staldeur.webp
 img: assets/img/project_14_staldeur.webp
+img_w: 1066
+img_h: 1601
 img_thumb: assets/img/project_14_staldeur_thumb.webp
 date: 2025-10-07
 location: Mechelen

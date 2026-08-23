@@ -1,11 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
-    gem 'jekyll-get-json'
-    gem 'jekyll-imagemagick'
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-sitemap'

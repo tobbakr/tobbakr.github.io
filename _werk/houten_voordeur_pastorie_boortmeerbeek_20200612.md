@@ -7,6 +7,8 @@ header: Voordeur pastoriewoning
 subheader: Ontdek duurzame voordeuren met bovenraam voor optimale lichtinval en elegante uitstraling
 image: assets/img/project_7_voordeur.webp
 img: assets/img/project_7_voordeur.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_7_voordeur_thumb.webp
 date: 2020-06-12
 location: Boortmeerbeek

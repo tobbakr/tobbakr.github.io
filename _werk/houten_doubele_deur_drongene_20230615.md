@@ -7,6 +7,8 @@ header: Dubbele houten voordeur
 subheader: Unieke houten dubbele voordeur, op maat met elegante, gebogen ramen
 image: assets/img/project_4_deur.webp
 img: assets/img/project_4_deur.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_4_deur_thumb.webp
 date: 2023-06-15
 location: Drongene

@@ -7,6 +7,8 @@ header: Bi-sectionale poort in hout
 subheader: Strakke, moderne bi-sectionale meranti poort
 image: assets/img/project_6_bi_sectionale_poort.webp
 img: assets/img/project_6_bi_sectionale_poort.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_6_bi_sectionale_poort_thumb.webp
 date: 2022-10-28
 location: Kampenhout

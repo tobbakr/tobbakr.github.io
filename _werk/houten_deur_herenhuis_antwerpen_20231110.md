@@ -7,6 +7,8 @@ header: Voordeur herenhuis
 subheader: Authentieke, op maat gemaakte houten voordeur
 image: assets/img/project_3_deur.webp
 img: assets/img/project_3_deur.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_3_deur_thumb.webp
 date: 2023-11-10
 location: Antwerpen

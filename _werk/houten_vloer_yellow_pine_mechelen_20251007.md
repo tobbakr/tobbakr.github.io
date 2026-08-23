@@ -7,6 +7,8 @@ header: Een vloer met karakter
 subheader: Authentieke Yellow Pine in een gerenoveerde woning in Mechelen
 image: assets/img/project_13_houten_vloer.webp
 img: assets/img/project_13_houten_vloer.webp
+img_w: 1066
+img_h: 1601
 img_thumb: assets/img/project_13_houten_vloer_thumb.webp
 date: 2025-10-07
 location: Mechelen

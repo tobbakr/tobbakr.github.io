@@ -7,6 +7,8 @@ header: Voordeur in Afrormosia met ruitjesglas
 subheader: Op maat gemaakt schrijnwerk
 image: assets/img/project_15_deur_holsbeek.webp
 img: assets/img/project_15_deur_holsbeek.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_15_deur_holsbeek_thumb.webp
 date: 2026-04-04
 location: Holsbeek

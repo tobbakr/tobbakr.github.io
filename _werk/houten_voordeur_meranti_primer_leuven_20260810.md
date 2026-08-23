@@ -7,6 +7,8 @@ header: Voordeur in meranti, klaar voor de schilder
 subheader: Sober maatwerk in grondlaag voor een pand in Leuven
 image: assets/img/project_18_deur_leuven.webp
 img: assets/img/project_18_deur_leuven.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_18_deur_leuven_thumb.webp
 date: 2026-08-10
 location: Leuven

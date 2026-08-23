@@ -7,6 +7,8 @@ header: Voordeur met het smeedijzer van weleer
 subheader: Nieuwe deur in massief afzelia met gerestaureerd origineel ijzerwerk, Leuven
 image: assets/img/project_17_voordeur_leuven.webp
 img: assets/img/project_17_voordeur_leuven.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_17_voordeur_leuven_thumb.webp
 date: 2026-08-14
 location: Leuven

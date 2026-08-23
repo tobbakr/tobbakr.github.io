@@ -11,14 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
-{% if page.toc and page.toc.sidebar %}
-  <link href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url | bust_file_cache }}" rel="stylesheet">
-{% endif %}
-{% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
-  <script defer src="https://tikzjax.com/v1/tikzjax.js"></script>
-{% endif %}
-
 <!-- Styles -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
