@@ -736,17 +736,27 @@ div.margin-block {
   }
 }
 
-// Scroll animations
-.fade-in-up {
+// Scroll-animaties. Het verbergen hangt bewust aan .js op <html>: draait er geen
+// JavaScript, dan blijft de content gewoon zichtbaar in plaats van blanco.
+// Zie assets/js/animations.js.
+.js .fade-in-up {
   opacity: 0;
   transform: translateY(30px);
   transition:
     opacity 0.6s ease-out,
     transform 0.6s ease-out;
+}
 
-  &.visible {
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .fade-in-up {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
+    transition: none;
   }
 }
 

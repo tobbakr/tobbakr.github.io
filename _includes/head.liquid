@@ -1,4 +1,9 @@
 {% include metadata.liquid %}
+<script>
+  /* Markeert dat JavaScript draait, zodat _sass/core.scss de
+     scroll-animaties alleen verbergt als ze ook getoond kunnen worden. */
+  document.documentElement.classList.add('js');
+</script>
 
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 
