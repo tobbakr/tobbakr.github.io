@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Antwerpen" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p><strong>Antwerpen</strong> is een stad die bruist van architecturale contrasten. Van de art-nouveaupracht in het Zurenborg-district en de statige herenhuizen op de Cogels-Osylei tot gerenoveerde pakhuizen in het Eilandje en moderne gezinswoningen in de rand — elk pand vertelt zijn eigen verhaal en vraagt om schrijnwerk met karakter. Schrijnwerkerij Tobback is al meer dan 90 jaar actief in de regio en brengt dat ambachtelijke vakmanschap ook naar Antwerpen en omgeving.</p>
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

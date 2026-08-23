@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Leuven" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p><strong>Leuven</strong> is een universiteitsstad met een bijzonder gevarieerd architecturaal landschap. Van gotische gevels rond de Grote Markt en statige herenhuizen in de Naamsestraat tot strakke nieuwbouwappartementen aan de Vaartkom — elk gebouw stelt andere eisen aan schrijnwerk. Schrijnwerkerij Tobback is al meer dan 90 jaar actief in de regio en kent de Leuvense bouwstijlen als geen ander. Ons atelier in Boortmeerbeek ligt op amper <strong>15 minuten rijden</strong> van het centrum van Leuven, waardoor we snel ter plaatse zijn voor opmeting, advies en plaatsing.</p>
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties in de regio {{page.name}}.</h2>

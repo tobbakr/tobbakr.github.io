@@ -14,7 +14,7 @@ hero: hero-3
 ---
 
 <section id="section-werkwijze">
-  <div class="container mt-5 mb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <h2>Hoe wij te werk gaan</h2>
@@ -83,7 +83,7 @@ hero: hero-3
 </section>
 
 <section>
-  <div class="container mt-4 mb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <h2>Klaar om te starten?</h2>

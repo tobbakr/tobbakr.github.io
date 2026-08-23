@@ -18,7 +18,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | where:"location","Boortmeerbeek" | sort: "date" | reverse %}
 
 <section class="fade-in-up">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p>Schrijnwerkerij Tobback is gevestigd in het hart van <strong>Boortmeerbeek</strong>, aan de Bredepleinstraat 59. Sinds 1933 is dit de thuisbasis van ons familiebedrijf — drie generaties ambachtslieden die het vak van vader op zoon doorgeven. Ons atelier ligt op amper enkele minuten rijden van het centrum van Boortmeerbeek, waardoor we altijd snel ter plaatse zijn voor opmeting, advies en plaatsing. Die nabijheid maakt het verschil: geen lange wachttijden, geen dure verplaatsingskosten, maar persoonlijke service van uw buurtambachtsman.</p>
@@ -61,7 +61,7 @@ hero: hero-2
 </section>
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
   <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

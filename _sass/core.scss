@@ -282,6 +282,26 @@ h3 {
   min-height: 500px;
 }
 
+// Witte tekst stond direct op de foto zonder leesbaarheidslaag. Op de lichtere
+// houtpartijen in hero-1 en hero-2 was het contrast daardoor niet gegarandeerd.
+// Een verloop van onder naar boven houdt de foto herkenbaar en de tekst leesbaar.
+.section-hero {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.45) 45%, rgba(0, 0, 0, 0.15) 100%);
+    pointer-events: none;
+  }
+
+  > .container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
 .div-hero-text {
   display: flex;
   flex-direction: row;
@@ -495,7 +515,7 @@ div.margin-block {
 .cta-banner {
   background-color: $green-color;
   color: #fff !important;
-  padding: 3rem 0;
+  // Geen eigen padding meer: het verticale ritme komt van `main section`.
 
   * {
     color: #fff !important;
@@ -686,8 +706,8 @@ body.has-cookie-notice .mobile-cta-bar {
 // Trust signals
 .trust-section {
   background-color: #fff;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid var(--lijn);
+  border-bottom: 1px solid var(--lijn);
 }
 
 .trust-item {
@@ -835,6 +855,111 @@ body.has-cookie-notice .mobile-cta-bar {
 
   .breadcrumb-item.active {
     color: #666;
+  }
+}
+
+// --- Verticaal ritme -------------------------------------------------------
+// De spacing zat eerder op de .container binnenin, via losse Bootstrap-klassen:
+// 23× alleen mt-5, 6× mt-5 mb-5, 5× pt-5 pb-5, en varianten daarop. Daardoor
+// kreeg de bovenkant van een sectie ruimte en ontstond de onderkant per toeval
+// uit de volgende sectie — en had de laatste sectie van een pagina er geen.
+// Nu draagt de sectie zelf het ritme, overal gelijk.
+// Symmetrisch: bij een sectie met gekleurde achtergrond zit de inhoud anders
+// niet in het midden van de band.
+main section:not(.section-hero) {
+  padding-top: var(--ruimte-xl);
+  padding-bottom: var(--ruimte-xl);
+
+  @media (max-width: 767px) {
+    padding-top: var(--ruimte-l);
+    padding-bottom: var(--ruimte-l);
+  }
+}
+
+// Sectie met een foto als achtergrond. De donkere laag garandeert leesbaarheid
+// van witte tekst, ongeacht wat er op de foto staat.
+.sectie-op-foto {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.55));
+  }
+
+  > .container {
+    position: relative;
+  }
+}
+
+.artikel-teaser {
+  padding-bottom: var(--ruimte-m);
+  margin-bottom: var(--ruimte-m);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+
+  &:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    margin-bottom: var(--ruimte-xs);
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// --- Binnenritme -----------------------------------------------------------
+// Koppen kregen geen bovenruimte, waardoor een kop direct op de vorige alinea
+// plakte. Deze marges geven de tekst lucht zonder de secties uit elkaar te
+// trekken.
+main {
+  h2 {
+    margin-bottom: var(--ruimte-m);
+  }
+
+  // Alleen koppen in lopende tekst; in kaarten en teasers zou een bovenmarge
+  // de titel van zijn eigen kaart wegduwen.
+  h3:not(.card-title):not(.h5) {
+    margin-top: var(--ruimte-l);
+    margin-bottom: var(--ruimte-xs);
+  }
+
+  .card h3,
+  .artikel-teaser h3 {
+    margin-top: 0;
+  }
+
+  // Een kop direct onder een sectiekop hoort niet nog eens weg te vallen.
+  h2 + h3 {
+    margin-top: var(--ruimte-s);
+  }
+
+  p {
+    margin-bottom: var(--ruimte-m);
+  }
+
+  ul,
+  ol {
+    margin-bottom: var(--ruimte-m);
+
+    li {
+      margin-bottom: var(--ruimte-xs);
+    }
+  }
+
+  // Laatste element in een kolom hoeft geen staartruimte.
+  .col-md-8 > :last-child,
+  .col-md-6 > :last-child,
+  .col-md-12 > :last-child {
+    margin-bottom: 0;
   }
 }
 

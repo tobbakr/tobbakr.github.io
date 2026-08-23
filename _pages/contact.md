@@ -13,7 +13,7 @@ hero: hero-2
 ---
 
 <section>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p>Heeft u een bouw- of renovatieproject in gedachten? Of wilt u vrijblijvend de mogelijkheden bespreken? Neem gerust contact op — wij staan klaar om u te helpen. Een eerste gesprek en offerte zijn altijd kosteloos.</p>

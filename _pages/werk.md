@@ -15,7 +15,7 @@ hero: hero-2
 {% assign werk_sorted = site.werk | sort: "date" | reverse %}
 
 <section id="section-regio">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2>Maak kennis met onze nieuwe realisaties.</h2>

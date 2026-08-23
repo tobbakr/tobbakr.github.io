@@ -22,7 +22,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
 </script>
 
 <section>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         {{ content }}
@@ -34,7 +34,7 @@ image: assets/img/social_schrijnwerkerijtobback.png
 {% assign diensten_sorted = site.diensten | where_exp: 'item', 'item.url != page.url' | sort: 'importance' %}
 
 <section>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-8">
         <h2>{{ page.header }}</h2>

@@ -15,7 +15,7 @@ hero: hero-1
 {% assign diensten_sorted = site.diensten | sort: "importance" %}
 
 <section id="section-home-diensten">
-  <div class="container pt-5 pb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2 class="text-white">Sterk werk.</h2>
@@ -35,7 +35,7 @@ hero: hero-1
 </section>
 
 <section id="section-home-overons" class="fade-in-up">
-  <div class="container mt-5 mb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-5">
         <h2>Traditioneel vakmanschap met hedendaagse precisie.</h2>

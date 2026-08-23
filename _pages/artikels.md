@@ -15,7 +15,7 @@ hero: hero-1
 {% assign artikels_sorted = site.artikels | sort: "date" | reverse %}
 
 <section>
-  <div class="container pt-5 pb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         <h2>Artikelen &amp; Advies</h2>

@@ -12,7 +12,7 @@ sitemap: false
 ---
 
 <section>
-  <div class="container mt-5 mb-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <h2>Wat gebeurt er nu?</h2>

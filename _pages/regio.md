@@ -14,7 +14,7 @@ date: 2026-08-23
 ---
 
 <section>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-8">
         <p>Ons atelier staat in de <strong>Bredepleinstraat in Boortmeerbeek</strong>. Van daaruit zijn we binnen het half uur in Leuven, Mechelen, Kampenhout, Haacht en de omliggende gemeenten. Die nabijheid is geen detail: ze bepaalt hoe snel we kunnen opmeten, hoe vlot we kunnen bijsturen tijdens de plaatsing, en hoe eenvoudig we later langskomen voor nazorg.</p>
