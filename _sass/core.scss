@@ -454,6 +454,7 @@ div.margin-block {
   width: calc(100% - 2rem);
   background: #222;
   color: white;
+  z-index: 1100; // boven de mobiele actiebalk
 }
 #cookie-notice span {
   color: white;
@@ -496,6 +497,37 @@ div.margin-block {
     margin-bottom: 1.5rem;
   }
 
+  .cta-banner-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  // Primaire actie: gevuld wit op groen, hoogste contrast van de twee.
+  .btn-cta-primary {
+    background-color: #fff;
+    border: 2px solid #fff;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+
+    &,
+    * {
+      color: $green-color !important;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-color: rgba(255, 255, 255, 0.9);
+    }
+  }
+
   .btn-outline-light {
     border-width: 2px;
     padding: 0.6rem 1.5rem;
@@ -510,31 +542,65 @@ div.margin-block {
   }
 }
 
-// Floating mobile CTA
-.mobile-cta {
+// Mobiele actiebalk (zie _includes/mobile-cta.liquid)
+.mobile-cta-bar {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-color: $green-color;
-  color: #fff;
+  display: flex;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.18);
+}
+
+// Tijdens de cookievraag verdwijnt de balk: twee dingen die tegelijk om
+// aandacht vragen onderaan het scherm werkt tegen allebei.
+body.has-cookie-notice .mobile-cta-bar {
+  display: none;
+}
+
+.mobile-cta-item {
+  flex: 1;
+  min-height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  font-size: 1.4rem;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  gap: 0.5rem;
+  background-color: #fff;
+  font-size: 0.95em;
+  font-weight: 600;
+  text-decoration: none;
 
-  &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
-    color: #fff;
+  &,
+  * {
+    color: $green-color;
+  }
+
+  &:hover,
+  &:focus {
     text-decoration: none;
+    background-color: #f5f3ef;
+  }
+}
+
+.mobile-cta-item--primary {
+  background-color: $green-color;
+
+  &,
+  * {
+    color: #fff;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: darken($green-color, 5%);
+  }
+}
+
+// Ruimte onder de pagina zodat de balk de laatste regels niet afdekt.
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 52px;
   }
 }
 
@@ -742,6 +808,17 @@ div.margin-block {
   .breadcrumb-item.active {
     color: #666;
   }
+}
+
+// Contactsectie. De achtergrondkleur stond eerder als inline style in
+// contact.liquid; hier staat ze op één plek en is ze herbruikbaar.
+.contact-section {
+  background-color: #f5f3ef;
+}
+
+// Toestemmingsvinkje bij het formulier
+.contact-section .form-check-label {
+  font-size: 0.9em;
 }
 
 // Scroll-animaties. Het verbergen hangt bewust aan .js op <html>: draait er geen

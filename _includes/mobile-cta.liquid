@@ -1,3 +1,15 @@
-<a href="tel:+32496156640" class="mobile-cta d-md-none" aria-label="Bel ons">
-  <i class="fa-solid fa-phone"></i>
-</a>
+{%- comment -%}
+  Mobiele actiebalk. Verving een ronde knop met alleen een telefoonicoon: die had
+  geen label en overlapte bovendien de cookiebanner. Een balk met tekst wordt
+  vaker aangetikt dan een icoon zonder uitleg.
+{%- endcomment -%}
+<div class="mobile-cta-bar d-md-none" role="group" aria-label="Snel contact">
+  <a href="tel:+32496156640" class="mobile-cta-item">
+    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+    <span>Bel ons</span>
+  </a>
+  <a href="{{ '/contact/' | relative_url }}" class="mobile-cta-item mobile-cta-item--primary">
+    <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+    <span>Gratis offerte</span>
+  </a>
+</div>

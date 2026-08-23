@@ -1,4 +1,4 @@
-<section id="section-contacteer-ons" style="background-color:rgb(245, 243, 239)">
+<section id="section-contacteer-ons" class="contact-section">
   <div class="container pt-5 pb-5 mt-5">
     <div class="row">
       <div class="col-md-12">
@@ -7,16 +7,45 @@
     </div>
     <div class="row">
       <div class="col-md-8 mt-5">
-        <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data">
+        <form action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="89b54104-2530-4014-abb4-4dd8d1723420">
+          <input type="hidden" name="subject" value="Nieuwe offerteaanvraag via schrijnwerkerijtobback.be">
+          <input type="hidden" name="from_name" value="Website Schrijnwerkerij Tobback">
+          <input type="hidden" name="redirect" value="https://schrijnwerkerijtobback.be/bedankt/">
+
+          {%- comment -%}
+            Honeypot: onzichtbaar voor bezoekers, wordt door bots vaak wel ingevuld.
+            Web3Forms weigert de inzending dan. Kost de bezoeker niets, in
+            tegenstelling tot een captcha.
+          {%- endcomment -%}
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
           <div class="mb-3 row">
             <div class="col-sm">
               <label for="first_name">Voornaam</label>
-              <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="Voornaam">
+              <input
+                type="text"
+                required
+                maxlength="50"
+                class="form-control"
+                id="first_name"
+                name="first_name"
+                placeholder="Voornaam"
+                autocomplete="given-name"
+              >
             </div>
             <div class="col-sm">
               <label for="last_name">Naam</label>
-              <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name" placeholder="Naam">
+              <input
+                type="text"
+                required
+                maxlength="50"
+                class="form-control"
+                id="last_name"
+                name="last_name"
+                placeholder="Naam"
+                autocomplete="family-name"
+              >
             </div>
           </div>
           <div class="mb-3 row">
@@ -25,11 +54,12 @@
               <input
                 type="email"
                 required
-                maxlength="50"
+                maxlength="100"
                 class="form-control"
                 id="email_addr"
-                name="Email"
-                placeholder="name@example.com"
+                name="email"
+                placeholder="naam@voorbeeld.be"
+                autocomplete="email"
               >
             </div>
             <div class="col-sm">
@@ -37,11 +67,12 @@
               <input
                 type="tel"
                 required
-                maxlength="50"
+                maxlength="30"
                 class="form-control"
                 id="phone_input"
-                name="Phone"
-                placeholder="Telefoon"
+                name="telefoon"
+                placeholder="0470 12 34 56"
+                autocomplete="tel"
               >
             </div>
           </div>
@@ -52,10 +83,13 @@
                 type="text"
                 required
                 maxlength="4"
+                inputmode="numeric"
+                pattern="[0-9]{4}"
                 class="form-control"
                 id="postcode_addr"
-                name="Postcode"
+                name="postcode"
                 placeholder="3190"
+                autocomplete="postal-code"
               >
             </div>
             <div class="col-sm">
@@ -66,15 +100,16 @@
                 maxlength="50"
                 class="form-control"
                 id="gemeente_addr"
-                name="Gemeente"
+                name="gemeente"
                 placeholder="Boortmeerbeek"
+                autocomplete="address-level2"
               >
             </div>
           </div>
           <div class="mb-3 row">
             <div class="col-sm">
               <label for="project_type">Type project</label>
-              <select class="form-control" id="project_type" name="Project_type">
+              <select class="form-control" id="project_type" name="project_type">
                 <option value="" disabled selected>Kies een type project...</option>
                 <option value="Binnenschrijnwerk">Binnenschrijnwerk (deuren, trappen, vloeren, ...)</option>
                 <option value="Buitenschrijnwerk">Buitenschrijnwerk (ramen, buitendeuren, poorten, ...)</option>
@@ -87,7 +122,7 @@
           <div class="mb-3 row">
             <div class="col-sm">
               <label for="referral">Hoe heeft u ons gevonden?</label>
-              <select class="form-control" id="referral" name="Referral">
+              <select class="form-control" id="referral" name="referral">
                 <option value="" disabled selected>Selecteer...</option>
                 <option value="Google">Google / zoekmachine</option>
                 <option value="Aanbeveling">Aanbeveling van bekende</option>
@@ -98,13 +133,37 @@
             </div>
           </div>
           <div class="mb-3">
-            <label for="message">Boodschap</label>
-            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+            <label for="message">Vertel kort over uw project</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Bijvoorbeeld: een nieuwe voordeur in eik voor een woning uit 1930, ongeveer 100 x 220 cm."
+              aria-describedby="message-help"
+            ></textarea>
+            <small id="message-help" class="form-text text-muted"
+              >Hoe meer u vertelt over houtsoort, afmetingen en gewenste afwerking, hoe gerichter onze offerte.</small
+            >
           </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" required class="form-check-input" id="privacy_consent" name="privacy_akkoord" value="Ja">
+            <label class="form-check-label" for="privacy_consent">
+              Ik ga ermee akkoord dat mijn gegevens worden gebruikt om mijn aanvraag te behandelen. Zie de
+              <a href="{{ '/privacy/' | relative_url }}">privacyverklaring</a>.
+            </label>
+          </div>
+
           <div class="mt-4">
-            <button type="submit" class="btn btn-primary btn-green px-5 py-2"><i class="fa-solid fa-paper-plane"></i> Verzenden</button>
+            <button type="submit" class="btn btn-primary btn-green px-5 py-2">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Vraag een vrijblijvende offerte aan
+            </button>
             <p class="text-muted mt-2">
-              <small><i class="fa-solid fa-lock"></i> Uw gegevens worden vertrouwelijk behandeld. We nemen binnen 24 uur contact met u op.</small>
+              <small
+                ><i class="fa-solid fa-lock" aria-hidden="true"></i> Uw gegevens worden vertrouwelijk behandeld. We nemen binnen 24 uur contact met u
+                op.</small
+              >
             </p>
           </div>
         </form>
@@ -118,12 +177,12 @@
 
         <h3>Telefoon</h3>
         <p>
-          <a href="tel:+32496156640"><i class="fa-solid fa-phone"></i> 0496 15 66 40</a>
+          <a href="tel:+32496156640"><i class="fa-solid fa-phone" aria-hidden="true"></i> 0496 15 66 40</a>
         </p>
 
         <h3>E-mail</h3>
         <p>
-          <a href="mailto:info@schrijnwerkerijtobback.be"><i class="fa-solid fa-envelope"></i> info@schrijnwerkerijtobback.be</a>
+          <a href="mailto:info@schrijnwerkerijtobback.be"><i class="fa-solid fa-envelope" aria-hidden="true"></i> info@schrijnwerkerijtobback.be</a>
         </p>
 
         <h3>Openingsuren</h3>
