@@ -54,6 +54,7 @@ hero: hero-2
         <a href="/contact/" class="btn btn-primary btn-green btn-sm mt-2">Contacteer ons voor uw project in Boortmeerbeek</a>
       </div>
     </div>
+
   </div>
 </section>
 

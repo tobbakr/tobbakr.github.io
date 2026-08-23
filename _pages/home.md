@@ -59,6 +59,7 @@ hero: hero-1
         <p>Wij geloven dat elk stuk hout een verhaal te vertellen heeft. Laat ons uw verhaal tot leven brengen met onze deskundige handen en jarenlange ervaring. Neem vandaag nog contact met ons op voor uw project op maat!</p>
       </div>
     </div>
+
   </div>
 </section>
 

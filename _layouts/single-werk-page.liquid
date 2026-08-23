@@ -2,7 +2,6 @@
 layout: single-page
 image: assets/img/social_schrijnwerkerijtobback.png
 ---
-
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,8 +29,10 @@ image: assets/img/social_schrijnwerkerijtobback.png
     <div class="row align-items-start">
       <div class="col-md-5 mb-4">
         <div class="werk-detail-img">
-          {% include figure.liquid path=page.img alt=page.title width=page.img_w height=page.img_h
-            loading="eager" %}
+          {%
+            include figure.liquid path=page.img alt=page.title width=page.img_w height=page.img_h
+            loading="eager"
+          %}
         </div>
       </div>
       <div class="col-md-7">
@@ -53,21 +54,21 @@ image: assets/img/social_schrijnwerkerijtobback.png
   </div>
 </section>
 
-{% if content != "" %}
-<section class="werk-detail-story">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="werk-detail-content">
-          {{ content }}
+{% if content != '' %}
+  <section class="werk-detail-story">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="werk-detail-content">
+            {{ content }}
+          </div>
+          <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary btn-green mt-3 mb-5">
+            <i class="fa-solid fa-envelope"></i> Vraag een offerte aan
+          </a>
         </div>
-        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary btn-green mt-3 mb-5">
-          <i class="fa-solid fa-envelope"></i> Vraag een offerte aan
-        </a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 {% endif %}
 
 {% include cta-banner.liquid %}

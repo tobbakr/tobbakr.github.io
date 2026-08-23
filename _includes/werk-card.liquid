@@ -1,7 +1,14 @@
 <div class="card werk-card border-0 shadow-sm">
   <div class="werk-card-img-wrapper">
     <a href="{{ include.werk.url | relative_url }}">
-      <img class="card-img-top" src="{{ include.base_url | default: site.url }}/{{ include.werk.img_thumb }}" alt="{{ include.werk.title }}" loading="lazy" width="400" height="300">
+      <img
+        class="card-img-top"
+        src="{{ include.base_url | default: site.url }}/{{ include.werk.img_thumb }}"
+        alt="{{ include.werk.title }}"
+        loading="lazy"
+        width="400"
+        height="300"
+      >
       <div class="werk-card-overlay">
         <span class="werk-card-overlay-text">Bekijk project <i class="fa-solid fa-arrow-right"></i></span>
       </div>

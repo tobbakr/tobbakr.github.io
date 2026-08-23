@@ -6,7 +6,9 @@
   border-radius: 8px;
   overflow: hidden;
   border-bottom: 3px solid $green-color;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 
   &:hover {
     transform: translateY(-6px);
@@ -70,7 +72,9 @@
   }
   opacity: 0;
   transform: translateY(8px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .werk-card-img-wrapper:hover .werk-card-overlay {
@@ -637,7 +641,9 @@ div.margin-block {
   height: 100%;
   display: flex;
   flex-direction: column;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
     transform: translateY(-3px);
@@ -680,7 +686,9 @@ div.margin-block {
 .artikel-card-arrow {
   opacity: 0;
   transform: translateX(-5px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
 
 .artikel-card:hover .artikel-card-arrow {
