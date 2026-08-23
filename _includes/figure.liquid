@@ -1,65 +1,37 @@
-{% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% comment %}
+  Eenvoudige, betrouwbare afbeelding.
+
+  De vorige versie bouwde een srcset voor varianten die jekyll-imagemagick nooit
+  aanmaakte: het strippen van de extensie sloeg .webp over, en .webp stond niet in
+  imagemagick.input_formats. Dat leverde per figuur drie 404's op, waarna de
+  onerror-hack de srcset met jQuery probeerde te verwijderen — jQuery is op dat
+  moment nog niet geladen, dus dat gaf een scriptfout en de browser laadde alsnog
+  het volledige origineel.
+
+  Parameters: path (verplicht), alt, class, width, height, loading, sizes, caption.
+  Geef width en height mee in intrinsieke pixels; dat reserveert de ruimte en
+  voorkomt layout shift.
+{% endcomment %}
 
 <figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    {% if site.imagemagick.enabled %}
-      <source
-        class="responsive-img-srcset"
-        srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
-        {% if include.sizes %}
-          sizes="{{include.sizes}}"
-        {% else %}
-          sizes="95vw"
-        {% endif %}
-        type="image/webp"
-      >
+  <img
+    src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
+    {% if include.class %}
+      class="{{ include.class }}"
     {% endif %}
-    <img
-      src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
-      {% if include.class %}
-        class="{{ include.class }}"
-      {% endif %}
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="100%"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        max-height="{{ include.max-height }}"
-      {% endif %}
-      {% if include.alt %}
-        alt="{{ include.alt }}"
-      {% endif %}
-      {% if include.title %}
-        title="{{ include.title }}"
-      {% endif %}
-      loading="{{ include.loading | default: 'lazy' }}"
-      {% if include.zoomable %}
-        data-zoomable
-      {% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
-    >
-  </picture>
-
+    {% if include.width %}
+      width="{{ include.width }}"
+    {% endif %}
+    {% if include.height %}
+      height="{{ include.height }}"
+    {% endif %}
+    alt="{{ include.alt | default: '' }}"
+    {% if include.title %}
+      title="{{ include.title }}"
+    {% endif %}
+    loading="{{ include.loading | default: 'lazy' }}"
+    decoding="async"
+  >
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>
   {% endif %}

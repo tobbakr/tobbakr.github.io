@@ -7,6 +7,8 @@ header: Ceder tuinhuis
 subheader: Op maat gemaakt cederhouten tuinhuis
 image: assets/img/project_5_tuinhuis.webp
 img: assets/img/project_5_tuinhuis.webp
+img_w: 1600
+img_h: 1066
 img_thumb: assets/img/project_5_tuinhuis_thumb.webp
 date: 2023-10-09
 location: Wezemaal

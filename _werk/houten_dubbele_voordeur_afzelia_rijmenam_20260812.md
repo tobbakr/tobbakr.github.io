@@ -7,6 +7,8 @@ header: Dubbele voordeur in afzelia met inox sierrooster
 subheader: Massief maatwerk met opengaande ramen voor een woning in Rijmenam
 image: assets/img/project_16_dubbele_deur_rijmenam.webp
 img: assets/img/project_16_dubbele_deur_rijmenam.webp
+img_w: 1066
+img_h: 1600
 img_thumb: assets/img/project_16_dubbele_deur_rijmenam_thumb.webp
 date: 2026-08-12
 location: Rijmenam

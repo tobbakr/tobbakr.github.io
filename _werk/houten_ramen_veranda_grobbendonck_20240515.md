@@ -7,6 +7,8 @@ header: Houten Ramen voor pastoriewoning veranda
 subheader: Verhoog de uitstraling en energie-efficiëntie van uw Veranda met op maat gemaakte houten ramen
 image: assets/img/project_8_ramen.webp
 img: assets/img/project_8_ramen.webp
+img_w: 1600
+img_h: 1066
 img_thumb: assets/img/project_8_ramen_thumb.webp
 date: 2024-05-15
 location: Grobbendonck

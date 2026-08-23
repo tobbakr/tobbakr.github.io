@@ -7,6 +7,8 @@ header: Afromosia Houten Muurwand
 subheader: Luxe Wandbekleding voor Binnen & Buiten | Duurzaam & Stijlvol
 image: assets/img/project_10_houten_muurwand_afromosia.webp
 img: assets/img/project_10_houten_muurwand_afromosia.webp
+img_w: 1600
+img_h: 1066
 img_thumb: assets/img/project_10_houten_muurwand_afromosia_thumb.webp
 date: 2024-10-02
 location: Huldenberg

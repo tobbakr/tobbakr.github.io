@@ -26,7 +26,7 @@ hero: hero-3
     {% for dienst in diensten_sorted %}
         <div class="row mt-5">
             <div class="col-md-6">
-                {% include figure.liquid path=dienst.img sizes="(min-width: 768px) 156px, 50vw" alt=dienst.title %}
+                {% include figure.liquid path=dienst.img alt=dienst.title width="1920" height="1080" %}
             </div>
             <div class="col-md-6">
                 <h3 >{{dienst.header}}</h3>
